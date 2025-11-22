@@ -1,19 +1,28 @@
 // Global variables
-let questions = [];
+let allQuestions = [];
+let categories = [];
+let currentCategory = null;
 let currentQuestionIndex = 0;
-let score = 0;
-let wrongAnswers = [];
-let isReviewMode = false;
+let categoryScore = 0;
+let categoryWrongAnswers = [];
+let completedCategories = new Set();
+let totalScore = 0;
+let totalQuestions = 0;
 
 // DOM elements
 const startScreen = document.getElementById('startScreen');
+const categoryScreen = document.getElementById('categoryScreen');
 const quizScreen = document.getElementById('quizScreen');
+const checkpointScreen = document.getElementById('checkpointScreen');
 const resultScreen = document.getElementById('resultScreen');
-const startBtn = document.getElementById('startBtn');
+
+const selectCategoryBtn = document.getElementById('selectCategoryBtn');
+const backToStartBtn = document.getElementById('backToStartBtn');
+const categoryList = document.getElementById('categoryList');
+const categoryTitle = document.getElementById('categoryTitle');
+
 const speakBtn = document.getElementById('speakBtn');
 const nextBtn = document.getElementById('nextBtn');
-const retryBtn = document.getElementById('retryBtn');
-const reviewBtn = document.getElementById('reviewBtn');
 const questionText = document.getElementById('questionText');
 const optionsContainer = document.getElementById('optionsContainer');
 const feedback = document.getElementById('feedback');
@@ -22,25 +31,149 @@ const explanation = document.getElementById('explanation');
 const currentQuestionSpan = document.getElementById('currentQuestion');
 const totalQuestionsSpan = document.getElementById('totalQuestions');
 const progressFill = document.getElementById('progressFill');
+
+const completedCategory = document.getElementById('completedCategory');
+const checkpointScore = document.getElementById('checkpointScore');
+const checkpointAccuracy = document.getElementById('checkpointAccuracy');
+const checkpointWrongAnswers = document.getElementById('checkpointWrongAnswers');
+const checkpointWrongList = document.getElementById('checkpointWrongList');
+const retryCategory = document.getElementById('retryCategory');
+const nextCategory = document.getElementById('nextCategory');
+const backToCategories = document.getElementById('backToCategories');
+
 const finalScore = document.getElementById('finalScore');
 const accuracy = document.getElementById('accuracy');
-const wrongAnswersSection = document.getElementById('wrongAnswersSection');
-const wrongAnswersList = document.getElementById('wrongAnswersList');
+const completedCount = document.getElementById('completedCount');
+const startOverBtn = document.getElementById('startOverBtn');
 
 // Load questions
 async function loadQuestions() {
     try {
         const response = await fetch('data/questions.json');
-        questions = await response.json();
+        allQuestions = await response.json();
         
-        // Shuffle questions
-        questions = shuffleArray(questions);
+        // Group questions by category
+        categories = [
+            {
+                id: 1,
+                name: 'Basic Adjectives',
+                description: 'Fundamental descriptive words',
+                icon: '📝',
+                questions: allQuestions.filter(q => q.category === 'basic-adjectives')
+            },
+            {
+                id: 2,
+                name: 'Basic Verbs',
+                description: 'Common action words',
+                icon: '🏃',
+                questions: allQuestions.filter(q => q.category === 'basic-verbs')
+            },
+            {
+                id: 3,
+                name: 'Emotions & Feelings',
+                description: 'Words about feelings',
+                icon: '😊',
+                questions: allQuestions.filter(q => q.category === 'emotions')
+            },
+            {
+                id: 4,
+                name: 'Size & Quantity',
+                description: 'Measurements and amounts',
+                icon: '📏',
+                questions: allQuestions.filter(q => q.category === 'size-quantity')
+            },
+            {
+                id: 5,
+                name: 'Time & Speed',
+                description: 'Temporal and velocity terms',
+                icon: '⏰',
+                questions: allQuestions.filter(q => q.category === 'time-speed')
+            },
+            {
+                id: 6,
+                name: 'Appearance & Beauty',
+                description: 'Visual characteristics',
+                icon: '✨',
+                questions: allQuestions.filter(q => q.category === 'appearance')
+            },
+            {
+                id: 7,
+                name: 'Personality & Character',
+                description: 'Character traits',
+                icon: '👤',
+                questions: allQuestions.filter(q => q.category === 'personality')
+            },
+            {
+                id: 8,
+                name: 'Difficulty & Ease',
+                description: 'Complexity levels',
+                icon: '🎯',
+                questions: allQuestions.filter(q => q.category === 'difficulty')
+            },
+            {
+                id: 9,
+                name: 'Truth & Honesty',
+                description: 'Integrity and veracity',
+                icon: '🤝',
+                questions: allQuestions.filter(q => q.category === 'truth-honesty')
+            },
+            {
+                id: 10,
+                name: 'Physical Properties',
+                description: 'Material characteristics',
+                icon: '🔬',
+                questions: allQuestions.filter(q => q.category === 'physical')
+            }
+        ];
         
-        totalQuestionsSpan.textContent = questions.length;
+        displayCategories();
     } catch (error) {
         console.error('Error loading questions:', error);
         alert('Failed to load questions. Please refresh the page.');
     }
+}
+
+// Display categories
+function displayCategories() {
+    categoryList.innerHTML = '';
+    
+    categories.forEach(cat => {
+        const card = document.createElement('div');
+        card.className = 'category-card';
+        if (completedCategories.has(cat.id)) {
+            card.classList.add('completed');
+        }
+        
+        card.innerHTML = `
+            <div class="category-info">
+                <div class="category-name">${cat.icon} ${cat.name}</div>
+                <div class="category-description">${cat.description} (${cat.questions.length} questions)</div>
+            </div>
+            <div class="category-status">${completedCategories.has(cat.id) ? '✓' : '▶'}</div>
+        `;
+        
+        card.addEventListener('click', () => startCategory(cat));
+        categoryList.appendChild(card);
+    });
+}
+
+// Start category
+function startCategory(category) {
+    currentCategory = category;
+    currentQuestionIndex = 0;
+    categoryScore = 0;
+    categoryWrongAnswers = [];
+    
+    // Shuffle questions within category
+    currentCategory.questions = shuffleArray(currentCategory.questions);
+    
+    categoryScreen.classList.remove('active');
+    quizScreen.classList.add('active');
+    
+    categoryTitle.textContent = `${currentCategory.icon} ${currentCategory.name}`;
+    totalQuestionsSpan.textContent = currentCategory.questions.length;
+    
+    displayQuestion();
 }
 
 // Shuffle array
@@ -53,25 +186,12 @@ function shuffleArray(array) {
     return newArray;
 }
 
-// Start quiz
-function startQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    wrongAnswers = [];
-    isReviewMode = false;
-    
-    startScreen.classList.remove('active');
-    quizScreen.classList.add('active');
-    
-    displayQuestion();
-}
-
 // Display question
 function displayQuestion() {
-    const question = questions[currentQuestionIndex];
+    const question = currentCategory.questions[currentQuestionIndex];
     
     // Update progress
-    const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+    const progress = ((currentQuestionIndex + 1) / currentCategory.questions.length) * 100;
     progressFill.style.width = progress + '%';
     currentQuestionSpan.textContent = currentQuestionIndex + 1;
     
@@ -86,7 +206,7 @@ function displayQuestion() {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
         btn.textContent = option;
-        btn.addEventListener('click', () => selectAnswer(option, question.correctAnswer));
+        btn.addEventListener('click', () => selectAnswer(option, question.correctAnswer, question.explanation));
         optionsContainer.appendChild(btn);
     });
     
@@ -96,7 +216,7 @@ function displayQuestion() {
 }
 
 // Select answer
-function selectAnswer(selected, correct) {
+function selectAnswer(selected, correct, explanationText) {
     const buttons = document.querySelectorAll('.option-btn');
     buttons.forEach(btn => btn.disabled = true);
     
@@ -114,22 +234,24 @@ function selectAnswer(selected, correct) {
     // Show feedback
     feedback.classList.remove('hidden');
     if (isCorrect) {
-        score++;
+        categoryScore++;
+        totalScore++;
         feedback.className = 'feedback correct';
         feedbackText.textContent = '✓ Correct!';
     } else {
         feedback.className = 'feedback wrong';
         feedbackText.textContent = '✗ Incorrect';
         
-        wrongAnswers.push({
-            question: questions[currentQuestionIndex].question,
+        categoryWrongAnswers.push({
+            question: currentCategory.questions[currentQuestionIndex].question,
             yourAnswer: selected,
             correctAnswer: correct,
-            explanation: questions[currentQuestionIndex].explanation
+            explanation: explanationText
         });
     }
     
-    explanation.textContent = questions[currentQuestionIndex].explanation;
+    explanation.textContent = explanationText;
+    totalQuestions++;
     
     // Show next button
     nextBtn.classList.remove('hidden');
@@ -139,31 +261,33 @@ function selectAnswer(selected, correct) {
 function nextQuestion() {
     currentQuestionIndex++;
     
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < currentCategory.questions.length) {
         displayQuestion();
     } else {
-        showResults();
+        showCheckpoint();
     }
 }
 
-// Show results
-function showResults() {
+// Show checkpoint (after 10 questions)
+function showCheckpoint() {
     quizScreen.classList.remove('active');
-    resultScreen.classList.add('active');
+    checkpointScreen.classList.add('active');
     
-    const totalQuestions = questions.length;
-    const accuracyPercent = Math.round((score / totalQuestions) * 100);
+    completedCategory.textContent = `${currentCategory.icon} ${currentCategory.name}`;
+    const accuracyPercent = Math.round((categoryScore / currentCategory.questions.length) * 100);
     
-    finalScore.textContent = `${score}/${totalQuestions}`;
-    accuracy.textContent = `${accuracyPercent}%`;
+    checkpointScore.textContent = `${categoryScore}/${currentCategory.questions.length}`;
+    checkpointAccuracy.textContent = `${accuracyPercent}%`;
+    
+    // Mark category as completed
+    completedCategories.add(currentCategory.id);
     
     // Show wrong answers if any
-    if (wrongAnswers.length > 0) {
-        wrongAnswersSection.classList.remove('hidden');
-        reviewBtn.classList.remove('hidden');
+    if (categoryWrongAnswers.length > 0) {
+        checkpointWrongAnswers.classList.remove('hidden');
+        checkpointWrongList.innerHTML = '';
         
-        wrongAnswersList.innerHTML = '';
-        wrongAnswers.forEach(item => {
+        categoryWrongAnswers.forEach(item => {
             const div = document.createElement('div');
             div.className = 'wrong-answer-item';
             div.innerHTML = `
@@ -172,42 +296,71 @@ function showResults() {
                 <strong>Correct answer:</strong> ${item.correctAnswer}<br>
                 <em>${item.explanation}</em>
             `;
-            wrongAnswersList.appendChild(div);
+            checkpointWrongList.appendChild(div);
         });
     } else {
-        wrongAnswersSection.classList.add('hidden');
-        reviewBtn.classList.add('hidden');
+        checkpointWrongAnswers.classList.add('hidden');
+    }
+    
+    // Check if all categories completed
+    if (completedCategories.size === categories.length) {
+        nextCategory.textContent = 'View Final Results';
+    } else {
+        nextCategory.textContent = 'Next Category';
     }
 }
 
-// Retry quiz
-function retryQuiz() {
-    questions = shuffleArray(questions);
-    resultScreen.classList.remove('active');
-    startQuiz();
+// Retry current category
+function retryCategoryQuiz() {
+    completedCategories.delete(currentCategory.id);
+    startCategory(currentCategory);
 }
 
-// Review wrong answers
-function reviewWrongAnswers() {
-    if (wrongAnswers.length === 0) return;
+// Next category or final results
+function goToNextCategory() {
+    if (completedCategories.size === categories.length) {
+        showFinalResults();
+    } else {
+        checkpointScreen.classList.remove('active');
+        categoryScreen.classList.add('active');
+        displayCategories();
+    }
+}
+
+// Back to category selection
+function backToCategorySelection() {
+    checkpointScreen.classList.remove('active');
+    categoryScreen.classList.add('active');
+    displayCategories();
+}
+
+// Show final results
+function showFinalResults() {
+    checkpointScreen.classList.remove('active');
+    resultScreen.classList.add('active');
     
-    // Create review questions from wrong answers
-    questions = wrongAnswers.map(item => {
-        const originalQuestion = questions.find(q => q.question === item.question);
-        return originalQuestion;
-    });
+    const accuracyPercent = Math.round((totalScore / totalQuestions) * 100);
     
-    questions = shuffleArray(questions);
-    isReviewMode = true;
+    finalScore.textContent = `${totalScore}/${totalQuestions}`;
+    accuracy.textContent = `${accuracyPercent}%`;
+    completedCount.textContent = `${completedCategories.size}/${categories.length}`;
+}
+
+// Start over
+function startOver() {
+    completedCategories.clear();
+    totalScore = 0;
+    totalQuestions = 0;
     
     resultScreen.classList.remove('active');
-    startQuiz();
+    startScreen.classList.add('active');
+    
+    displayCategories();
 }
 
 // Text to speech
 function speak(text) {
     if ('speechSynthesis' in window) {
-        // Cancel any ongoing speech
         speechSynthesis.cancel();
         
         const utterance = new SpeechSynthesisUtterance(text);
@@ -218,10 +371,21 @@ function speak(text) {
 }
 
 // Event listeners
-startBtn.addEventListener('click', startQuiz);
+selectCategoryBtn.addEventListener('click', () => {
+    startScreen.classList.remove('active');
+    categoryScreen.classList.add('active');
+});
+
+backToStartBtn.addEventListener('click', () => {
+    categoryScreen.classList.remove('active');
+    startScreen.classList.add('active');
+});
+
 nextBtn.addEventListener('click', nextQuestion);
-retryBtn.addEventListener('click', retryQuiz);
-reviewBtn.addEventListener('click', reviewWrongAnswers);
+retryCategory.addEventListener('click', retryCategoryQuiz);
+nextCategory.addEventListener('click', goToNextCategory);
+backToCategories.addEventListener('click', backToCategorySelection);
+startOverBtn.addEventListener('click', startOver);
 speakBtn.addEventListener('click', () => speak(questionText.textContent));
 
 // Initialize

@@ -81,6 +81,65 @@ body {
     font-size: 0.9em;
 }
 
+/* Category Screen */
+#categoryScreen h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.category-list {
+    display: grid;
+    gap: 15px;
+    margin-bottom: 30px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.category-card {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-card:hover {
+    background: #f0f0ff;
+    border-color: #667eea;
+    transform: translateX(5px);
+}
+
+.category-card.completed {
+    background: #d4edda;
+    border-color: #28a745;
+}
+
+.category-info {
+    flex: 1;
+}
+
+.category-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.category-description {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.category-status {
+    font-size: 1.5em;
+}
+
 /* Buttons */
 .btn {
     width: 100%;
@@ -114,6 +173,17 @@ body {
 }
 
 /* Quiz Screen */
+.quiz-header {
+    margin-bottom: 30px;
+}
+
+.category-title {
+    text-align: center;
+    color: #667eea;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
 .progress-bar {
     width: 100%;
     height: 8px;
@@ -133,7 +203,6 @@ body {
     text-align: center;
     color: #666;
     font-size: 0.9em;
-    margin-bottom: 30px;
 }
 
 .question-card {
@@ -253,11 +322,22 @@ body {
     display: none;
 }
 
-/* Result Screen */
+/* Checkpoint & Result Screen */
+#checkpointScreen h1,
 #resultScreen h1 {
     text-align: center;
     color: #333;
+    margin-bottom: 20px;
+}
+
+.checkpoint-info {
+    text-align: center;
     margin-bottom: 30px;
+}
+
+.completed-category {
+    color: #667eea;
+    font-size: 1.5em;
 }
 
 .result-stats {
@@ -295,6 +375,7 @@ body {
     margin-bottom: 15px;
 }
 
+#checkpointWrongList,
 #wrongAnswersList {
     max-height: 300px;
     overflow-y: auto;
@@ -333,6 +414,10 @@ body {
 
     .option-btn {
         padding: 15px;
+        font-size: 1em;
+    }
+
+    .category-name {
         font-size: 1em;
     }
 }

@@ -14,20 +14,37 @@
             <p class="subtitle">Master English synonyms through practice</p>
             <div class="stats">
                 <div class="stat-item">
+                    <span class="stat-number">10</span>
+                    <span class="stat-label">Categories</span>
+                </div>
+                <div class="stat-item">
                     <span class="stat-number">100</span>
                     <span class="stat-label">Questions</span>
                 </div>
             </div>
-            <button id="startBtn" class="btn btn-primary">Start Quiz</button>
+            <button id="selectCategoryBtn" class="btn btn-primary">Select Category</button>
+        </div>
+
+        <!-- Category Selection Screen -->
+        <div id="categoryScreen" class="screen">
+            <h2>Select a Category</h2>
+            <p class="subtitle">Choose a category to practice (10 questions each)</p>
+            <div id="categoryList" class="category-list">
+                <!-- Categories will be inserted here -->
+            </div>
+            <button id="backToStartBtn" class="btn btn-secondary">Back</button>
         </div>
 
         <!-- Quiz Screen -->
         <div id="quizScreen" class="screen">
-            <div class="progress-bar">
-                <div id="progressFill" class="progress-fill"></div>
-            </div>
-            <div class="progress-text">
-                <span id="currentQuestion">1</span> / <span id="totalQuestions">100</span>
+            <div class="quiz-header">
+                <h3 id="categoryTitle" class="category-title"></h3>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span>
+                </div>
             </div>
 
             <div class="question-card">
@@ -48,28 +65,55 @@
             <button id="nextBtn" class="btn btn-secondary hidden">Next Question</button>
         </div>
 
-        <!-- Result Screen -->
-        <div id="resultScreen" class="screen">
-            <h1>🎉 Quiz Complete!</h1>
+        <!-- Checkpoint Result Screen (after 10 questions) -->
+        <div id="checkpointScreen" class="screen">
+            <h1>📊 Category Complete!</h1>
+            <div class="checkpoint-info">
+                <h3 id="completedCategory" class="completed-category"></h3>
+            </div>
             <div class="result-stats">
                 <div class="result-item">
                     <span class="result-label">Score</span>
-                    <span id="finalScore" class="result-value">0/100</span>
+                    <span id="checkpointScore" class="result-value">0/10</span>
                 </div>
                 <div class="result-item">
                     <span class="result-label">Accuracy</span>
-                    <span id="accuracy" class="result-value">0%</span>
+                    <span id="checkpointAccuracy" class="result-value">0%</span>
                 </div>
             </div>
 
-            <div id="wrongAnswersSection" class="wrong-answers hidden">
+            <div id="checkpointWrongAnswers" class="wrong-answers hidden">
                 <h3>Review Incorrect Answers:</h3>
-                <div id="wrongAnswersList"></div>
+                <div id="checkpointWrongList"></div>
             </div>
 
             <div class="result-actions">
-                <button id="retryBtn" class="btn btn-primary">Try Again</button>
-                <button id="reviewBtn" class="btn btn-secondary">Review Wrong Answers</button>
+                <button id="retryCategory" class="btn btn-primary">Retry This Category</button>
+                <button id="nextCategory" class="btn btn-secondary">Next Category</button>
+                <button id="backToCategories" class="btn btn-secondary">Back to Categories</button>
+            </div>
+        </div>
+
+        <!-- Final Result Screen -->
+        <div id="resultScreen" class="screen">
+            <h1>🎉 All Categories Complete!</h1>
+            <div class="result-stats">
+                <div class="result-item">
+                    <span class="result-label">Total Score</span>
+                    <span id="finalScore" class="result-value">0/100</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Overall Accuracy</span>
+                    <span id="accuracy" class="result-value">0%</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Categories Completed</span>
+                    <span id="completedCount" class="result-value">0/10</span>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button id="startOverBtn" class="btn btn-primary">Start Over</button>
             </div>
         </div>
     </div>

@@ -608,16 +608,61 @@ function startOver() {
 }
 
 // Text to speech
+// Text to speech - Pre-generated audio files
 function speak(text) {
-    if ('speechSynthesis' in window) {
-        speechSynthesis.cancel();
-        
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'en-GB';
-        utterance.rate = 0.9;
-        speechSynthesis.speak(utterance);
+    if (!currentCategory || currentQuestionIndex >= currentCategory.questions.length) {
+        console.error('No current question available');
+        return;
     }
+    
+    // 現在の問題IDを取得
+    const currentQuestion = currentCategory.questions[currentQuestionIndex];
+    const audioPath = `assets/audio/word_${currentQuestion.id}.mp3`;
+    
+    console.log(`Playing audio: ${audioPath}`);
+    
+    // 音声ファイルを再生
+    const audio = new Audio(audioPath);
+    
+    audio.play().catch(error => {
+        console.error('Audio playback error:', error);
+        console.log('Falling back to Web Speech API');
+        
+        // フォールバック: Web Speech API
+        if ('speechSynthesis' in window) {
+            speechSynthesis.cancel();
+            
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = 'en-GB';
+            utterance.rate = 0.85;
+            utterance.pitch = 1.0;
+            utterance.volume = 1.0;
+            
+            // 音声の取得を待つ
+            const setVoice = () => {
+                const voices = speechSynthesis.getVoices();
+                const ukVoice = voices.find(voice => 
+                    voice.lang === 'en-GB' && 
+                    (voice.name.includes('Google') || 
+                     voice.name.includes('Microsoft'))
+                );
+                
+                if (ukVoice) {
+                    utterance.voice = ukVoice;
+                }
+                
+                speechSynthesis.speak(utterance);
+            };
+            
+            if (speechSynthesis.getVoices().length > 0) {
+                setVoice();
+            } else {
+                speechSynthesis.addEventListener('voiceschanged', setVoice, { once: true });
+            }
+        }
+    });
 }
+
 
 // Event listeners
 selectCategoryBtn.addEventListener('click', () => {

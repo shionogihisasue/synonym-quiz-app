@@ -1598,6 +1598,805 @@
     "options": ["protect", "expose", "endanger", "threaten"],
     "category": "technology-digital",
     "explanation": "Both mean to make safe from danger or unauthorized access."
+  },
+  {
+    "id": 201,
+    "question": "synergy",
+    "correctAnswer": "collaboration",
+    "options": ["collaboration", "conflict", "competition", "isolation"],
+    "category": "advanced-business",
+    "explanation": "Both refer to the combined effect of working together being greater than individual efforts."
+  },
+  {
+    "id": 202,
+    "question": "leverage",
+    "correctAnswer": "utilize",
+    "options": ["utilize", "waste", "ignore", "abandon"],
+    "category": "advanced-business",
+    "explanation": "Both mean to use something to maximum advantage to achieve goals."
+  },
+  {
+    "id": 203,
+    "question": "paradigm",
+    "correctAnswer": "framework",
+    "options": ["framework", "chaos", "disorder", "confusion"],
+    "category": "advanced-business",
+    "explanation": "Both refer to a typical pattern or model of how something works."
+  },
+  {
+    "id": 204,
+    "question": "strategic",
+    "correctAnswer": "tactical",
+    "options": ["tactical", "random", "arbitrary", "haphazard"],
+    "category": "advanced-business",
+    "explanation": "Both describe carefully planned actions designed to achieve a specific goal."
+  },
+  {
+    "id": 205,
+    "question": "robust",
+    "correctAnswer": "resilient",
+    "options": ["resilient", "fragile", "weak", "delicate"],
+    "category": "advanced-business",
+    "explanation": "Both describe something strong and able to withstand difficult conditions."
+  },
+  {
+    "id": 206,
+    "question": "scalable",
+    "correctAnswer": "expandable",
+    "options": ["expandable", "limited", "fixed", "restricted"],
+    "category": "advanced-business",
+    "explanation": "Both describe the ability to grow or be increased in size or scope."
+  },
+  {
+    "id": 207,
+    "question": "streamline",
+    "correctAnswer": "simplify",
+    "options": ["simplify", "complicate", "obstruct", "hinder"],
+    "category": "advanced-business",
+    "explanation": "Both mean to make a process more efficient by removing unnecessary steps."
+  },
+  {
+    "id": 208,
+    "question": "consolidate",
+    "correctAnswer": "unify",
+    "options": ["unify", "separate", "divide", "fragment"],
+    "category": "advanced-business",
+    "explanation": "Both mean to combine multiple things into a single more effective whole."
+  },
+  {
+    "id": 209,
+    "question": "disrupt",
+    "correctAnswer": "transform",
+    "options": ["transform", "maintain", "preserve", "sustain"],
+    "category": "advanced-business",
+    "explanation": "Both mean to radically change or innovate an industry or market."
+  },
+  {
+    "id": 210,
+    "question": "benchmark",
+    "correctAnswer": "standard",
+    "options": ["standard", "deviation", "exception", "anomaly"],
+    "category": "advanced-business",
+    "explanation": "Both refer to a point of reference against which things can be compared."
+  },
+  {
+    "id": 211,
+    "question": "visionary",
+    "correctAnswer": "forward-thinking",
+    "options": ["forward-thinking", "outdated", "traditional", "conservative"],
+    "category": "executive-leadership",
+    "explanation": "Both describe having the ability to plan with imagination and wisdom for the future."
+  },
+  {
+    "id": 212,
+    "question": "empower",
+    "correctAnswer": "enable",
+    "options": ["enable", "restrict", "limit", "constrain"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to give authority or power to someone to do something."
+  },
+  {
+    "id": 213,
+    "question": "cultivate",
+    "correctAnswer": "foster",
+    "options": ["foster", "discourage", "hinder", "suppress"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to develop and encourage the growth of something."
+  },
+  {
+    "id": 214,
+    "question": "advocate",
+    "correctAnswer": "champion",
+    "options": ["champion", "oppose", "resist", "reject"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to publicly support or recommend a particular cause or policy."
+  },
+  {
+    "id": 215,
+    "question": "articulate",
+    "correctAnswer": "express",
+    "options": ["express", "mumble", "confuse", "obscure"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to communicate ideas clearly and effectively."
+  },
+  {
+    "id": 216,
+    "question": "spearhead",
+    "correctAnswer": "lead",
+    "options": ["lead", "follow", "trail", "lag"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to be the driving force behind an initiative or project."
+  },
+  {
+    "id": 217,
+    "question": "orchestrate",
+    "correctAnswer": "coordinate",
+    "options": ["coordinate", "disorganize", "scatter", "confuse"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to arrange or direct elements of a complex situation."
+  },
+  {
+    "id": 218,
+    "question": "galvanize",
+    "correctAnswer": "motivate",
+    "options": ["motivate", "discourage", "demoralize", "demotivate"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to shock or excite someone into taking action."
+  },
+  {
+    "id": 219,
+    "question": "steward",
+    "correctAnswer": "manage",
+    "options": ["manage", "neglect", "abandon", "ignore"],
+    "category": "executive-leadership",
+    "explanation": "Both mean to carefully and responsibly manage resources or organizations."
+  },
+  {
+    "id": 220,
+    "question": "transformational",
+    "correctAnswer": "revolutionary",
+    "options": ["revolutionary", "incremental", "minor", "trivial"],
+    "category": "executive-leadership",
+    "explanation": "Both describe causing a dramatic and fundamental change."
+  },
+  {
+    "id": 221,
+    "question": "preclinical",
+    "correctAnswer": "laboratory-stage",
+    "options": ["laboratory-stage", "clinical", "post-market", "commercial"],
+    "category": "drug-development",
+    "explanation": "Both refer to research conducted before human trials begin."
+  },
+  {
+    "id": 222,
+    "question": "bioavailability",
+    "correctAnswer": "absorption",
+    "options": ["absorption", "excretion", "elimination", "rejection"],
+    "category": "drug-development",
+    "explanation": "Both refer to the degree and rate at which a drug enters systemic circulation."
+  },
+  {
+    "id": 223,
+    "question": "pharmacokinetics",
+    "correctAnswer": "drug metabolism",
+    "options": ["drug metabolism", "drug effect", "drug target", "drug design"],
+    "category": "drug-development",
+    "explanation": "Both describe how the body processes a drug over time."
+  },
+  {
+    "id": 224,
+    "question": "pharmacodynamics",
+    "correctAnswer": "drug action",
+    "options": ["drug action", "drug absorption", "drug distribution", "drug excretion"],
+    "category": "drug-development",
+    "explanation": "Both describe the biochemical and physiological effects of drugs on the body."
+  },
+  {
+    "id": 225,
+    "question": "formulation",
+    "correctAnswer": "composition",
+    "options": ["composition", "destruction", "elimination", "removal"],
+    "category": "drug-development",
+    "explanation": "Both refer to the mixture of chemical substances that make up a medication."
+  },
+  {
+    "id": 226,
+    "question": "biomarker",
+    "correctAnswer": "indicator",
+    "options": ["indicator", "treatment", "symptom", "disease"],
+    "category": "drug-development",
+    "explanation": "Both refer to measurable substances that indicate biological states or conditions."
+  },
+  {
+    "id": 227,
+    "question": "mechanism of action",
+    "correctAnswer": "mode of operation",
+    "options": ["mode of operation", "side effect", "adverse event", "toxicity"],
+    "category": "drug-development",
+    "explanation": "Both describe how a drug produces its therapeutic effect at the molecular level."
+  },
+  {
+    "id": 228,
+    "question": "therapeutic window",
+    "correctAnswer": "safety margin",
+    "options": ["safety margin", "toxic dose", "lethal dose", "maximum dose"],
+    "category": "drug-development",
+    "explanation": "Both refer to the dosage range between effectiveness and toxicity."
+  },
+  {
+    "id": 229,
+    "question": "drug candidate",
+    "correctAnswer": "lead compound",
+    "options": ["lead compound", "failed drug", "toxic substance", "inactive molecule"],
+    "category": "drug-development",
+    "explanation": "Both refer to a promising molecule being developed as a potential medication."
+  },
+  {
+    "id": 230,
+    "question": "indication",
+    "correctAnswer": "therapeutic use",
+    "options": ["therapeutic use", "side effect", "contraindication", "adverse event"],
+    "category": "drug-development",
+    "explanation": "Both refer to a disease or condition for which a treatment is approved."
+  },
+  {
+    "id": 231,
+    "question": "submission",
+    "correctAnswer": "filing",
+    "options": ["filing", "withdrawal", "rejection", "denial"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to formally presenting documents to regulatory authorities for review."
+  },
+  {
+    "id": 232,
+    "question": "approval",
+    "correctAnswer": "authorization",
+    "options": ["authorization", "rejection", "denial", "refusal"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to official permission granted by regulatory agencies."
+  },
+  {
+    "id": 233,
+    "question": "compliance",
+    "correctAnswer": "adherence",
+    "options": ["adherence", "violation", "breach", "non-compliance"],
+    "category": "regulatory-affairs",
+    "explanation": "Both mean conforming to established rules, regulations, or standards."
+  },
+  {
+    "id": 234,
+    "question": "inspection",
+    "correctAnswer": "audit",
+    "options": ["audit", "approval", "exemption", "waiver"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to official examination to verify compliance with regulations."
+  },
+  {
+    "id": 235,
+    "question": "deviation",
+    "correctAnswer": "variance",
+    "options": ["variance", "compliance", "conformity", "adherence"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to departure from an approved standard or procedure."
+  },
+  {
+    "id": 236,
+    "question": "documentation",
+    "correctAnswer": "record-keeping",
+    "options": ["record-keeping", "destruction", "concealment", "loss"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to maintaining detailed written evidence of activities and decisions."
+  },
+  {
+    "id": 237,
+    "question": "pharmacovigilance",
+    "correctAnswer": "safety monitoring",
+    "options": ["safety monitoring", "drug marketing", "drug promotion", "drug sales"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to the detection and assessment of adverse drug reactions."
+  },
+  {
+    "id": 238,
+    "question": "post-marketing surveillance",
+    "correctAnswer": "phase IV monitoring",
+    "options": ["phase IV monitoring", "pre-approval testing", "clinical trial", "laboratory study"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to ongoing safety monitoring after a drug is approved."
+  },
+  {
+    "id": 239,
+    "question": "labeling",
+    "correctAnswer": "product information",
+    "options": ["product information", "packaging", "marketing", "advertising"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to approved written information about a drug's use and safety."
+  },
+  {
+    "id": 240,
+    "question": "Good Manufacturing Practice",
+    "correctAnswer": "quality standards",
+    "options": ["quality standards", "poor practices", "violations", "deficiencies"],
+    "category": "regulatory-affairs",
+    "explanation": "Both refer to regulations ensuring products are consistently produced to quality standards."
+  },
+  {
+    "id": 241,
+    "question": "inference",
+    "correctAnswer": "deduction",
+    "options": ["deduction", "assumption", "guess", "speculation"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to conclusions reached based on evidence and reasoning from data."
+  },
+  {
+    "id": 242,
+    "question": "multivariate",
+    "correctAnswer": "multidimensional",
+    "options": ["multidimensional", "univariate", "single-factor", "one-dimensional"],
+    "category": "advanced-analytics",
+    "explanation": "Both describe analysis involving multiple variables simultaneously."
+  },
+  {
+    "id": 243,
+    "question": "regression",
+    "correctAnswer": "predictive modeling",
+    "options": ["predictive modeling", "classification", "clustering", "randomization"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to statistical methods for estimating relationships among variables."
+  },
+  {
+    "id": 244,
+    "question": "segmentation",
+    "correctAnswer": "partitioning",
+    "options": ["partitioning", "aggregation", "combination", "unification"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to dividing data into distinct groups based on characteristics."
+  },
+  {
+    "id": 245,
+    "question": "dimensionality reduction",
+    "correctAnswer": "feature compression",
+    "options": ["feature compression", "feature expansion", "data duplication", "variable multiplication"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to reducing the number of variables while retaining important information."
+  },
+  {
+    "id": 246,
+    "question": "anomaly detection",
+    "correctAnswer": "outlier identification",
+    "options": ["outlier identification", "pattern recognition", "trend analysis", "normalization"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to identifying unusual patterns that deviate from expected behavior."
+  },
+  {
+    "id": 247,
+    "question": "ensemble method",
+    "correctAnswer": "model combination",
+    "options": ["model combination", "single model", "isolated approach", "individual technique"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to combining multiple models to improve prediction accuracy."
+  },
+  {
+    "id": 248,
+    "question": "cross-validation",
+    "correctAnswer": "model validation",
+    "options": ["model validation", "model training", "data collection", "feature selection"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to techniques for assessing how model results generalize to independent data."
+  },
+  {
+    "id": 249,
+    "question": "feature engineering",
+    "correctAnswer": "variable creation",
+    "options": ["variable creation", "data deletion", "model removal", "feature elimination"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to creating new variables from raw data to improve model performance."
+  },
+  {
+    "id": 250,
+    "question": "propensity score",
+    "correctAnswer": "likelihood estimate",
+    "options": ["likelihood estimate", "random assignment", "arbitrary value", "fixed probability"],
+    "category": "advanced-analytics",
+    "explanation": "Both refer to the probability of receiving a treatment given observed covariates."
+  },
+  {
+    "id": 251,
+    "question": "neural network",
+    "correctAnswer": "artificial brain",
+    "options": ["artificial brain", "linear model", "simple algorithm", "basic calculator"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to computing systems inspired by biological neural networks."
+  },
+  {
+    "id": 252,
+    "question": "convolutional",
+    "correctAnswer": "feature-extracting",
+    "options": ["feature-extracting", "linear", "sequential", "random"],
+    "category": "ai-deep-learning",
+    "explanation": "Both describe neural network layers that detect patterns in data."
+  },
+  {
+    "id": 253,
+    "question": "backpropagation",
+    "correctAnswer": "error correction",
+    "options": ["error correction", "forward pass", "data input", "result output"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to algorithms for updating neural network weights during training."
+  },
+  {
+    "id": 254,
+    "question": "overfitting",
+    "correctAnswer": "memorization",
+    "options": ["memorization", "generalization", "simplification", "underfitting"],
+    "category": "ai-deep-learning",
+    "explanation": "Both describe when a model learns training data too well and fails on new data."
+  },
+  {
+    "id": 255,
+    "question": "hyperparameter",
+    "correctAnswer": "configuration setting",
+    "options": ["configuration setting", "training data", "output result", "input feature"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to parameters set before training that control the learning process."
+  },
+  {
+    "id": 256,
+    "question": "transformer",
+    "correctAnswer": "attention-based model",
+    "options": ["attention-based model", "recurrent network", "simple perceptron", "linear classifier"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to neural architectures using self-attention mechanisms."
+  },
+  {
+    "id": 257,
+    "question": "embedding",
+    "correctAnswer": "vector representation",
+    "options": ["vector representation", "raw text", "original data", "categorical label"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to converting discrete data into continuous vector spaces."
+  },
+  {
+    "id": 258,
+    "question": "fine-tuning",
+    "correctAnswer": "transfer learning",
+    "options": ["transfer learning", "training from scratch", "random initialization", "complete retraining"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to adapting pre-trained models to specific tasks."
+  },
+  {
+    "id": 259,
+    "question": "generative model",
+    "correctAnswer": "synthesis system",
+    "options": ["synthesis system", "discriminative model", "classification system", "prediction algorithm"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to models that can create new data similar to training examples."
+  },
+  {
+    "id": 260,
+    "question": "latent space",
+    "correctAnswer": "hidden representation",
+    "options": ["hidden representation", "input data", "output layer", "visible features"],
+    "category": "ai-deep-learning",
+    "explanation": "Both refer to compressed representations learned by neural networks."
+  },
+  {
+    "id": 261,
+    "question": "notwithstanding",
+    "correctAnswer": "despite",
+    "options": ["despite", "because", "therefore", "consequently"],
+    "category": "formal-communication",
+    "explanation": "Both mean in spite of or without being affected by something."
+  },
+  {
+    "id": 262,
+    "question": "pursuant to",
+    "correctAnswer": "in accordance with",
+    "options": ["in accordance with", "contrary to", "against", "opposing"],
+    "category": "formal-communication",
+    "explanation": "Both mean following or in agreement with rules or regulations."
+  },
+  {
+    "id": 263,
+    "question": "aforementioned",
+    "correctAnswer": "previously stated",
+    "options": ["previously stated", "following", "subsequent", "later"],
+    "category": "formal-communication",
+    "explanation": "Both refer to something mentioned earlier in a document or discussion."
+  },
+  {
+    "id": 264,
+    "question": "hereby",
+    "correctAnswer": "by this means",
+    "options": ["by this means", "eventually", "perhaps", "possibly"],
+    "category": "formal-communication",
+    "explanation": "Both formally indicate that something is being done by this statement."
+  },
+  {
+    "id": 265,
+    "question": "nevertheless",
+    "correctAnswer": "nonetheless",
+    "options": ["nonetheless", "therefore", "consequently", "thus"],
+    "category": "formal-communication",
+    "explanation": "Both indicate a contrast with what has just been mentioned."
+  },
+  {
+    "id": 266,
+    "question": "endeavor",
+    "correctAnswer": "attempt",
+    "options": ["attempt", "avoid", "refuse", "decline"],
+    "category": "formal-communication",
+    "explanation": "Both mean to try hard to achieve something, often in formal contexts."
+  },
+  {
+    "id": 267,
+    "question": "facilitate",
+    "correctAnswer": "enable",
+    "options": ["enable", "hinder", "prevent", "obstruct"],
+    "category": "formal-communication",
+    "explanation": "Both mean to make an action or process easier or more likely to happen."
+  },
+  {
+    "id": 268,
+    "question": "ascertain",
+    "correctAnswer": "determine",
+    "options": ["determine", "guess", "assume", "speculate"],
+    "category": "formal-communication",
+    "explanation": "Both mean to find out something with certainty through examination."
+  },
+  {
+    "id": 269,
+    "question": "subsequent",
+    "correctAnswer": "following",
+    "options": ["following", "previous", "prior", "preceding"],
+    "category": "formal-communication",
+    "explanation": "Both describe something that comes after something else in time or order."
+  },
+  {
+    "id": 270,
+    "question": "convene",
+    "correctAnswer": "assemble",
+    "options": ["assemble", "disperse", "scatter", "separate"],
+    "category": "formal-communication",
+    "explanation": "Both mean to come or bring together for a meeting or activity."
+  },
+  {
+    "id": 271,
+    "question": "methodology",
+    "correctAnswer": "approach",
+    "options": ["approach", "result", "conclusion", "outcome"],
+    "category": "academic-research",
+    "explanation": "Both refer to a system of methods used in a particular field of study."
+  },
+  {
+    "id": 272,
+    "question": "hypothesis",
+    "correctAnswer": "proposition",
+    "options": ["proposition", "fact", "proof", "evidence"],
+    "category": "academic-research",
+    "explanation": "Both refer to a proposed explanation made on limited evidence as a starting point."
+  },
+  {
+    "id": 273,
+    "question": "empirical",
+    "correctAnswer": "observational",
+    "options": ["observational", "theoretical", "speculative", "hypothetical"],
+    "category": "academic-research",
+    "explanation": "Both describe knowledge or research based on observation or experience rather than theory."
+  },
+  {
+    "id": 274,
+    "question": "corroborate",
+    "correctAnswer": "confirm",
+    "options": ["confirm", "contradict", "refute", "disprove"],
+    "category": "academic-research",
+    "explanation": "Both mean to support a statement or theory with evidence or authority."
+  },
+  {
+    "id": 275,
+    "question": "substantiate",
+    "correctAnswer": "prove",
+    "options": ["prove", "disprove", "contradict", "refute"],
+    "category": "academic-research",
+    "explanation": "Both mean to provide evidence to support or prove the truth of something."
+  },
+  {
+    "id": 276,
+    "question": "dissertation",
+    "correctAnswer": "thesis",
+    "options": ["thesis", "article", "summary", "abstract"],
+    "category": "academic-research",
+    "explanation": "Both refer to lengthy formal academic documents presenting original research."
+  },
+  {
+    "id": 277,
+    "question": "replicate",
+    "correctAnswer": "reproduce",
+    "options": ["reproduce", "invalidate", "falsify", "contradict"],
+    "category": "academic-research",
+    "explanation": "Both mean to repeat an experiment or study to verify results."
+  },
+  {
+    "id": 278,
+    "question": "peer review",
+    "correctAnswer": "scholarly evaluation",
+    "options": ["scholarly evaluation", "self-assessment", "author review", "editorial decision"],
+    "category": "academic-research",
+    "explanation": "Both refer to evaluation of work by experts in the same field."
+  },
+  {
+    "id": 279,
+    "question": "cohort",
+    "correctAnswer": "group",
+    "options": ["group", "individual", "outlier", "exception"],
+    "category": "academic-research",
+    "explanation": "Both refer to a group of subjects sharing a common characteristic in a study."
+  },
+  {
+    "id": 280,
+    "question": "longitudinal",
+    "correctAnswer": "long-term",
+    "options": ["long-term", "cross-sectional", "momentary", "instant"],
+    "category": "academic-research",
+    "explanation": "Both describe research conducted over an extended period of time."
+  },
+  {
+    "id": 281,
+    "question": "assets",
+    "correctAnswer": "resources",
+    "options": ["resources", "liabilities", "debts", "obligations"],
+    "category": "finance-economics",
+    "explanation": "Both refer to valuable things owned by a person or company."
+  },
+  {
+    "id": 282,
+    "question": "liabilities",
+    "correctAnswer": "obligations",
+    "options": ["obligations", "assets", "profits", "gains"],
+    "category": "finance-economics",
+    "explanation": "Both refer to financial debts or obligations owed to others."
+  },
+  {
+    "id": 283,
+    "question": "revenue",
+    "correctAnswer": "income",
+    "options": ["income", "expense", "cost", "loss"],
+    "category": "finance-economics",
+    "explanation": "Both refer to money received, especially from business activities."
+  },
+  {
+    "id": 284,
+    "question": "expenditure",
+    "correctAnswer": "spending",
+    "options": ["spending", "income", "revenue", "earnings"],
+    "category": "finance-economics",
+    "explanation": "Both refer to the action of spending funds or the amount spent."
+  },
+  {
+    "id": 285,
+    "question": "equity",
+    "correctAnswer": "ownership",
+    "options": ["ownership", "debt", "liability", "obligation"],
+    "category": "finance-economics",
+    "explanation": "Both refer to the value of shares or ownership interest in a company."
+  },
+  {
+    "id": 286,
+    "question": "portfolio",
+    "correctAnswer": "collection",
+    "options": ["collection", "single asset", "individual stock", "one investment"],
+    "category": "finance-economics",
+    "explanation": "Both refer to a range of investments held by a person or organization."
+  },
+  {
+    "id": 287,
+    "question": "volatility",
+    "correctAnswer": "fluctuation",
+    "options": ["fluctuation", "stability", "consistency", "steadiness"],
+    "category": "finance-economics",
+    "explanation": "Both describe the degree of variation in prices or values over time."
+  },
+  {
+    "id": 288,
+    "question": "depreciation",
+    "correctAnswer": "value decline",
+    "options": ["value decline", "appreciation", "growth", "increase"],
+    "category": "finance-economics",
+    "explanation": "Both refer to the reduction in value of an asset over time."
+  },
+  {
+    "id": 289,
+    "question": "liquidity",
+    "correctAnswer": "convertibility",
+    "options": ["convertibility", "illiquidity", "fixedness", "permanence"],
+    "category": "finance-economics",
+    "explanation": "Both refer to the ease with which assets can be converted to cash."
+  },
+  {
+    "id": 290,
+    "question": "amortization",
+    "correctAnswer": "gradual repayment",
+    "options": ["gradual repayment", "lump sum", "immediate payment", "full settlement"],
+    "category": "finance-economics",
+    "explanation": "Both refer to paying off debt through regular payments over time."
+  },
+  {
+    "id": 291,
+    "question": "jurisdiction",
+    "correctAnswer": "authority",
+    "options": ["authority", "powerlessness", "inability", "weakness"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to the official power to make legal decisions and judgments."
+  },
+  {
+    "id": 292,
+    "question": "indemnify",
+    "correctAnswer": "compensate",
+    "options": ["compensate", "penalize", "punish", "fine"],
+    "category": "legal-compliance",
+    "explanation": "Both mean to protect against or provide compensation for harm or loss."
+  },
+  {
+    "id": 293,
+    "question": "litigation",
+    "correctAnswer": "lawsuit",
+    "options": ["lawsuit", "settlement", "agreement", "compromise"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to the process of taking legal action through the courts."
+  },
+  {
+    "id": 294,
+    "question": "arbitration",
+    "correctAnswer": "mediation",
+    "options": ["mediation", "litigation", "trial", "prosecution"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to resolving disputes outside of court through a neutral third party."
+  },
+  {
+    "id": 295,
+    "question": "breach",
+    "correctAnswer": "violation",
+    "options": ["violation", "compliance", "adherence", "fulfillment"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to an act of breaking a law, agreement, or code of conduct."
+  },
+  {
+    "id": 296,
+    "question": "confidentiality",
+    "correctAnswer": "privacy",
+    "options": ["privacy", "disclosure", "publicity", "openness"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to keeping information secret or private as required."
+  },
+  {
+    "id": 297,
+    "question": "intellectual property",
+    "correctAnswer": "intangible assets",
+    "options": ["intangible assets", "physical goods", "tangible property", "real estate"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to creations of the mind protected by law, such as patents or copyrights."
+  },
+  {
+    "id": 298,
+    "question": "statute",
+    "correctAnswer": "law",
+    "options": ["law", "suggestion", "guideline", "recommendation"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to written laws passed by legislative bodies."
+  },
+  {
+    "id": 299,
+    "question": "precedent",
+    "correctAnswer": "prior ruling",
+    "options": ["prior ruling", "new decision", "original case", "first judgment"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to a legal case establishing a principle for future similar cases."
+  },
+  {
+    "id": 300,
+    "question": "due diligence",
+    "correctAnswer": "thorough investigation",
+    "options": ["thorough investigation", "carelessness", "negligence", "oversight"],
+    "category": "legal-compliance",
+    "explanation": "Both refer to comprehensive assessment conducted before entering into agreements."
   }
-
-]
+  

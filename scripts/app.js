@@ -194,6 +194,76 @@ async function loadQuestions() {
                 description: 'Digital world terminology',
                 icon: '💻',
                 questions: allQuestions.filter(q => q.category === 'technology-digital')
+            },
+            {
+                id: 21,
+                name: 'Advanced Business Strategy',
+                description: 'Strategic management terminology',
+                icon: '🎯',
+                questions: allQuestions.filter(q => q.category === 'advanced-business')
+            },
+            {
+                id: 22,
+                name: 'Executive Leadership',
+                description: 'Leadership and management terms',
+                icon: '👔',
+                questions: allQuestions.filter(q => q.category === 'executive-leadership')
+            },
+            {
+                id: 23,
+                name: 'Drug Development Process',
+                description: 'Advanced pharmaceutical R&D',
+                icon: '🧬',
+                questions: allQuestions.filter(q => q.category === 'drug-development')
+            },
+            {
+                id: 24,
+                name: 'Regulatory Affairs',
+                description: 'Regulatory compliance vocabulary',
+                icon: '📋',
+                questions: allQuestions.filter(q => q.category === 'regulatory-affairs')
+            },
+            {
+                id: 25,
+                name: 'Advanced Analytics',
+                description: 'Sophisticated data analysis',
+                icon: '📊',
+                questions: allQuestions.filter(q => q.category === 'advanced-analytics')
+            },
+            {
+                id: 26,
+                name: 'AI & Deep Learning',
+                description: 'Cutting-edge AI technology',
+                icon: '🧠',
+                questions: allQuestions.filter(q => q.category === 'ai-deep-learning')
+            },
+            {
+                id: 27,
+                name: 'Formal Communication',
+                description: 'Professional formal expressions',
+                icon: '📝',
+                questions: allQuestions.filter(q => q.category === 'formal-communication')
+            },
+            {
+                id: 28,
+                name: 'Academic & Research',
+                description: 'Scholarly terminology',
+                icon: '🎓',
+                questions: allQuestions.filter(q => q.category === 'academic-research')
+            },
+            {
+                id: 29,
+                name: 'Finance & Economics',
+                description: 'Financial and economic terms',
+                icon: '💰',
+                questions: allQuestions.filter(q => q.category === 'finance-economics')
+            },
+            {
+                id: 30,
+                name: 'Legal & Compliance',
+                description: 'Legal and regulatory language',
+                icon: '⚖️',
+                questions: allQuestions.filter(q => q.category === 'legal-compliance')
             }
 
         ];

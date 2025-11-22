@@ -462,7 +462,13 @@ function displayQuestion() {
     // Hide feedback and next button
     feedback.classList.add('hidden');
     nextBtn.classList.add('hidden');
+    
+    // 🆕 自動再生を追加（画面が表示された直後に音声を再生）
+    setTimeout(() => {
+        speak(question.question);
+    }, 300); // 300ミリ秒（0.3秒）待ってから再生
 }
+
 
 // Select answer
 function selectAnswer(selected, correct, explanationText) {

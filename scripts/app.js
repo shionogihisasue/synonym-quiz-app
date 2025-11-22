@@ -434,7 +434,6 @@ function shuffleArray(array) {
     }
     return newArray;
 }
-
 // Display question
 function displayQuestion() {
     const question = currentCategory.questions[currentQuestionIndex];
@@ -463,11 +462,11 @@ function displayQuestion() {
     feedback.classList.add('hidden');
     nextBtn.classList.add('hidden');
     
-    // 🆕 自動再生を追加（画面が表示された直後に音声を再生）
-    setTimeout(() => {
-        speak(question.question);
-    }, 300); // 300ミリ秒（0.3秒）待ってから再生
+    // 音声ボタンを有効化
+    speakBtn.disabled = false;
+    speakBtn.textContent = '🔊 Listen Again';
 }
+
 
 
 // Select answer
@@ -614,7 +613,7 @@ function startOver() {
 }
 
 // Text to speech
-// Text to speech - Pre-generated audio files
+// Text to speech - Pre-generated audio files (改良版)
 function speak(text) {
     if (!currentCategory || currentQuestionIndex >= currentCategory.questions.length) {
         console.error('No current question available');
@@ -627,10 +626,21 @@ function speak(text) {
     
     console.log(`Playing audio: ${audioPath}`);
     
+    // ボタンを一時的に無効化（連打防止）
+    speakBtn.disabled = true;
+    speakBtn.textContent = '🔊 Playing...';
+    
     // 音声ファイルを再生
     const audio = new Audio(audioPath);
     
-    audio.play().catch(error => {
+    audio.addEventListener('ended', () => {
+        speakBtn.disabled = false;
+        speakBtn.textContent = '🔊 Listen Again';
+    });
+    
+    audio.addEventListener('error', (error) => {
+        speakBtn.disabled = false;
+        speakBtn.textContent = '🔊 Listen Again';
         console.error('Audio playback error:', error);
         console.log('Falling back to Web Speech API');
         
@@ -643,6 +653,11 @@ function speak(text) {
             utterance.rate = 0.85;
             utterance.pitch = 1.0;
             utterance.volume = 1.0;
+            
+            utterance.addEventListener('end', () => {
+                speakBtn.disabled = false;
+                speakBtn.textContent = '🔊 Listen Again';
+            });
             
             // 音声の取得を待つ
             const setVoice = () => {
@@ -667,7 +682,10 @@ function speak(text) {
             }
         }
     });
+    
+    audio.play();
 }
+
 
 
 // Event listeners

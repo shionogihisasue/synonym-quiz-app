@@ -49,6 +49,7 @@
         </div>
 
         <!-- Quiz Screen -->
+        <!-- Quiz Screen -->
         <div id="quizScreen" class="screen">
             <div class="quiz-header">
                 <h3 id="categoryTitle" class="category-title"></h3>
@@ -61,13 +62,20 @@
             </div>
 
             <div class="question-card">
-                <button id="speakBtn" class="speak-btn" title="Listen">🔊</button>
+                <!-- 🔧 speakBtnを削除（右上のボタンを削除） -->
                 <h2 id="questionText" class="question-text">Loading...</h2>
                 <p class="instruction">Select the synonym:</p>
             </div>
 
             <div id="optionsContainer" class="options-container">
                 <!-- Options will be inserted here -->
+            </div>
+
+            <!-- 🆕 音声ボタンを選択肢の下に移動 -->
+            <div class="audio-controls">
+                <button id="speakBtn" class="speak-btn-bottom" title="Listen to the word">
+                    🔊 Listen Again
+                </button>
             </div>
 
             <div id="feedback" class="feedback hidden">
@@ -77,6 +85,7 @@
 
             <button id="nextBtn" class="btn btn-secondary hidden">Next Question</button>
         </div>
+
 
         <!-- Checkpoint Result Screen (after 10 questions) -->
         <div id="checkpointScreen" class="screen">

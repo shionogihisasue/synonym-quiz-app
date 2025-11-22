@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synonym Quiz App</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Start Screen -->
+        <div id="startScreen" class="screen active">
+            <h1>📚 Synonym Quiz</h1>
+            <p class="subtitle">Master English synonyms through practice</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">100</span>
+                    <span class="stat-label">Questions</span>
+                </div>
+            </div>
+            <button id="startBtn" class="btn btn-primary">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <div class="progress-bar">
+                <div id="progressFill" class="progress-fill"></div>
+            </div>
+            <div class="progress-text">
+                <span id="currentQuestion">1</span> / <span id="totalQuestions">100</span>
+            </div>
+
+            <div class="question-card">
+                <button id="speakBtn" class="speak-btn" title="Listen">🔊</button>
+                <h2 id="questionText" class="question-text">Loading...</h2>
+                <p class="instruction">Select the synonym:</p>
+            </div>
+
+            <div id="optionsContainer" class="options-container">
+                <!-- Options will be inserted here -->
+            </div>
+
+            <div id="feedback" class="feedback hidden">
+                <p id="feedbackText"></p>
+                <p id="explanation" class="explanation"></p>
+            </div>
+
+            <button id="nextBtn" class="btn btn-secondary hidden">Next Question</button>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="resultScreen" class="screen">
+            <h1>🎉 Quiz Complete!</h1>
+            <div class="result-stats">
+                <div class="result-item">
+                    <span class="result-label">Score</span>
+                    <span id="finalScore" class="result-value">0/100</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-label">Accuracy</span>
+                    <span id="accuracy" class="result-value">0%</span>
+                </div>
+            </div>
+
+            <div id="wrongAnswersSection" class="wrong-answers hidden">
+                <h3>Review Incorrect Answers:</h3>
+                <div id="wrongAnswersList"></div>
+            </div>
+
+            <div class="result-actions">
+                <button id="retryBtn" class="btn btn-primary">Try Again</button>
+                <button id="reviewBtn" class="btn btn-secondary">Review Wrong Answers</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

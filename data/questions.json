@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "question": "tell the truth",
+    "correctAnswer": "confess",
+    "options": ["confess", "deny", "hide", "avoid"],
+    "explanation": "Both mean to reveal something honestly, especially something previously concealed."
+  },
+  {
+    "id": 2,
+    "question": "big",
+    "correctAnswer": "significant",
+    "options": ["significant", "tiny", "minor", "small"],
+    "explanation": "Both describe something of considerable importance or size."
+  },
+  {
+    "id": 3,
+    "question": "happy",
+    "correctAnswer": "joyful",
+    "options": ["joyful", "sad", "angry", "worried"],
+    "explanation": "Both express a feeling of pleasure and contentment."
+  },
+  {
+    "id": 4,
+    "question": "quick",
+    "correctAnswer": "rapid",
+    "options": ["rapid", "slow", "lazy", "gradual"],
+    "explanation": "Both describe something happening or moving at high speed."
+  },
+  {
+    "id": 5,
+    "question": "difficult",
+    "correctAnswer": "challenging",
+    "options": ["challenging", "easy", "simple", "clear"],
+    "explanation": "Both refer to something requiring effort and skill to accomplish."
+  },
+  {
+    "id": 6,
+    "question": "smart",
+    "correctAnswer": "intelligent",
+    "options": ["intelligent", "foolish", "stupid", "ignorant"],
+    "explanation": "Both describe someone with good mental capacity and reasoning ability."
+  },
+  {
+    "id": 7,
+    "question": "begin",
+    "correctAnswer": "commence",
+    "options": ["commence", "finish", "end", "conclude"],
+    "explanation": "Both mean to start or initiate something."
+  },
+  {
+    "id": 8,
+    "question": "end",
+    "correctAnswer": "terminate",
+    "options": ["terminate", "start", "begin", "open"],
+    "explanation": "Both mean to bring something to a conclusion or finish."
+  },
+  {
+    "id": 9,
+    "question": "angry",
+    "correctAnswer": "furious",
+    "options": ["furious", "calm", "peaceful", "happy"],
+    "explanation": "Both express strong feelings of displeasure or rage."
+  },
+  {
+    "id": 10,
+    "question": "beautiful",
+    "correctAnswer": "gorgeous",
+    "options": ["gorgeous", "ugly", "plain", "dull"],
+    "explanation": "Both describe something pleasing to the senses, especially sight."
+  },
+  {
+    "id": 11,
+    "question": "small",
+    "correctAnswer": "tiny",
+    "options": ["tiny", "huge", "large", "giant"],
+    "explanation": "Both describe something of little size or extent."
+  },
+  {
+    "id": 12,
+    "question": "old",
+    "correctAnswer": "ancient",
+    "options": ["ancient", "new", "modern", "recent"],
+    "explanation": "Both refer to something existing for a very long time."
+  },
+  {
+    "id": 13,
+    "question": "new",
+    "correctAnswer": "novel",
+    "options": ["novel", "old", "ancient", "dated"],
+    "explanation": "Both describe something recently made or introduced."
+  },
+  {
+    "id": 14,
+    "question": "strong",
+    "correctAnswer": "powerful",
+    "options": ["powerful", "weak", "frail", "delicate"],
+    "explanation": "Both indicate great physical or mental strength."
+  },
+  {
+    "id": 15,
+    "question": "weak",
+    "correctAnswer": "feeble",
+    "options": ["feeble", "strong", "robust", "sturdy"],
+    "explanation": "Both describe lacking physical or mental strength."
+  },
+  {
+    "id": 16,
+    "question": "important",
+    "correctAnswer": "crucial",
+    "options": ["crucial", "trivial", "minor", "insignificant"],
+    "explanation": "Both emphasize great significance or necessity."
+  },
+  {
+    "id": 17,
+    "question": "help",
+    "correctAnswer": "assist",
+    "options": ["assist", "hinder", "prevent", "obstruct"],
+    "explanation": "Both mean to provide support or aid to someone."
+  },
+  {
+    "id": 18,
+    "question": "sad",
+    "correctAnswer": "melancholy",
+    "options": ["melancholy", "happy", "joyful", "cheerful"],
+    "explanation": "Both express feelings of sorrow or unhappiness."
+  },
+  {
+    "id": 19,
+    "question": "rich",
+    "correctAnswer": "wealthy",
+    "options": ["wealthy", "poor", "destitute", "broke"],
+    "explanation": "Both describe having abundant money or possessions."
+  },
+  {
+    "id": 20,
+    "question": "poor",
+    "correctAnswer": "impoverished",
+    "options": ["impoverished", "rich", "wealthy", "affluent"],
+    "explanation": "Both describe lacking sufficient money or resources."
+  },
+  {
+    "id": 21,
+    "question": "brave",
+    "correctAnswer": "courageous",
+    "options": ["courageous", "cowardly", "timid", "fearful"],
+    "explanation": "Both describe showing no fear in dangerous situations."
+  },
+  {
+    "id": 22,
+    "question": "afraid",
+    "correctAnswer": "frightened",
+    "options": ["frightened", "brave", "bold", "fearless"],
+    "explanation": "Both express feelings of fear or anxiety."
+  },
+  {
+    "id": 23,
+    "question": "loud",
+    "correctAnswer": "noisy",
+    "options": ["noisy", "quiet", "silent", "peaceful"],
+    "explanation": "Both describe producing or filled with much sound."
+  },
+  {
+    "id": 24,
+    "question": "quiet",
+    "correctAnswer": "silent",
+    "options": ["silent", "loud", "noisy", "deafening"],
+    "explanation": "Both describe making little or no noise."
+  },
+  {
+    "id": 25,
+    "question": "dirty",
+    "correctAnswer": "filthy",
+    "options": ["filthy", "clean", "pristine", "spotless"],
+    "explanation": "Both describe being covered with or containing dirt."
+  },
+  {
+    "id": 26,
+    "question": "clean",
+    "correctAnswer": "spotless",
+    "options": ["spotless", "dirty", "filthy", "grimy"],
+    "explanation": "Both describe being free from dirt or impurities."
+  },
+  {
+    "id": 27,
+    "question": "tired",
+    "correctAnswer": "exhausted",
+    "options": ["exhausted", "energetic", "refreshed", "lively"],
+    "explanation": "Both describe feeling in need of rest or sleep."
+  },
+  {
+    "id": 28,
+    "question": "active",
+    "correctAnswer": "energetic",
+    "options": ["energetic", "lazy", "sluggish", "lethargic"],
+    "explanation": "Both describe being full of energy and vigor."
+  },
+  {
+    "id": 29,
+    "question": "lazy",
+    "correctAnswer": "idle",
+    "options": ["idle", "active", "busy", "diligent"],
+    "explanation": "Both describe unwilling to work or use energy."
+  },
+  {
+    "id": 30,
+    "question": "funny",
+    "correctAnswer": "hilarious",
+    "options": ["hilarious", "serious", "boring", "dull"],
+    "explanation": "Both describe causing laughter and amusement."
+  },
+  {
+    "id": 31,
+    "question": "serious",
+    "correctAnswer": "solemn",
+    "options": ["solemn", "funny", "playful", "jovial"],
+    "explanation": "Both describe being earnest and thoughtful."
+  },
+  {
+    "id": 32,
+    "question": "strange",
+    "correctAnswer": "peculiar",
+    "options": ["peculiar", "normal", "ordinary", "typical"],
+    "explanation": "Both describe something unusual or odd."
+  },
+  {
+    "id": 33,
+    "question": "normal",
+    "correctAnswer": "typical",
+    "options": ["typical", "strange", "weird", "unusual"],
+    "explanation": "Both describe conforming to a standard or common pattern."
+  },
+  {
+    "id": 34,
+    "question": "clear",
+    "correctAnswer": "obvious",
+    "options": ["obvious", "unclear", "vague", "ambiguous"],
+    "explanation": "Both describe being easy to understand or perceive."
+  },
+  {
+    "id": 35,
+    "question": "unclear",
+    "correctAnswer": "vague",
+    "options": ["vague", "clear", "obvious", "precise"],
+    "explanation": "Both describe lacking clarity or definition."
+  },
+  {
+    "id": 36,
+    "question": "simple",
+    "correctAnswer": "straightforward",
+    "options": ["straightforward", "complex", "complicated", "intricate"],
+    "explanation": "Both describe being easy to understand or do."
+  },
+  {
+    "id": 37,
+    "question": "complex",
+    "correctAnswer": "complicated",
+    "options": ["complicated", "simple", "easy", "basic"],
+    "explanation": "Both describe consisting of many interconnected parts."
+  },
+  {
+    "id": 38,
+    "question": "dangerous",
+    "correctAnswer": "hazardous",
+    "options": ["hazardous", "safe", "secure", "protected"],
+    "explanation": "Both describe involving risk or potential harm."
+  },
+  {
+    "id": 39,
+    "question": "safe",
+    "correctAnswer": "secure",
+    "options": ["secure", "dangerous", "risky", "hazardous"],
+    "explanation": "Both describe being free from danger or threat."
+  },
+  {
+    "id": 40,
+    "question": "empty",
+    "correctAnswer": "vacant",
+    "options": ["vacant", "full", "occupied", "crowded"],
+    "explanation": "Both describe containing nothing or no one."
+  },
+  {
+    "id": 41,
+    "question": "full",
+    "correctAnswer": "complete",
+    "options": ["complete", "empty", "vacant", "hollow"],
+    "explanation": "Both describe containing as much or as many as possible."
+  },
+  {
+    "id": 42,
+    "question": "bright",
+    "correctAnswer": "luminous",
+    "options": ["luminous", "dark", "dim", "gloomy"],
+    "explanation": "Both describe giving out or reflecting much light."
+  },
+  {
+    "id": 43,
+    "question": "dark",
+    "correctAnswer": "dim",
+    "options": ["dim", "bright", "luminous", "radiant"],
+    "explanation": "Both describe having little or no light."
+  },
+  {
+    "id": 44,
+    "question": "hot",
+    "correctAnswer": "scorching",
+    "options": ["scorching", "cold", "freezing", "icy"],
+    "explanation": "Both describe having a high temperature."
+  },
+  {
+    "id": 45,
+    "question": "cold",
+    "correctAnswer": "frigid",
+    "options": ["frigid", "hot", "warm", "boiling"],
+    "explanation": "Both describe having a very low temperature."
+  },
+  {
+    "id": 46,
+    "question": "expensive",
+    "correctAnswer": "costly",
+    "options": ["costly", "cheap", "inexpensive", "affordable"],
+    "explanation": "Both describe costing a lot of money."
+  },
+  {
+    "id": 47,
+    "question": "cheap",
+    "correctAnswer": "inexpensive",
+    "options": ["inexpensive", "expensive", "costly", "pricey"],
+    "explanation": "Both describe costing little money or less than expected."
+  },
+  {
+    "id": 48,
+    "question": "true",
+    "correctAnswer": "accurate",
+    "options": ["accurate", "false", "incorrect", "wrong"],
+    "explanation": "Both describe being in accordance with fact or reality."
+  },
+  {
+    "id": 49,
+    "question": "false",
+    "correctAnswer": "incorrect",
+    "options": ["incorrect", "true", "accurate", "right"],
+    "explanation": "Both describe not being in accordance with truth or fact."
+  },
+  {
+    "id": 50,
+    "question": "friendly",
+    "correctAnswer": "amiable",
+    "options": ["amiable", "hostile", "unfriendly", "mean"],
+    "explanation": "Both describe being kind and pleasant in manner."
+  },
+  {
+    "id": 51,
+    "question": "hostile",
+    "correctAnswer": "antagonistic",
+    "options": ["antagonistic", "friendly", "kind", "welcoming"],
+    "explanation": "Both describe showing opposition or aggression."
+  },
+  {
+    "id": 52,
+    "question": "polite",
+    "correctAnswer": "courteous",
+    "options": ["courteous", "rude", "impolite", "disrespectful"],
+    "explanation": "Both describe having good manners and showing respect."
+  },
+  {
+    "id": 53,
+    "question": "rude",
+    "correctAnswer": "impolite",
+    "options": ["impolite", "polite", "courteous", "respectful"],
+    "explanation": "Both describe lacking good manners or consideration."
+  },
+  {
+    "id": 54,
+    "question": "common",
+    "correctAnswer": "frequent",
+    "options": ["frequent", "rare", "uncommon", "scarce"],
+    "explanation": "Both describe occurring or appearing often."
+  },
+  {
+    "id": 55,
+    "question": "rare",
+    "correctAnswer": "scarce",
+    "options": ["scarce", "common", "frequent", "abundant"],
+    "explanation": "Both describe occurring or found infrequently."
+  },
+  {
+    "id": 56,
+    "question": "whole",
+    "correctAnswer": "entire",
+    "options": ["entire", "partial", "incomplete", "fragmented"],
+    "explanation": "Both describe being complete with no part left out."
+  },
+  {
+    "id": 57,
+    "question": "partial",
+    "correctAnswer": "incomplete",
+    "options": ["incomplete", "whole", "entire", "complete"],
+    "explanation": "Both describe existing only in part or not finished."
+  },
+  {
+    "id": 58,
+    "question": "rough",
+    "correctAnswer": "coarse",
+    "options": ["coarse", "smooth", "soft", "silky"],
+    "explanation": "Both describe having an uneven or irregular surface."
+  },
+  {
+    "id": 59,
+    "question": "smooth",
+    "correctAnswer": "sleek",
+    "options": ["sleek", "rough", "coarse", "bumpy"],
+    "explanation": "Both describe having an even and regular surface."
+  },
+  {
+    "id": 60,
+    "question": "wide",
+    "correctAnswer": "broad",
+    "options": ["broad", "narrow", "thin", "slim"],
+    "explanation": "Both describe having a great distance from side to side."
+  },
+  {
+    "id": 61,
+    "question": "narrow",
+    "correctAnswer": "slim",
+    "options": ["slim", "wide", "broad", "spacious"],
+    "explanation": "Both describe having a small distance from side to side."
+  },
+  {
+    "id": 62,
+    "question": "thick",
+    "correctAnswer": "dense",
+    "options": ["dense", "thin", "sparse", "light"],
+    "explanation": "Both describe having parts closely packed together."
+  },
+  {
+    "id": 63,
+    "question": "thin",
+    "correctAnswer": "slender",
+    "options": ["slender", "thick", "fat", "bulky"],
+    "explanation": "Both describe having little thickness or width."
+  },
+  {
+    "id": 64,
+    "question": "heavy",
+    "correctAnswer": "weighty",
+    "options": ["weighty", "light", "featherweight", "airy"],
+    "explanation": "Both describe having great weight or mass."
+  },
+  {
+    "id": 65,
+    "question": "light",
+    "correctAnswer": "lightweight",
+    "options": ["lightweight", "heavy", "weighty", "massive"],
+    "explanation": "Both describe having little weight or mass."
+  },
+  {
+    "id": 66,
+    "question": "hard",
+    "correctAnswer": "solid",
+    "options": ["solid", "soft", "squishy", "flexible"],
+    "explanation": "Both describe being firm and resistant to pressure."
+  },
+  {
+    "id": 67,
+    "question": "soft",
+    "correctAnswer": "tender",
+    "options": ["tender", "hard", "firm", "rigid"],
+    "explanation": "Both describe being easily molded or yielding to pressure."
+  },
+  {
+    "id": 68,
+    "question": "sharp",
+    "correctAnswer": "keen",
+    "options": ["keen", "blunt", "dull", "rounded"],
+    "explanation": "Both describe having a fine edge or point capable of cutting."
+  },
+  {
+    "id": 69,
+    "question": "dull",
+    "correctAnswer": "blunt",
+    "options": ["blunt", "sharp", "keen", "pointed"],
+    "explanation": "Both describe lacking a sharp edge or point."
+  },
+  {
+    "id": 70,
+    "question": "wet",
+    "correctAnswer": "damp",
+    "options": ["damp", "dry", "arid", "parched"],
+    "explanation": "Both describe being covered or saturated with water."
+  },
+  {
+    "id": 71,
+    "question": "dry",
+    "correctAnswer": "arid",
+    "options": ["arid", "wet", "damp", "moist"],
+    "explanation": "Both describe lacking moisture or water."
+  },
+  {
+    "id": 72,
+    "question": "deep",
+    "correctAnswer": "profound",
+    "options": ["profound", "shallow", "surface", "superficial"],
+    "explanation": "Both describe extending far down from the top or surface."
+  },
+  {
+    "id": 73,
+    "question": "shallow",
+    "correctAnswer": "superficial",
+    "options": ["superficial", "deep", "profound", "bottomless"],
+    "explanation": "Both describe having little depth from top to bottom."
+  },
+  {
+    "id": 74,
+    "question": "tall",
+    "correctAnswer": "lofty",
+    "options": ["lofty", "short", "low", "tiny"],
+    "explanation": "Both describe having great height."
+  },
+  {
+    "id": 75,
+    "question": "short",
+    "correctAnswer": "brief",
+    "options": ["brief", "tall", "long", "extended"],
+    "explanation": "Both describe having little length or height."
+  },
+  {
+    "id": 76,
+    "question": "long",
+    "correctAnswer": "lengthy",
+    "options": ["lengthy", "short", "brief", "concise"],
+    "explanation": "Both describe extending for a considerable distance or time."
+  },
+  {
+    "id": 77,
+    "question": "near",
+    "correctAnswer": "close",
+    "options": ["close", "far", "distant", "remote"],
+    "explanation": "Both describe being at a short distance away."
+  },
+  {
+    "id": 78,
+    "question": "far",
+    "correctAnswer": "distant",
+    "options": ["distant", "near", "close", "adjacent"],
+    "explanation": "Both describe being at a great distance away."
+  },
+  {
+    "id": 79,
+    "question": "early",
+    "correctAnswer": "premature",
+    "options": ["premature", "late", "delayed", "tardy"],
+    "explanation": "Both describe occurring before the expected time."
+  },
+  {
+    "id": 80,
+    "question": "late",
+    "correctAnswer": "tardy",
+    "options": ["tardy", "early", "prompt", "punctual"],
+    "explanation": "Both describe occurring after the expected time."
+  },
+  {
+    "id": 81,
+    "question": "fast",
+    "correctAnswer": "swift",
+    "options": ["swift", "slow", "sluggish", "gradual"],
+    "explanation": "Both describe moving or capable of moving at high speed."
+  },
+  {
+    "id": 82,
+    "question": "slow",
+    "correctAnswer": "sluggish",
+    "options": ["sluggish", "fast", "swift", "rapid"],
+    "explanation": "Both describe moving or operating at low speed."
+  },
+  {
+    "id": 83,
+    "question": "gentle",
+    "correctAnswer": "mild",
+    "options": ["mild", "harsh", "severe", "rough"],
+    "explanation": "Both describe being moderate in force or effect."
+  },
+  {
+    "id": 84,
+    "question": "harsh",
+    "correctAnswer": "severe",
+    "options": ["severe", "gentle", "mild", "soft"],
+    "explanation": "Both describe being extremely difficult or unpleasant."
+  },
+  {
+    "id": 85,
+    "question": "kind",
+    "correctAnswer": "benevolent",
+    "options": ["benevolent", "cruel", "mean", "harsh"],
+    "explanation": "Both describe showing care and concern for others."
+  },
+  {
+    "id": 86,
+    "question": "cruel",
+    "correctAnswer": "ruthless",
+    "options": ["ruthless", "kind", "gentle", "compassionate"],
+    "explanation": "Both describe showing no mercy or compassion."
+  },
+  {
+    "id": 87,
+    "question": "honest",
+    "correctAnswer": "truthful",
+    "options": ["truthful", "dishonest", "deceitful", "lying"],
+    "explanation": "Both describe being free from deceit and telling the truth."
+  },
+  {
+    "id": 88,
+    "question": "dishonest",
+    "correctAnswer": "deceitful",
+    "options": ["deceitful", "honest", "truthful", "sincere"],
+    "explanation": "Both describe intending to mislead or deceive."
+  },
+  {
+    "id": 89,
+    "question": "careful",
+    "correctAnswer": "cautious",
+    "options": ["cautious", "careless", "reckless", "hasty"],
+    "explanation": "Both describe taking care to avoid danger or mistakes."
+  },
+  {
+    "id": 90,
+    "question": "careless",
+    "correctAnswer": "reckless",
+    "options": ["reckless", "careful", "cautious", "prudent"],
+    "explanation": "Both describe showing lack of care or attention."
+  },
+  {
+    "id": 91,
+    "question": "calm",
+    "correctAnswer": "tranquil",
+    "options": ["tranquil", "agitated", "troubled", "nervous"],
+    "explanation": "Both describe being free from disturbance or strong emotion."
+  },
+  {
+    "id": 92,
+    "question": "nervous",
+    "correctAnswer": "anxious",
+    "options": ["anxious", "calm", "relaxed", "composed"],
+    "explanation": "Both describe experiencing worry or unease."
+  },
+  {
+    "id": 93,
+    "question": "proud",
+    "correctAnswer": "arrogant",
+    "options": ["arrogant", "humble", "modest", "meek"],
+    "explanation": "Both describe having an excessively high opinion of oneself."
+  },
+  {
+    "id": 94,
+    "question": "humble",
+    "correctAnswer": "modest",
+    "options": ["modest", "proud", "arrogant", "boastful"],
+    "explanation": "Both describe having a low view of one's importance."
+  },
+  {
+    "id": 95,
+    "question": "eager",
+    "correctAnswer": "enthusiastic",
+    "options": ["enthusiastic", "reluctant", "unwilling", "hesitant"],
+    "explanation": "Both describe showing keen interest or desire."
+  },
+  {
+    "id": 96,
+    "question": "reluctant",
+    "correctAnswer": "hesitant",
+    "options": ["hesitant", "eager", "willing", "enthusiastic"],
+    "explanation": "Both describe being unwilling or slow to act."
+  },
+  {
+    "id": 97,
+    "question": "confident",
+    "correctAnswer": "assured",
+    "options": ["assured", "doubtful", "uncertain", "insecure"],
+    "explanation": "Both describe feeling certain about one's abilities."
+  },
+  {
+    "id": 98,
+    "question": "doubtful",
+    "correctAnswer": "uncertain",
+    "options": ["uncertain", "confident", "sure", "certain"],
+    "explanation": "Both describe feeling unsure or lacking conviction."
+  },
+  {
+    "id": 99,
+    "question": "patient",
+    "correctAnswer": "tolerant",
+    "options": ["tolerant", "impatient", "restless", "hasty"],
+    "explanation": "Both describe being able to wait calmly without complaint."
+  },
+  {
+    "id": 100,
+    "question": "impatient",
+    "correctAnswer": "restless",
+    "options": ["restless", "patient", "calm", "composed"],
+    "explanation": "Both describe being unable to wait calmly or having a tendency to be hasty."
+  }
+]

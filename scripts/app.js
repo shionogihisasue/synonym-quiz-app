@@ -265,6 +265,78 @@ async function loadQuestions() {
                 icon: '⚖️',
                 questions: allQuestions.filter(q => q.category === 'legal-compliance')
             }
+                        ,
+            {
+                id: 31,
+                name: 'Corporate Governance',
+                description: 'Corporate oversight terminology',
+                icon: '🏢',
+                questions: allQuestions.filter(q => q.category === 'corporate-governance')
+            },
+            {
+                id: 32,
+                name: 'Quality Assurance',
+                description: 'QA and quality control terms',
+                icon: '✅',
+                questions: allQuestions.filter(q => q.category === 'quality-assurance')
+            },
+            {
+                id: 33,
+                name: 'Bioinformatics',
+                description: 'Computational biology vocabulary',
+                icon: '🧬',
+                questions: allQuestions.filter(q => q.category === 'bioinformatics')
+            },
+            {
+                id: 34,
+                name: 'Pharmacoeconomics',
+                description: 'Health economics terminology',
+                icon: '💊',
+                questions: allQuestions.filter(q => q.category === 'pharmacoeconomics')
+            },
+            {
+                id: 35,
+                name: 'Statistical Analysis',
+                description: 'Advanced statistical methods',
+                icon: '📉',
+                questions: allQuestions.filter(q => q.category === 'statistical-analysis')
+            },
+            {
+                id: 36,
+                name: 'Natural Language Processing',
+                description: 'NLP and linguistics terms',
+                icon: '🗣️',
+                questions: allQuestions.filter(q => q.category === 'nlp')
+            },
+            {
+                id: 37,
+                name: 'Negotiation & Diplomacy',
+                description: 'Diplomatic communication',
+                icon: '🤝',
+                questions: allQuestions.filter(q => q.category === 'negotiation-diplomacy')
+            },
+            {
+                id: 38,
+                name: 'Scientific Research',
+                description: 'Research methodology terms',
+                icon: '🔬',
+                questions: allQuestions.filter(q => q.category === 'scientific-research')
+            },
+            {
+                id: 39,
+                name: 'Risk Management',
+                description: 'Risk assessment vocabulary',
+                icon: '⚠️',
+                questions: allQuestions.filter(q => q.category === 'risk-management')
+            },
+            {
+                id: 40,
+                name: 'Intellectual Discourse',
+                description: 'Philosophical and logical terms',
+                icon: '💭',
+                questions: allQuestions.filter(q => q.category === 'intellectual-discourse')
+            }
+
 
         ];
         

@@ -2398,6 +2398,807 @@
     "options": ["thorough investigation", "carelessness", "negligence", "oversight"],
     "category": "legal-compliance",
     "explanation": "Both refer to comprehensive assessment conducted before entering into agreements."
+    },
+  {
+    "id": 301,
+    "question": "fiduciary",
+    "correctAnswer": "trustee",
+    "options": ["trustee", "beneficiary", "creditor", "debtor"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to a person or entity holding assets in trust for a beneficiary."
+  },
+  {
+    "id": 302,
+    "question": "stakeholder",
+    "correctAnswer": "interested party",
+    "options": ["interested party", "outsider", "stranger", "bystander"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to individuals or groups with an interest in an organization's actions."
+  },
+  {
+    "id": 303,
+    "question": "transparency",
+    "correctAnswer": "openness",
+    "options": ["openness", "secrecy", "concealment", "opacity"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to operating in a way that is easy for others to see and understand."
+  },
+  {
+    "id": 304,
+    "question": "accountability",
+    "correctAnswer": "responsibility",
+    "options": ["responsibility", "immunity", "exemption", "freedom"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to the obligation to explain actions and accept responsibility for them."
+  },
+  {
+    "id": 305,
+    "question": "board of directors",
+    "correctAnswer": "governing body",
+    "options": ["governing body", "shareholders", "employees", "customers"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to a group of people elected to oversee organizational activities."
+  },
+  {
+    "id": 306,
+    "question": "remuneration",
+    "correctAnswer": "compensation",
+    "options": ["compensation", "penalty", "fine", "punishment"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to money paid for services or employment."
+  },
+  {
+    "id": 307,
+    "question": "succession planning",
+    "correctAnswer": "leadership transition",
+    "options": ["leadership transition", "immediate hiring", "emergency replacement", "sudden departure"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to the process of identifying and developing future leaders."
+  },
+  {
+    "id": 308,
+    "question": "conflict of interest",
+    "correctAnswer": "competing interests",
+    "options": ["competing interests", "alignment", "harmony", "agreement"],
+    "category": "corporate-governance",
+    "explanation": "Both describe situations where personal interests may compromise professional judgment."
+  },
+  {
+    "id": 309,
+    "question": "whistleblower",
+    "correctAnswer": "informant",
+    "options": ["informant", "conspirator", "accomplice", "collaborator"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to someone who reports misconduct or illegal activities."
+  },
+  {
+    "id": 310,
+    "question": "proxy",
+    "correctAnswer": "representative",
+    "options": ["representative", "principal", "original", "primary"],
+    "category": "corporate-governance",
+    "explanation": "Both refer to a person authorized to act on behalf of another."
+  },
+  {
+    "id": 311,
+    "question": "specification",
+    "correctAnswer": "requirement",
+    "options": ["requirement", "suggestion", "option", "preference"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to a detailed description of design or material standards."
+  },
+  {
+    "id": 312,
+    "question": "calibration",
+    "correctAnswer": "adjustment",
+    "options": ["adjustment", "malfunction", "error", "defect"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to the process of configuring instruments to provide accurate results."
+  },
+  {
+    "id": 313,
+    "question": "traceability",
+    "correctAnswer": "tracking",
+    "options": ["tracking", "anonymity", "mystery", "concealment"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to the ability to verify the history and location of items through documentation."
+  },
+  {
+    "id": 314,
+    "question": "non-conformance",
+    "correctAnswer": "deviation",
+    "options": ["deviation", "compliance", "conformity", "adherence"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to failure to meet specified requirements or standards."
+  },
+  {
+    "id": 315,
+    "question": "corrective action",
+    "correctAnswer": "remediation",
+    "options": ["remediation", "prevention", "avoidance", "neglect"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to measures taken to eliminate the causes of detected problems."
+  },
+  {
+    "id": 316,
+    "question": "preventive action",
+    "correctAnswer": "proactive measure",
+    "options": ["proactive measure", "reactive response", "corrective fix", "damage control"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to actions taken to prevent potential problems before they occur."
+  },
+  {
+    "id": 317,
+    "question": "root cause analysis",
+    "correctAnswer": "causal investigation",
+    "options": ["causal investigation", "symptom treatment", "surface examination", "quick fix"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to methods for identifying underlying causes of problems."
+  },
+  {
+    "id": 318,
+    "question": "batch record",
+    "correctAnswer": "production documentation",
+    "options": ["production documentation", "marketing material", "sales report", "financial statement"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to complete documentation of manufacturing for a specific batch."
+  },
+  {
+    "id": 319,
+    "question": "change control",
+    "correctAnswer": "modification management",
+    "options": ["modification management", "random alteration", "uncontrolled change", "spontaneous variation"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to formal processes for managing changes to systems or procedures."
+  },
+  {
+    "id": 320,
+    "question": "continuous improvement",
+    "correctAnswer": "ongoing enhancement",
+    "options": ["ongoing enhancement", "stagnation", "deterioration", "regression"],
+    "category": "quality-assurance",
+    "explanation": "Both refer to ongoing efforts to improve products, services, or processes."
+  },
+  {
+    "id": 321,
+    "question": "genomics",
+    "correctAnswer": "genome study",
+    "options": ["genome study", "anatomy", "physiology", "morphology"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to the comprehensive study of entire genomes of organisms."
+  },
+  {
+    "id": 322,
+    "question": "sequencing",
+    "correctAnswer": "ordering",
+    "options": ["ordering", "randomizing", "scrambling", "mixing"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to determining the precise order of nucleotides in DNA or RNA."
+  },
+  {
+    "id": 323,
+    "question": "annotation",
+    "correctAnswer": "labeling",
+    "options": ["labeling", "deletion", "removal", "erasure"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to the process of identifying and marking features in biological sequences."
+  },
+  {
+    "id": 324,
+    "question": "alignment",
+    "correctAnswer": "comparison",
+    "options": ["comparison", "separation", "division", "isolation"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to arranging sequences to identify regions of similarity."
+  },
+  {
+    "id": 325,
+    "question": "expression profiling",
+    "correctAnswer": "activity measurement",
+    "options": ["activity measurement", "gene deletion", "sequence removal", "data erasure"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to measuring the expression levels of genes in a biological sample."
+  },
+  {
+    "id": 326,
+    "question": "phylogenetics",
+    "correctAnswer": "evolutionary study",
+    "options": ["evolutionary study", "current state", "present condition", "static analysis"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to the study of evolutionary relationships among biological entities."
+  },
+  {
+    "id": 327,
+    "question": "proteomics",
+    "correctAnswer": "protein analysis",
+    "options": ["protein analysis", "DNA study", "RNA research", "lipid examination"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to the large-scale study of proteins and their functions."
+  },
+  {
+    "id": 328,
+    "question": "bioinformatics pipeline",
+    "correctAnswer": "analysis workflow",
+    "options": ["analysis workflow", "random process", "chaotic method", "disorganized approach"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to a set of automated computational steps for processing biological data."
+  },
+  {
+    "id": 329,
+    "question": "homology",
+    "correctAnswer": "similarity",
+    "options": ["similarity", "difference", "distinction", "contrast"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to similarity in sequences due to shared evolutionary ancestry."
+  },
+  {
+    "id": 330,
+    "question": "ortholog",
+    "correctAnswer": "equivalent gene",
+    "options": ["equivalent gene", "different gene", "unrelated sequence", "random DNA"],
+    "category": "bioinformatics",
+    "explanation": "Both refer to genes in different species that evolved from a common ancestor."
+  },
+  {
+    "id": 331,
+    "question": "cost-effectiveness",
+    "correctAnswer": "value for money",
+    "options": ["value for money", "wastefulness", "extravagance", "inefficiency"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to the economic value of a treatment relative to its costs."
+  },
+  {
+    "id": 332,
+    "question": "quality-adjusted life year",
+    "correctAnswer": "health benefit measure",
+    "options": ["health benefit measure", "mortality rate", "death count", "disease number"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to metrics combining quantity and quality of life in health economics."
+  },
+  {
+    "id": 333,
+    "question": "incremental cost",
+    "correctAnswer": "additional expense",
+    "options": ["additional expense", "total cost", "fixed price", "standard rate"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to the extra cost of one treatment compared to another."
+  },
+  {
+    "id": 334,
+    "question": "reimbursement",
+    "correctAnswer": "payment",
+    "options": ["payment", "charge", "bill", "invoice"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to compensation for healthcare services or medications."
+  },
+  {
+    "id": 335,
+    "question": "budget impact",
+    "correctAnswer": "financial effect",
+    "options": ["financial effect", "clinical outcome", "medical result", "health benefit"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to the financial consequences of adopting a new treatment."
+  },
+  {
+    "id": 336,
+    "question": "willingness to pay",
+    "correctAnswer": "payment threshold",
+    "options": ["payment threshold", "refusal to buy", "rejection price", "denial amount"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to the maximum amount individuals or systems would pay for health benefits."
+  },
+  {
+    "id": 337,
+    "question": "health technology assessment",
+    "correctAnswer": "medical evaluation",
+    "options": ["medical evaluation", "financial audit", "market research", "sales analysis"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to systematic evaluation of properties and effects of health technologies."
+  },
+  {
+    "id": 338,
+    "question": "opportunity cost",
+    "correctAnswer": "foregone alternative",
+    "options": ["foregone alternative", "direct expense", "actual cost", "real price"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to benefits lost when choosing one alternative over another."
+  },
+  {
+    "id": 339,
+    "question": "sensitivity analysis",
+    "correctAnswer": "robustness testing",
+    "options": ["robustness testing", "fixed calculation", "static model", "unchanging result"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to testing how results change when assumptions or inputs vary."
+  },
+  {
+    "id": 340,
+    "question": "threshold analysis",
+    "correctAnswer": "breakeven study",
+    "options": ["breakeven study", "maximum value", "ceiling price", "top limit"],
+    "category": "pharmacoeconomics",
+    "explanation": "Both refer to determining the point at which decisions would change."
+  },
+  {
+    "id": 341,
+    "question": "heterogeneity",
+    "correctAnswer": "variability",
+    "options": ["variability", "uniformity", "homogeneity", "consistency"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to the quality of being diverse or having differences in data."
+  },
+  {
+    "id": 342,
+    "question": "confounding",
+    "correctAnswer": "distortion",
+    "options": ["distortion", "clarity", "precision", "accuracy"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to distortion of association between variables by a third factor."
+  },
+  {
+    "id": 343,
+    "question": "stratification",
+    "correctAnswer": "layering",
+    "options": ["layering", "mixing", "combining", "merging"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to dividing data into subgroups based on specific characteristics."
+  },
+  {
+    "id": 344,
+    "question": "imputation",
+    "correctAnswer": "estimation",
+    "options": ["estimation", "deletion", "removal", "elimination"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to replacing missing data with substituted values."
+  },
+  {
+    "id": 345,
+    "question": "bias",
+    "correctAnswer": "systematic error",
+    "options": ["systematic error", "random variation", "chance occurrence", "coincidence"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to systematic deviation from the true value in data collection or analysis."
+  },
+  {
+    "id": 346,
+    "question": "power",
+    "correctAnswer": "sensitivity",
+    "options": ["sensitivity", "weakness", "inability", "failure"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to the probability of detecting an effect when it truly exists."
+  },
+  {
+    "id": 347,
+    "question": "interaction",
+    "correctAnswer": "synergy",
+    "options": ["synergy", "independence", "isolation", "separation"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to when the effect of one variable depends on another variable."
+  },
+  {
+    "id": 348,
+    "question": "residual",
+    "correctAnswer": "error term",
+    "options": ["error term", "predicted value", "exact fit", "perfect match"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to the difference between observed and predicted values."
+  },
+  {
+    "id": 349,
+    "question": "covariate",
+    "correctAnswer": "predictor variable",
+    "options": ["predictor variable", "outcome measure", "response variable", "dependent factor"],
+    "category": "statistical-analysis",
+    "explanation": "Both refer to variables included in analysis to adjust for confounding."
+  },
+  {
+    "id": 350,
+    "question": "stochastic",
+    "correctAnswer": "random",
+    "options": ["random", "deterministic", "predictable", "fixed"],
+    "category": "statistical-analysis",
+    "explanation": "Both describe processes having a random probability distribution."
+  },
+  {
+    "id": 351,
+    "question": "tokenization",
+    "correctAnswer": "segmentation",
+    "options": ["segmentation", "combination", "merging", "fusion"],
+    "category": "nlp",
+    "explanation": "Both refer to breaking text into smaller units like words or phrases."
+  },
+  {
+    "id": 352,
+    "question": "lemmatization",
+    "correctAnswer": "normalization",
+    "options": ["normalization", "variation", "diversification", "modification"],
+    "category": "nlp",
+    "explanation": "Both refer to reducing words to their base or dictionary form."
+  },
+  {
+    "id": 353,
+    "question": "corpus",
+    "correctAnswer": "text collection",
+    "options": ["text collection", "single document", "one word", "individual sentence"],
+    "category": "nlp",
+    "explanation": "Both refer to large structured sets of texts used for linguistic analysis."
+  },
+  {
+    "id": 354,
+    "question": "semantic",
+    "correctAnswer": "meaning-related",
+    "options": ["meaning-related", "syntactic", "structural", "grammatical"],
+    "category": "nlp",
+    "explanation": "Both refer to aspects relating to meaning in language."
+  },
+  {
+    "id": 355,
+    "question": "syntactic",
+    "correctAnswer": "grammatical",
+    "options": ["grammatical", "semantic", "meaningful", "contextual"],
+    "category": "nlp",
+    "explanation": "Both refer to the arrangement of words and phrases to create sentences."
+  },
+  {
+    "id": 356,
+    "question": "parsing",
+    "correctAnswer": "analysis",
+    "options": ["analysis", "generation", "creation", "production"],
+    "category": "nlp",
+    "explanation": "Both refer to analyzing sentence structure according to grammar rules."
+  },
+  {
+    "id": 357,
+    "question": "named entity recognition",
+    "correctAnswer": "entity extraction",
+    "options": ["entity extraction", "text generation", "content creation", "document writing"],
+    "category": "nlp",
+    "explanation": "Both refer to identifying and classifying named entities in text."
+  },
+  {
+    "id": 358,
+    "question": "sentiment analysis",
+    "correctAnswer": "opinion mining",
+    "options": ["opinion mining", "fact extraction", "data collection", "information gathering"],
+    "category": "nlp",
+    "explanation": "Both refer to determining emotional tone or attitude in text."
+  },
+  {
+    "id": 359,
+    "question": "disambiguation",
+    "correctAnswer": "clarification",
+    "options": ["clarification", "confusion", "obfuscation", "complication"],
+    "category": "nlp",
+    "explanation": "Both refer to resolving ambiguity in word meaning or reference."
+  },
+  {
+    "id": 360,
+    "question": "coreference resolution",
+    "correctAnswer": "pronoun linking",
+    "options": ["pronoun linking", "text separation", "sentence division", "paragraph splitting"],
+    "category": "nlp",
+    "explanation": "Both refer to identifying when different words refer to the same entity."
+  },
+  {
+    "id": 361,
+    "question": "concession",
+    "correctAnswer": "compromise",
+    "options": ["compromise", "demand", "insistence", "requirement"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to giving up something to reach an agreement."
+  },
+  {
+    "id": 362,
+    "question": "impasse",
+    "correctAnswer": "deadlock",
+    "options": ["deadlock", "agreement", "resolution", "settlement"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to a situation where no progress can be made in negotiations."
+  },
+  {
+    "id": 363,
+    "question": "reciprocity",
+    "correctAnswer": "mutual exchange",
+    "options": ["mutual exchange", "one-sided", "unilateral", "independent"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to the practice of exchanging things with others for mutual benefit."
+  },
+  {
+    "id": 364,
+    "question": "stipulation",
+    "correctAnswer": "condition",
+    "options": ["condition", "option", "suggestion", "possibility"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to a requirement specified as part of an agreement."
+  },
+  {
+    "id": 365,
+    "question": "tactful",
+    "correctAnswer": "diplomatic",
+    "options": ["diplomatic", "blunt", "harsh", "insensitive"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both describe being careful not to offend or upset others."
+  },
+  {
+    "id": 366,
+    "question": "amenable",
+    "correctAnswer": "agreeable",
+    "options": ["agreeable", "resistant", "opposed", "unwilling"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both describe being open and responsive to suggestion or persuasion."
+  },
+  {
+    "id": 367,
+    "question": "mediator",
+    "correctAnswer": "intermediary",
+    "options": ["intermediary", "opponent", "adversary", "rival"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to a neutral party helping others reach an agreement."
+  },
+  {
+    "id": 368,
+    "question": "rapport",
+    "correctAnswer": "relationship",
+    "options": ["relationship", "conflict", "hostility", "antagonism"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to a harmonious understanding between people."
+  },
+  {
+    "id": 369,
+    "question": "leverage",
+    "correctAnswer": "advantage",
+    "options": ["advantage", "disadvantage", "weakness", "liability"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to power to influence negotiations to achieve objectives."
+  },
+  {
+    "id": 370,
+    "question": "posture",
+    "correctAnswer": "stance",
+    "options": ["stance", "flexibility", "openness", "accommodation"],
+    "category": "negotiation-diplomacy",
+    "explanation": "Both refer to the position or attitude adopted in negotiations."
+  },
+  {
+    "id": 371,
+    "question": "reproducibility",
+    "correctAnswer": "replicability",
+    "options": ["replicability", "uniqueness", "originality", "singularity"],
+    "category": "scientific-research",
+    "explanation": "Both refer to the ability to repeat experiments and obtain consistent results."
+  },
+  {
+    "id": 372,
+    "question": "rigor",
+    "correctAnswer": "precision",
+    "options": ["precision", "carelessness", "negligence", "sloppiness"],
+    "category": "scientific-research",
+    "explanation": "Both refer to the quality of being thorough and accurate in research."
+  },
+  {
+    "id": 373,
+    "question": "falsifiability",
+    "correctAnswer": "testability",
+    "options": ["testability", "unfalsifiable", "unverifiable", "untestable"],
+    "category": "scientific-research",
+    "explanation": "Both refer to the capacity for a hypothesis to be proven false."
+  },
+  {
+    "id": 374,
+    "question": "paradigm shift",
+    "correctAnswer": "fundamental change",
+    "options": ["fundamental change", "minor adjustment", "small tweak", "slight modification"],
+    "category": "scientific-research",
+    "explanation": "Both refer to a major transformation in scientific thinking or methodology."
+  },
+  {
+    "id": 375,
+    "question": "interdisciplinary",
+    "correctAnswer": "cross-field",
+    "options": ["cross-field", "specialized", "narrow", "focused"],
+    "category": "scientific-research",
+    "explanation": "Both describe involving two or more academic disciplines."
+  },
+  {
+    "id": 376,
+    "question": "phenomenon",
+    "correctAnswer": "occurrence",
+    "options": ["occurrence", "theory", "hypothesis", "assumption"],
+    "category": "scientific-research",
+    "explanation": "Both refer to observable facts or events in nature or society."
+  },
+  {
+    "id": 377,
+    "question": "control group",
+    "correctAnswer": "comparison group",
+    "options": ["comparison group", "experimental group", "treatment group", "intervention group"],
+    "category": "scientific-research",
+    "explanation": "Both refer to groups not receiving experimental treatment for comparison."
+  },
+  {
+    "id": 378,
+    "question": "baseline",
+    "correctAnswer": "starting point",
+    "options": ["starting point", "endpoint", "final result", "conclusion"],
+    "category": "scientific-research",
+    "explanation": "Both refer to initial measurements used as a basis for comparison."
+  },
+  {
+    "id": 379,
+    "question": "double-blind",
+    "correctAnswer": "concealed allocation",
+    "options": ["concealed allocation", "open-label", "transparent", "revealed"],
+    "category": "scientific-research",
+    "explanation": "Both describe experiments where neither participants nor researchers know treatment assignments."
+  },
+  {
+    "id": 380,
+    "question": "null hypothesis",
+    "correctAnswer": "default assumption",
+    "options": ["default assumption", "alternative hypothesis", "research prediction", "expected outcome"],
+    "category": "scientific-research",
+    "explanation": "Both refer to the assumption that no significant difference exists between variables."
+  },
+  {
+    "id": 381,
+    "question": "mitigation",
+    "correctAnswer": "reduction",
+    "options": ["reduction", "amplification", "intensification", "aggravation"],
+    "category": "risk-management",
+    "explanation": "Both refer to actions taken to reduce the severity or impact of risks."
+  },
+  {
+    "id": 382,
+    "question": "contingency",
+    "correctAnswer": "backup plan",
+    "options": ["backup plan", "primary strategy", "main approach", "first option"],
+    "category": "risk-management",
+    "explanation": "Both refer to plans made for possible future events or circumstances."
+  },
+  {
+    "id": 383,
+    "question": "vulnerability",
+    "correctAnswer": "weakness",
+    "options": ["weakness", "strength", "resilience", "robustness"],
+    "category": "risk-management",
+    "explanation": "Both refer to the quality of being exposed to the possibility of harm."
+  },
+  {
+    "id": 384,
+    "question": "exposure",
+    "correctAnswer": "susceptibility",
+    "options": ["susceptibility", "protection", "immunity", "resistance"],
+    "category": "risk-management",
+    "explanation": "Both refer to the state of being subject to potential risks or dangers."
+  },
+  {
+    "id": 385,
+    "question": "resilience",
+    "correctAnswer": "adaptability",
+    "options": ["adaptability", "fragility", "brittleness", "vulnerability"],
+    "category": "risk-management",
+    "explanation": "Both refer to the capacity to recover quickly from difficulties."
+  },
+  {
+    "id": 386,
+    "question": "escalation",
+    "correctAnswer": "intensification",
+    "options": ["intensification", "de-escalation", "reduction", "decrease"],
+    "category": "risk-management",
+    "explanation": "Both refer to the process of increasing in extent or severity."
+  },
+  {
+    "id": 387,
+    "question": "hedging",
+    "correctAnswer": "protection strategy",
+    "options": ["protection strategy", "full exposure", "complete risk", "total vulnerability"],
+    "category": "risk-management",
+    "explanation": "Both refer to making investments to reduce the risk of adverse price movements."
+  },
+  {
+    "id": 388,
+    "question": "diversification",
+    "correctAnswer": "spreading",
+    "options": ["spreading", "concentration", "focusing", "centralizing"],
+    "category": "risk-management",
+    "explanation": "Both refer to allocating resources across various areas to reduce risk."
+  },
+  {
+    "id": 389,
+    "question": "risk appetite",
+    "correctAnswer": "risk tolerance",
+    "options": ["risk tolerance", "risk aversion", "risk avoidance", "risk rejection"],
+    "category": "risk-management",
+    "explanation": "Both refer to the level of risk an organization is willing to accept."
+  },
+  {
+    "id": 390,
+    "question": "scenario planning",
+    "correctAnswer": "future modeling",
+    "options": ["future modeling", "historical review", "past analysis", "retrospective study"],
+    "category": "risk-management",
+    "explanation": "Both refer to creating detailed narratives about possible future situations."
+  },
+  {
+    "id": 391,
+    "question": "axiom",
+    "correctAnswer": "fundamental principle",
+    "options": ["fundamental principle", "assumption", "speculation", "conjecture"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to self-evident truths requiring no proof."
+  },
+  {
+    "id": 392,
+    "question": "epistemology",
+    "correctAnswer": "theory of knowledge",
+    "options": ["theory of knowledge", "study of ethics", "field of aesthetics", "branch of politics"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to the philosophical study of the nature and scope of knowledge."
+  },
+  {
+    "id": 393,
+    "question": "ontology",
+    "correctAnswer": "study of being",
+    "options": ["study of being", "study of knowledge", "study of ethics", "study of beauty"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to the philosophical study of the nature of existence."
+  },
+  {
+    "id": 394,
+    "question": "dialectic",
+    "correctAnswer": "logical argumentation",
+    "options": ["logical argumentation", "monologue", "lecture", "speech"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to the art of investigating truth through discussion and reasoning."
+  },
+  {
+    "id": 395,
+    "question": "syllogism",
+    "correctAnswer": "logical reasoning",
+    "options": ["logical reasoning", "emotional appeal", "random thought", "illogical claim"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to forms of reasoning drawing conclusions from two premises."
+  },
+  {
+    "id": 396,
+    "question": "cogent",
+    "correctAnswer": "convincing",
+    "options": ["convincing", "weak", "unconvincing", "feeble"],
+    "category": "intellectual-discourse",
+    "explanation": "Both describe arguments that are clear, logical, and persuasive."
+  },
+  {
+    "id": 397,
+    "question": "fallacy",
+    "correctAnswer": "flawed reasoning",
+    "options": ["flawed reasoning", "valid logic", "sound argument", "correct inference"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to mistaken beliefs based on unsound arguments."
+  },
+  {
+    "id": 398,
+    "question": "premise",
+    "correctAnswer": "assumption",
+    "options": ["assumption", "conclusion", "result", "outcome"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to a statement assumed true as the basis for argument."
+  },
+  {
+    "id": 399,
+    "question": "paradox",
+    "correctAnswer": "contradiction",
+    "options": ["contradiction", "harmony", "consistency", "agreement"],
+    "category": "intellectual-discourse",
+    "explanation": "Both refer to statements that contradict themselves yet might be true."
+  },
+  {
+    "id": 400,
+    "question": "metaphysical",
+    "correctAnswer": "abstract",
+    "options": ["abstract", "physical", "concrete", "tangible"],
+    "category": "intellectual-discourse",
+    "explanation": "Both describe concepts relating to the nature of existence beyond the physical."
   }
+
 
 ]

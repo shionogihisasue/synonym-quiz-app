@@ -338,6 +338,78 @@ async function loadQuestions() {
                 icon: '💭',
                 questions: allQuestions.filter(q => q.category === 'intellectual-discourse')
             }
+                        ,
+            {
+                id: 41,
+                name: 'Project Management',
+                description: 'Project planning and execution',
+                icon: '📋',
+                questions: allQuestions.filter(q => q.category === 'project-management')
+            },
+            {
+                id: 42,
+                name: 'Supply Chain & Logistics',
+                description: 'Supply chain operations',
+                icon: '🚚',
+                questions: allQuestions.filter(q => q.category === 'supply-chain')
+            },
+            {
+                id: 43,
+                name: 'Medical Terminology',
+                description: 'Healthcare and medical terms',
+                icon: '🏥',
+                questions: allQuestions.filter(q => q.category === 'medical-terminology')
+            },
+            {
+                id: 44,
+                name: 'Laboratory Procedures',
+                description: 'Lab techniques and methods',
+                icon: '🧪',
+                questions: allQuestions.filter(q => q.category === 'laboratory-procedures')
+            },
+            {
+                id: 45,
+                name: 'Database & SQL',
+                description: 'Database management terms',
+                icon: '🗄️',
+                questions: allQuestions.filter(q => q.category === 'database-sql')
+            },
+            {
+                id: 46,
+                name: 'Cloud Computing',
+                description: 'Cloud infrastructure vocabulary',
+                icon: '☁️',
+                questions: allQuestions.filter(q => q.category === 'cloud-computing')
+            },
+            {
+                id: 47,
+                name: 'Social Interactions',
+                description: 'Social and interpersonal terms',
+                icon: '👥',
+                questions: allQuestions.filter(q => q.category === 'social-interactions')
+            },
+            {
+                id: 48,
+                name: 'Weather & Nature',
+                description: 'Environmental vocabulary',
+                icon: '🌤️',
+                questions: allQuestions.filter(q => q.category === 'weather-nature')
+            },
+            {
+                id: 49,
+                name: 'Ethics & Morality',
+                description: 'Moral and ethical concepts',
+                icon: '⚖️',
+                questions: allQuestions.filter(q => q.category === 'ethics-morality')
+            },
+            {
+                id: 50,
+                name: 'Innovation & Creativity',
+                description: 'Creative thinking vocabulary',
+                icon: '💡',
+                questions: allQuestions.filter(q => q.category === 'innovation-creativity')
+            }
+
         ];
         
         displayCategories();

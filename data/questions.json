@@ -3198,7 +3198,808 @@
     "options": ["abstract", "physical", "concrete", "tangible"],
     "category": "intellectual-discourse",
     "explanation": "Both describe concepts relating to the nature of existence beyond the physical."
+  },
+  {
+    "id": 401,
+    "question": "milestone",
+    "correctAnswer": "checkpoint",
+    "options": ["checkpoint", "obstacle", "delay", "setback"],
+    "category": "project-management",
+    "explanation": "Both refer to significant stages or points in a project timeline."
+  },
+  {
+    "id": 402,
+    "question": "deliverable",
+    "correctAnswer": "output",
+    "options": ["output", "input", "requirement", "resource"],
+    "category": "project-management",
+    "explanation": "Both refer to tangible or intangible products produced in a project."
+  },
+  {
+    "id": 403,
+    "question": "stakeholder engagement",
+    "correctAnswer": "participant involvement",
+    "options": ["participant involvement", "exclusion", "isolation", "separation"],
+    "category": "project-management",
+    "explanation": "Both describe the process of involving interested parties in project activities."
+  },
+  {
+    "id": 404,
+    "question": "scope creep",
+    "correctAnswer": "requirement expansion",
+    "options": ["requirement expansion", "scope reduction", "project completion", "timeline adherence"],
+    "category": "project-management",
+    "explanation": "Both refer to uncontrolled changes or continuous growth in project scope."
+  },
+  {
+    "id": 405,
+    "question": "resource allocation",
+    "correctAnswer": "resource distribution",
+    "options": ["resource distribution", "resource depletion", "resource waste", "resource shortage"],
+    "category": "project-management",
+    "explanation": "Both describe the process of assigning available resources to tasks."
+  },
+  {
+    "id": 406,
+    "question": "critical path",
+    "correctAnswer": "essential sequence",
+    "options": ["essential sequence", "optional route", "alternative path", "backup plan"],
+    "category": "project-management",
+    "explanation": "Both refer to the sequence of activities determining minimum project duration."
+  },
+  {
+    "id": 407,
+    "question": "risk mitigation",
+    "correctAnswer": "risk reduction",
+    "options": ["risk reduction", "risk amplification", "risk creation", "risk ignorance"],
+    "category": "project-management",
+    "explanation": "Both describe actions taken to reduce the impact or likelihood of risks."
+  },
+  {
+    "id": 408,
+    "question": "baseline",
+    "correctAnswer": "reference point",
+    "options": ["reference point", "final result", "random measure", "uncertain value"],
+    "category": "project-management",
+    "explanation": "Both refer to an approved version used as a basis for comparison."
+  },
+  {
+    "id": 409,
+    "question": "work breakdown structure",
+    "correctAnswer": "task hierarchy",
+    "options": ["task hierarchy", "task combination", "task elimination", "task confusion"],
+    "category": "project-management",
+    "explanation": "Both describe hierarchical decomposition of project work into smaller components."
+  },
+  {
+    "id": 410,
+    "question": "lessons learned",
+    "correctAnswer": "insights gained",
+    "options": ["insights gained", "mistakes repeated", "knowledge ignored", "experience wasted"],
+    "category": "project-management",
+    "explanation": "Both refer to knowledge acquired from project experiences for future improvement."
+  },
+  {
+    "id": 411,
+    "question": "procurement",
+    "correctAnswer": "acquisition",
+    "options": ["acquisition", "disposal", "sale", "donation"],
+    "category": "supply-chain",
+    "explanation": "Both refer to the process of obtaining goods or services."
+  },
+  {
+    "id": 412,
+    "question": "inventory",
+    "correctAnswer": "stock",
+    "options": ["stock", "shortage", "deficit", "absence"],
+    "category": "supply-chain",
+    "explanation": "Both refer to goods and materials held for sale or use."
+  },
+  {
+    "id": 413,
+    "question": "logistics",
+    "correctAnswer": "distribution",
+    "options": ["distribution", "production", "consumption", "elimination"],
+    "category": "supply-chain",
+    "explanation": "Both refer to the detailed coordination of complex operations involving people and facilities."
+  },
+  {
+    "id": 414,
+    "question": "warehouse",
+    "correctAnswer": "storage facility",
+    "options": ["storage facility", "retail store", "office space", "residential building"],
+    "category": "supply-chain",
+    "explanation": "Both refer to buildings where goods are stored before distribution."
+  },
+  {
+    "id": 415,
+    "question": "shipment",
+    "correctAnswer": "delivery",
+    "options": ["delivery", "receipt", "storage", "manufacture"],
+    "category": "supply-chain",
+    "explanation": "Both refer to goods being transported from one location to another."
+  },
+  {
+    "id": 416,
+    "question": "vendor",
+    "correctAnswer": "supplier",
+    "options": ["supplier", "customer", "buyer", "consumer"],
+    "category": "supply-chain",
+    "explanation": "Both refer to organizations that provide goods or services."
+  },
+  {
+    "id": 417,
+    "question": "lead time",
+    "correctAnswer": "delivery time",
+    "options": ["delivery time", "instant arrival", "immediate availability", "zero wait"],
+    "category": "supply-chain",
+    "explanation": "Both refer to the time between order placement and delivery."
+  },
+  {
+    "id": 418,
+    "question": "fulfillment",
+    "correctAnswer": "completion",
+    "options": ["completion", "cancellation", "rejection", "refusal"],
+    "category": "supply-chain",
+    "explanation": "Both refer to the process of completing and delivering customer orders."
+  },
+  {
+    "id": 419,
+    "question": "bottleneck",
+    "correctAnswer": "constraint",
+    "options": ["constraint", "acceleration", "efficiency", "facilitation"],
+    "category": "supply-chain",
+    "explanation": "Both refer to points where flow is restricted or slowed down."
+  },
+  {
+    "id": 420,
+    "question": "just-in-time",
+    "correctAnswer": "timely delivery",
+    "options": ["timely delivery", "early arrival", "late shipment", "delayed transport"],
+    "category": "supply-chain",
+    "explanation": "Both describe inventory management where materials arrive exactly when needed."
+  },
+  {
+    "id": 421,
+    "question": "acute",
+    "correctAnswer": "severe",
+    "options": ["severe", "mild", "chronic", "moderate"],
+    "category": "medical-terminology",
+    "explanation": "Both describe conditions that are serious and have rapid onset."
+  },
+  {
+    "id": 422,
+    "question": "chronic",
+    "correctAnswer": "persistent",
+    "options": ["persistent", "temporary", "acute", "brief"],
+    "category": "medical-terminology",
+    "explanation": "Both describe conditions that continue over a long period of time."
+  },
+  {
+    "id": 423,
+    "question": "benign",
+    "correctAnswer": "non-malignant",
+    "options": ["non-malignant", "cancerous", "harmful", "dangerous"],
+    "category": "medical-terminology",
+    "explanation": "Both describe tumors or conditions that are not cancerous or life-threatening."
+  },
+  {
+    "id": 424,
+    "question": "malignant",
+    "correctAnswer": "cancerous",
+    "options": ["cancerous", "benign", "harmless", "safe"],
+    "category": "medical-terminology",
+    "explanation": "Both describe tumors that are cancerous and can spread to other parts of the body."
+  },
+  {
+    "id": 425,
+    "question": "prognosis",
+    "correctAnswer": "outlook",
+    "options": ["outlook", "diagnosis", "symptom", "treatment"],
+    "category": "medical-terminology",
+    "explanation": "Both refer to the predicted course and outcome of a disease."
+  },
+  {
+    "id": 426,
+    "question": "remission",
+    "correctAnswer": "recovery",
+    "options": ["recovery", "relapse", "deterioration", "progression"],
+    "category": "medical-terminology",
+    "explanation": "Both describe a period when disease symptoms decrease or disappear."
+  },
+  {
+    "id": 427,
+    "question": "contraindication",
+    "correctAnswer": "restriction",
+    "options": ["restriction", "indication", "recommendation", "approval"],
+    "category": "medical-terminology",
+    "explanation": "Both refer to conditions where a treatment should not be used."
+  },
+  {
+    "id": 428,
+    "question": "comorbidity",
+    "correctAnswer": "coexisting condition",
+    "options": ["coexisting condition", "primary disease", "single illness", "isolated disorder"],
+    "category": "medical-terminology",
+    "explanation": "Both describe the presence of multiple diseases or conditions simultaneously."
+  },
+  {
+    "id": 429,
+    "question": "etiology",
+    "correctAnswer": "causation",
+    "options": ["causation", "treatment", "symptom", "outcome"],
+    "category": "medical-terminology",
+    "explanation": "Both refer to the study of causes or origins of diseases."
+  },
+  {
+    "id": 430,
+    "question": "palliative",
+    "correctAnswer": "symptom-relieving",
+    "options": ["symptom-relieving", "curative", "preventive", "diagnostic"],
+    "category": "medical-terminology",
+    "explanation": "Both describe care focused on relieving symptoms rather than curing disease."
+  },
+  {
+    "id": 431,
+    "question": "titration",
+    "correctAnswer": "gradual adjustment",
+    "options": ["gradual adjustment", "immediate change", "sudden shift", "random variation"],
+    "category": "laboratory-procedures",
+    "explanation": "Both refer to the process of gradually adjusting concentrations or doses."
+  },
+  {
+    "id": 432,
+    "question": "pipetting",
+    "correctAnswer": "liquid transfer",
+    "options": ["liquid transfer", "solid mixing", "gas measurement", "powder weighing"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe the precise transfer of small liquid volumes."
+  },
+  {
+    "id": 433,
+    "question": "centrifugation",
+    "correctAnswer": "separation by spinning",
+    "options": ["separation by spinning", "mixing by stirring", "heating by flame", "cooling by ice"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe using rotational force to separate substances of different densities."
+  },
+  {
+    "id": 434,
+    "question": "sterilization",
+    "correctAnswer": "decontamination",
+    "options": ["decontamination", "contamination", "infection", "pollution"],
+    "category": "laboratory-procedures",
+    "explanation": "Both refer to eliminating all forms of microbial life from materials."
+  },
+  {
+    "id": 435,
+    "question": "dilution",
+    "correctAnswer": "concentration reduction",
+    "options": ["concentration reduction", "concentration increase", "purification", "isolation"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe reducing the concentration of a substance by adding solvent."
+  },
+  {
+    "id": 436,
+    "question": "aliquot",
+    "correctAnswer": "portion",
+    "options": ["portion", "whole sample", "complete batch", "entire volume"],
+    "category": "laboratory-procedures",
+    "explanation": "Both refer to a measured sub-sample taken from a larger sample."
+  },
+  {
+    "id": 437,
+    "question": "filtration",
+    "correctAnswer": "separation",
+    "options": ["separation", "combination", "mixing", "blending"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe removing solid particles from liquids or gases using a filter."
+  },
+  {
+    "id": 438,
+    "question": "incubation",
+    "correctAnswer": "controlled growth",
+    "options": ["controlled growth", "immediate testing", "instant result", "rapid destruction"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe maintaining samples under controlled conditions for growth or reaction."
+  },
+  {
+    "id": 439,
+    "question": "chromatography",
+    "correctAnswer": "component separation",
+    "options": ["component separation", "mixture creation", "substance combination", "compound synthesis"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe techniques for separating mixtures into individual components."
+  },
+  {
+    "id": 440,
+    "question": "spectrophotometry",
+    "correctAnswer": "light measurement",
+    "options": ["light measurement", "weight calculation", "volume assessment", "temperature reading"],
+    "category": "laboratory-procedures",
+    "explanation": "Both describe measuring the amount of light absorbed or transmitted by a sample."
+  },
+  {
+    "id": 441,
+    "question": "query",
+    "correctAnswer": "request",
+    "options": ["request", "response", "answer", "result"],
+    "category": "database-sql",
+    "explanation": "Both refer to a formal request for information from a database."
+  },
+  {
+    "id": 442,
+    "question": "schema",
+    "correctAnswer": "structure",
+    "options": ["structure", "data", "content", "value"],
+    "category": "database-sql",
+    "explanation": "Both describe the organizational structure or blueprint of a database."
+  },
+  {
+    "id": 443,
+    "question": "normalization",
+    "correctAnswer": "organization",
+    "options": ["organization", "duplication", "redundancy", "chaos"],
+    "category": "database-sql",
+    "explanation": "Both describe organizing data to reduce redundancy and improve integrity."
+  },
+  {
+    "id": 444,
+    "question": "indexing",
+    "correctAnswer": "cataloging",
+    "options": ["cataloging", "deletion", "removal", "destruction"],
+    "category": "database-sql",
+    "explanation": "Both describe creating structures to speed up data retrieval operations."
+  },
+  {
+    "id": 445,
+    "question": "join",
+    "correctAnswer": "combine",
+    "options": ["combine", "separate", "divide", "split"],
+    "category": "database-sql",
+    "explanation": "Both describe combining rows from two or more tables based on related columns."
+  },
+  {
+    "id": 446,
+    "question": "aggregate",
+    "correctAnswer": "summarize",
+    "options": ["summarize", "detail", "expand", "separate"],
+    "category": "database-sql",
+    "explanation": "Both describe combining multiple values into a single summary value."
+  },
+  {
+    "id": 447,
+    "question": "transaction",
+    "correctAnswer": "operation sequence",
+    "options": ["operation sequence", "single action", "isolated task", "independent step"],
+    "category": "database-sql",
+    "explanation": "Both describe a sequence of operations performed as a single logical unit."
+  },
+  {
+    "id": 448,
+    "question": "constraint",
+    "correctAnswer": "restriction",
+    "options": ["restriction", "freedom", "flexibility", "option"],
+    "category": "database-sql",
+    "explanation": "Both describe rules that limit the type of data that can be stored."
+  },
+  {
+    "id": 449,
+    "question": "replication",
+    "correctAnswer": "duplication",
+    "options": ["duplication", "deletion", "uniqueness", "singularity"],
+    "category": "database-sql",
+    "explanation": "Both describe copying and maintaining database objects in multiple locations."
+  },
+  {
+    "id": 450,
+    "question": "stored procedure",
+    "correctAnswer": "saved routine",
+    "options": ["saved routine", "ad-hoc query", "random command", "one-time script"],
+    "category": "database-sql",
+    "explanation": "Both describe precompiled SQL code stored in the database for reuse."
+  },
+  {
+    "id": 451,
+    "question": "virtualization",
+    "correctAnswer": "abstraction",
+    "options": ["abstraction", "physicalization", "materialization", "embodiment"],
+    "category": "cloud-computing",
+    "explanation": "Both describe creating virtual versions of physical computing resources."
+  },
+  {
+    "id": 452,
+    "question": "scalability",
+    "correctAnswer": "expandability",
+    "options": ["expandability", "limitation", "restriction", "constraint"],
+    "category": "cloud-computing",
+    "explanation": "Both describe the ability to increase capacity or capability."
+  },
+  {
+    "id": 453,
+    "question": "elasticity",
+    "correctAnswer": "flexibility",
+    "options": ["flexibility", "rigidity", "inflexibility", "stiffness"],
+    "category": "cloud-computing",
+    "explanation": "Both describe the ability to automatically scale resources up or down."
+  },
+  {
+    "id": 454,
+    "question": "provisioning",
+    "correctAnswer": "allocation",
+    "options": ["allocation", "deallocation", "removal", "withdrawal"],
+    "category": "cloud-computing",
+    "explanation": "Both describe the process of setting up and configuring resources."
+  },
+  {
+    "id": 455,
+    "question": "migration",
+    "correctAnswer": "transfer",
+    "options": ["transfer", "retention", "fixation", "immobilization"],
+    "category": "cloud-computing",
+    "explanation": "Both describe moving applications or data to a cloud environment."
+  },
+  {
+    "id": 456,
+    "question": "multi-tenancy",
+    "correctAnswer": "shared architecture",
+    "options": ["shared architecture", "single user", "exclusive access", "private system"],
+    "category": "cloud-computing",
+    "explanation": "Both describe architecture where multiple customers share the same infrastructure."
+  },
+  {
+    "id": 457,
+    "question": "orchestration",
+    "correctAnswer": "coordination",
+    "options": ["coordination", "isolation", "separation", "independence"],
+    "category": "cloud-computing",
+    "explanation": "Both describe automated arrangement and coordination of complex systems."
+  },
+  {
+    "id": 458,
+    "question": "containerization",
+    "correctAnswer": "encapsulation",
+    "options": ["encapsulation", "exposure", "revelation", "disclosure"],
+    "category": "cloud-computing",
+    "explanation": "Both describe packaging applications with their dependencies for consistent deployment."
+  },
+  {
+    "id": 459,
+    "question": "serverless",
+    "correctAnswer": "function-based",
+    "options": ["function-based", "server-dependent", "infrastructure-heavy", "hardware-focused"],
+    "category": "cloud-computing",
+    "explanation": "Both describe computing where infrastructure management is abstracted away."
+  },
+  {
+    "id": 460,
+    "question": "load balancing",
+    "correctAnswer": "traffic distribution",
+    "options": ["traffic distribution", "traffic concentration", "single routing", "centralized flow"],
+    "category": "cloud-computing",
+    "explanation": "Both describe distributing workload across multiple computing resources."
+  },
+  {
+    "id": 461,
+    "question": "mingle",
+    "correctAnswer": "socialize",
+    "options": ["socialize", "isolate", "separate", "withdraw"],
+    "category": "social-interactions",
+    "explanation": "Both describe mixing with others in a social setting."
+  },
+  {
+    "id": 462,
+    "question": "acquaintance",
+    "correctAnswer": "associate",
+    "options": ["associate", "stranger", "enemy", "opponent"],
+    "category": "social-interactions",
+    "explanation": "Both refer to someone you know but not intimately."
+  },
+  {
+    "id": 463,
+    "question": "bond",
+    "correctAnswer": "connection",
+    "options": ["connection", "separation", "division", "distance"],
+    "category": "social-interactions",
+    "explanation": "Both describe a close relationship or tie between people."
+  },
+  {
+    "id": 464,
+    "question": "cordial",
+    "correctAnswer": "warm",
+    "options": ["warm", "cold", "hostile", "unfriendly"],
+    "category": "social-interactions",
+    "explanation": "Both describe being friendly and welcoming in manner."
+  },
+  {
+    "id": 465,
+    "question": "estranged",
+    "correctAnswer": "alienated",
+    "options": ["alienated", "close", "intimate", "connected"],
+    "category": "social-interactions",
+    "explanation": "Both describe being separated or distanced from someone."
+  },
+  {
+    "id": 466,
+    "question": "gregarious",
+    "correctAnswer": "sociable",
+    "options": ["sociable", "antisocial", "reclusive", "withdrawn"],
+    "category": "social-interactions",
+    "explanation": "Both describe enjoying the company of others and being outgoing."
+  },
+  {
+    "id": 467,
+    "question": "rapport",
+    "correctAnswer": "harmony",
+    "options": ["harmony", "discord", "conflict", "tension"],
+    "category": "social-interactions",
+    "explanation": "Both describe a harmonious relationship with mutual understanding."
+  },
+  {
+    "id": 468,
+    "question": "reconcile",
+    "correctAnswer": "reunite",
+    "options": ["reunite", "separate", "divide", "alienate"],
+    "category": "social-interactions",
+    "explanation": "Both describe restoring friendly relations after disagreement."
+  },
+  {
+    "id": 469,
+    "question": "affable",
+    "correctAnswer": "approachable",
+    "options": ["approachable", "aloof", "distant", "unapproachable"],
+    "category": "social-interactions",
+    "explanation": "Both describe being friendly and easy to talk to."
+  },
+  {
+    "id": 470,
+    "question": "clique",
+    "correctAnswer": "group",
+    "options": ["group", "individual", "loner", "outsider"],
+    "category": "social-interactions",
+    "explanation": "Both refer to a small exclusive group of people with shared interests."
+  },
+  {
+    "id": 471,
+    "question": "overcast",
+    "correctAnswer": "cloudy",
+    "options": ["cloudy", "clear", "sunny", "bright"],
+    "category": "weather-nature",
+    "explanation": "Both describe sky covered with clouds."
+  },
+  {
+    "id": 472,
+    "question": "drizzle",
+    "correctAnswer": "light rain",
+    "options": ["light rain", "downpour", "storm", "flood"],
+    "category": "weather-nature",
+    "explanation": "Both describe light, fine rain falling gently."
+  },
+  {
+    "id": 473,
+    "question": "gust",
+    "correctAnswer": "burst",
+    "options": ["burst", "calm", "stillness", "silence"],
+    "category": "weather-nature",
+    "explanation": "Both describe a sudden strong rush of wind."
+  },
+  {
+    "id": 474,
+    "question": "arid",
+    "correctAnswer": "parched",
+    "options": ["parched", "humid", "moist", "wet"],
+    "category": "weather-nature",
+    "explanation": "Both describe extremely dry conditions with little rainfall."
+  },
+  {
+    "id": 475,
+    "question": "temperate",
+    "correctAnswer": "moderate",
+    "options": ["moderate", "extreme", "harsh", "severe"],
+    "category": "weather-nature",
+    "explanation": "Both describe mild climate without extreme temperatures."
+  },
+  {
+    "id": 476,
+    "question": "precipitation",
+    "correctAnswer": "rainfall",
+    "options": ["rainfall", "drought", "dryness", "aridity"],
+    "category": "weather-nature",
+    "explanation": "Both refer to water falling from the atmosphere as rain, snow, or hail."
+  },
+  {
+    "id": 477,
+    "question": "foliage",
+    "correctAnswer": "leaves",
+    "options": ["leaves", "roots", "bark", "trunk"],
+    "category": "weather-nature",
+    "explanation": "Both refer to plant leaves collectively."
+  },
+  {
+    "id": 478,
+    "question": "verdant",
+    "correctAnswer": "green",
+    "options": ["green", "barren", "dead", "withered"],
+    "category": "weather-nature",
+    "explanation": "Both describe lush green vegetation or landscape."
+  },
+  {
+    "id": 479,
+    "question": "terrain",
+    "correctAnswer": "landscape",
+    "options": ["landscape", "sky", "atmosphere", "cloud"],
+    "category": "weather-nature",
+    "explanation": "Both describe the physical features of an area of land."
+  },
+  {
+    "id": 480,
+    "question": "ecosystem",
+    "correctAnswer": "environment",
+    "options": ["environment", "isolation", "separation", "division"],
+    "category": "weather-nature",
+    "explanation": "Both describe a biological community and its physical environment functioning together."
+  },
+  {
+    "id": 481,
+    "question": "integrity",
+    "correctAnswer": "honesty",
+    "options": ["honesty", "corruption", "dishonesty", "deceit"],
+    "category": "ethics-morality",
+    "explanation": "Both describe the quality of having strong moral principles."
+  },
+  {
+    "id": 482,
+    "question": "virtue",
+    "correctAnswer": "moral excellence",
+    "options": ["moral excellence", "vice", "wickedness", "immorality"],
+    "category": "ethics-morality",
+    "explanation": "Both describe behavior showing high moral standards."
+  },
+  {
+    "id": 483,
+    "question": "conscience",
+    "correctAnswer": "moral sense",
+    "options": ["moral sense", "immorality", "corruption", "wickedness"],
+    "category": "ethics-morality",
+    "explanation": "Both describe inner awareness of right and wrong guiding behavior."
+  },
+  {
+    "id": 484,
+    "question": "altruism",
+    "correctAnswer": "selflessness",
+    "options": ["selflessness", "selfishness", "greed", "egoism"],
+    "category": "ethics-morality",
+    "explanation": "Both describe unselfish concern for the welfare of others."
+  },
+  {
+    "id": 485,
+    "question": "impartial",
+    "correctAnswer": "unbiased",
+    "options": ["unbiased", "prejudiced", "biased", "partial"],
+    "category": "ethics-morality",
+    "explanation": "Both describe treating all rivals or disputants equally without favoritism."
+  },
+  {
+    "id": 486,
+    "question": "ethical",
+    "correctAnswer": "moral",
+    "options": ["moral", "immoral", "unethical", "corrupt"],
+    "category": "ethics-morality",
+    "explanation": "Both describe relating to principles of right and wrong behavior."
+  },
+  {
+    "id": 487,
+    "question": "compassion",
+    "correctAnswer": "empathy",
+    "options": ["empathy", "cruelty", "indifference", "apathy"],
+    "category": "ethics-morality",
+    "explanation": "Both describe sympathetic awareness of others' distress with desire to help."
+  },
+  {
+    "id": 488,
+    "question": "justice",
+    "correctAnswer": "fairness",
+    "options": ["fairness", "injustice", "bias", "prejudice"],
+    "category": "ethics-morality",
+    "explanation": "Both describe treatment based on what is morally right and fair."
+  },
+  {
+    "id": 489,
+    "question": "prudent",
+    "correctAnswer": "wise",
+    "options": ["wise", "reckless", "foolish", "careless"],
+    "category": "ethics-morality",
+    "explanation": "Both describe acting with careful thought and good judgment."
+  },
+  {
+    "id": 490,
+    "question": "benevolence",
+    "correctAnswer": "kindness",
+    "options": ["kindness", "malevolence", "cruelty", "hostility"],
+    "category": "ethics-morality",
+    "explanation": "Both describe the quality of being well-meaning and kind."
+  },
+  {
+    "id": 491,
+    "question": "disruptive",
+    "correctAnswer": "revolutionary",
+    "options": ["revolutionary", "traditional", "conventional", "standard"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe radically changing or innovating an industry or field."
+  },
+  {
+    "id": 492,
+    "question": "ingenuity",
+    "correctAnswer": "inventiveness",
+    "options": ["inventiveness", "dullness", "stupidity", "ignorance"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe the quality of being clever, original, and inventive."
+  },
+  {
+    "id": 493,
+    "question": "breakthrough",
+    "correctAnswer": "advancement",
+    "options": ["advancement", "setback", "regression", "decline"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe a sudden important development or discovery."
+  },
+  {
+    "id": 494,
+    "question": "prototype",
+    "correctAnswer": "model",
+    "options": ["model", "final product", "finished good", "end result"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe a first or preliminary version used for testing."
+  },
+  {
+    "id": 495,
+    "question": "ideate",
+    "correctAnswer": "brainstorm",
+    "options": ["brainstorm", "execute", "implement", "finalize"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe the process of forming ideas or concepts."
+  },
+  {
+    "id": 496,
+    "question": "pioneer",
+    "correctAnswer": "trailblazer",
+    "options": ["trailblazer", "follower", "imitator", "copycat"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe someone who develops new ideas or methods."
+  },
+  {
+    "id": 497,
+    "question": "unconventional",
+    "correctAnswer": "unorthodox",
+    "options": ["unorthodox", "conventional", "traditional", "standard"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe not based on or conforming to what is generally done."
+  },
+  {
+    "id": 498,
+    "question": "iterate",
+    "correctAnswer": "refine",
+    "options": ["refine", "finalize", "complete", "finish"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe repeatedly improving through successive versions."
+  },
+  {
+    "id": 499,
+    "question": "visionary",
+    "correctAnswer": "innovative",
+    "options": ["innovative", "conservative", "traditional", "conventional"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe thinking about the future with imagination and wisdom."
+  },
+  {
+    "id": 500,
+    "question": "novel",
+    "correctAnswer": "original",
+    "options": ["original", "common", "ordinary", "typical"],
+    "category": "innovation-creativity",
+    "explanation": "Both describe new and different from anything seen or used before."
   }
+
 
 
 ]

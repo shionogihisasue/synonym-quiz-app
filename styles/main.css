@@ -397,6 +397,80 @@ body {
     display: grid;
     gap: 15px;
 }
+/* Quick Start Section */
+.quick-start {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.quick-start-label {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.category-select {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.category-select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.category-select option {
+    padding: 10px;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #999;
+    font-weight: 600;
+    position: relative;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background: #e0e0e0;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+#startQuickBtn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#startQuickBtn:disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
 
 /* Responsive */
 @media (max-width: 600px) {

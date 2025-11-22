@@ -45,6 +45,14 @@ const finalScore = document.getElementById('finalScore');
 const accuracy = document.getElementById('accuracy');
 const completedCount = document.getElementById('completedCount');
 const startOverBtn = document.getElementById('startOverBtn');
+const selectCategoryBtn = document.getElementById('selectCategoryBtn');
+const backToStartBtn = document.getElementById('backToStartBtn');
+const categoryList = document.getElementById('categoryList');
+const categoryTitle = document.getElementById('categoryTitle');
+
+// 新規追加: Quick Start用の要素
+const categorySelect = document.getElementById('categorySelect');
+const startQuickBtn = document.getElementById('startQuickBtn');
 
 // Load questions
 async function loadQuestions() {
@@ -337,6 +345,27 @@ async function loadQuestions() {
                 questions: allQuestions.filter(q => q.category === 'intellectual-discourse')
             }
 
+            async function loadQuestions() {
+    try {
+        const response = await fetch('data/questions.json');
+        allQuestions = await response.json();
+        
+        // Shuffle questions
+        questions = shuffleArray(questions);
+        
+        totalQuestionsSpan.textContent = questions.length;
+        
+        // ... 既存のカテゴリー定義コード ...
+        
+        displayCategories();
+        populateCategoryDropdown();  // ← この行を追加
+    } catch (error) {
+        console.error('Error loading questions:', error);
+        alert('Failed to load questions. Please refresh the page.');
+    }
+}
+
+
 
         ];
         
@@ -345,6 +374,39 @@ async function loadQuestions() {
         console.error('Error loading questions:', error);
         alert('Failed to load questions. Please refresh the page.');
     }
+        // Populate category dropdown
+    function populateCategoryDropdown() {
+        categorySelect.innerHTML = '<option value="">-- Choose a category --</option>';
+        
+        categories.forEach(cat => {
+            const option = document.createElement('option');
+            option.value = cat.id;
+            option.textContent = `${cat.id}. ${cat.icon} ${cat.name}`;
+            categorySelect.appendChild(option);
+        });
+    }
+
+    // Handle category selection from dropdown
+    function handleCategorySelection() {
+        const selectedId = parseInt(categorySelect.value);
+        if (selectedId) {
+            startQuickBtn.disabled = false;
+        } else {
+            startQuickBtn.disabled = true;
+        }
+    }
+
+    // Start quiz from dropdown selection
+    function startQuickQuiz() {
+        const selectedId = parseInt(categorySelect.value);
+        if (!selectedId) return;
+        
+        const selectedCategory = categories.find(cat => cat.id === selectedId);
+        if (selectedCategory) {
+            startCategory(selectedCategory);
+        }
+    }
+
 }
 
 // Display categories
@@ -368,6 +430,31 @@ function displayCategories() {
         
         card.addEventListener('click', () => startCategory(cat));
         categoryList.appendChild(card);
+                // 既存のEvent listeners
+        selectCategoryBtn.addEventListener('click', () => {
+            startScreen.classList.remove('active');
+            categoryScreen.classList.add('active');
+        });
+
+        backToStartBtn.addEventListener('click', () => {
+            categoryScreen.classList.remove('active');
+            startScreen.classList.add('active');
+        });
+
+        nextBtn.addEventListener('click', nextQuestion);
+        retryCategory.addEventListener('click', retryCategoryQuiz);
+        nextCategory.addEventListener('click', goToNextCategory);
+        backToCategories.addEventListener('click', backToCategorySelection);
+        startOverBtn.addEventListener('click', startOver);
+        speakBtn.addEventListener('click', () => speak(questionText.textContent));
+
+        // 新規追加: Quick Start用のイベントリスナー
+        categorySelect.addEventListener('change', handleCategorySelection);
+        startQuickBtn.addEventListener('click', startQuickQuiz);
+
+        // Initialize
+        loadQuestions();
+
     });
 }
 

@@ -22,8 +22,21 @@
                     <span class="stat-label">Questions</span>
                 </div>
             </div>
-            <button id="selectCategoryBtn" class="btn btn-primary">Select Category</button>
+            
+            <!-- 新規追加: カテゴリー直接選択 -->
+            <div class="quick-start">
+                <label for="categorySelect" class="quick-start-label">Quick Start - Select Category:</label>
+                <select id="categorySelect" class="category-select">
+                    <option value="">-- Choose a category --</option>
+                </select>
+                <button id="startQuickBtn" class="btn btn-primary" disabled>Start Selected Category</button>
+            </div>
+            
+            <div class="divider">OR</div>
+            
+            <button id="selectCategoryBtn" class="btn btn-secondary">Browse All Categories</button>
         </div>
+
 
         <!-- Category Selection Screen -->
         <div id="categoryScreen" class="screen">

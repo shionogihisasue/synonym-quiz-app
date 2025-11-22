@@ -798,5 +798,806 @@
     "options": ["arid", "wet", "damp", "moist"],
     "category": "physical",
     "explanation": "Both describe lacking moisture or water."
+    },
+  {
+    "id": 101,
+    "question": "discuss",
+    "correctAnswer": "deliberate",
+    "options": ["deliberate", "ignore", "avoid", "dismiss"],
+    "category": "business-communication",
+    "explanation": "Both mean to talk about something in detail to reach a decision."
+  },
+  {
+    "id": 102,
+    "question": "agree",
+    "correctAnswer": "concur",
+    "options": ["concur", "disagree", "oppose", "reject"],
+    "category": "business-communication",
+    "explanation": "Both mean to have the same opinion or come to a mutual understanding."
+  },
+  {
+    "id": 103,
+    "question": "propose",
+    "correctAnswer": "suggest",
+    "options": ["suggest", "withdraw", "reject", "oppose"],
+    "category": "business-communication",
+    "explanation": "Both mean to put forward an idea or plan for consideration."
+  },
+  {
+    "id": 104,
+    "question": "implement",
+    "correctAnswer": "execute",
+    "options": ["execute", "cancel", "abandon", "postpone"],
+    "category": "business-communication",
+    "explanation": "Both mean to put a plan or decision into effect."
+  },
+  {
+    "id": 105,
+    "question": "prioritize",
+    "correctAnswer": "emphasize",
+    "options": ["emphasize", "neglect", "ignore", "dismiss"],
+    "category": "business-communication",
+    "explanation": "Both mean to designate something as more important than others."
+  },
+  {
+    "id": 106,
+    "question": "negotiate",
+    "correctAnswer": "bargain",
+    "options": ["bargain", "demand", "refuse", "dictate"],
+    "category": "business-communication",
+    "explanation": "Both mean to discuss terms to reach an agreement."
+  },
+  {
+    "id": 107,
+    "question": "collaborate",
+    "correctAnswer": "cooperate",
+    "options": ["cooperate", "compete", "oppose", "hinder"],
+    "category": "business-communication",
+    "explanation": "Both mean to work together with others toward a common goal."
+  },
+  {
+    "id": 108,
+    "question": "clarify",
+    "correctAnswer": "explain",
+    "options": ["explain", "confuse", "obscure", "complicate"],
+    "category": "business-communication",
+    "explanation": "Both mean to make something easier to understand."
+  },
+  {
+    "id": 109,
+    "question": "approve",
+    "correctAnswer": "authorize",
+    "options": ["authorize", "reject", "deny", "prohibit"],
+    "category": "business-communication",
+    "explanation": "Both mean to officially agree to or accept something."
+  },
+  {
+    "id": 110,
+    "question": "delegate",
+    "correctAnswer": "assign",
+    "options": ["assign", "withhold", "retain", "keep"],
+    "category": "business-communication",
+    "explanation": "Both mean to give a task or responsibility to another person."
+  },
+  {
+    "id": 111,
+    "question": "present",
+    "correctAnswer": "demonstrate",
+    "options": ["demonstrate", "hide", "conceal", "withhold"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to show or display information to an audience."
+  },
+  {
+    "id": 112,
+    "question": "summarize",
+    "correctAnswer": "recap",
+    "options": ["recap", "elaborate", "expand", "extend"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to give a brief statement of the main points."
+  },
+  {
+    "id": 113,
+    "question": "highlight",
+    "correctAnswer": "emphasize",
+    "options": ["emphasize", "downplay", "minimize", "understate"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to draw special attention to something important."
+  },
+  {
+    "id": 114,
+    "question": "recommend",
+    "correctAnswer": "advise",
+    "options": ["advise", "discourage", "dissuade", "oppose"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to suggest what should be done in a particular situation."
+  },
+  {
+    "id": 115,
+    "question": "evaluate",
+    "correctAnswer": "assess",
+    "options": ["assess", "ignore", "neglect", "overlook"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to judge or determine the value or quality of something."
+  },
+  {
+    "id": 116,
+    "question": "conclude",
+    "correctAnswer": "finalize",
+    "options": ["finalize", "begin", "start", "initiate"],
+    "category": "meeting-presentation",
+    "explanation": "Both mean to bring something to an end or completion."
+  },
+  {
+    "id": 117,
+    "question": "agenda",
+    "correctAnswer": "schedule",
+    "options": ["schedule", "chaos", "disorder", "confusion"],
+    "category": "meeting-presentation",
+    "explanation": "Both refer to a list of items to be discussed or done."
+  },
+  {
+    "id": 118,
+    "question": "objective",
+    "correctAnswer": "goal",
+    "options": ["goal", "obstacle", "hindrance", "barrier"],
+    "category": "meeting-presentation",
+    "explanation": "Both refer to something you aim to achieve."
+  },
+  {
+    "id": 119,
+    "question": "strategy",
+    "correctAnswer": "plan",
+    "options": ["plan", "chaos", "randomness", "disorder"],
+    "category": "meeting-presentation",
+    "explanation": "Both refer to a method or approach designed to achieve a goal."
+  },
+  {
+    "id": 120,
+    "question": "outcome",
+    "correctAnswer": "result",
+    "options": ["result", "beginning", "start", "cause"],
+    "category": "meeting-presentation",
+    "explanation": "Both refer to the consequence or effect of an action or situation."
+  },
+  {
+    "id": 121,
+    "question": "medication",
+    "correctAnswer": "drug",
+    "options": ["drug", "disease", "illness", "condition"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to a substance used to treat or prevent disease."
+  },
+  {
+    "id": 122,
+    "question": "treatment",
+    "correctAnswer": "therapy",
+    "options": ["therapy", "disease", "infection", "illness"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to medical care given to a patient for an illness or injury."
+  },
+  {
+    "id": 123,
+    "question": "patient",
+    "correctAnswer": "subject",
+    "options": ["subject", "doctor", "physician", "nurse"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to a person receiving medical treatment or participating in research."
+  },
+  {
+    "id": 124,
+    "question": "diagnosis",
+    "correctAnswer": "identification",
+    "options": ["identification", "treatment", "cure", "remedy"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to determining the nature of a disease or condition."
+  },
+  {
+    "id": 125,
+    "question": "symptom",
+    "correctAnswer": "indication",
+    "options": ["indication", "cure", "treatment", "remedy"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to a sign or evidence of a disease or condition."
+  },
+  {
+    "id": 126,
+    "question": "prescription",
+    "correctAnswer": "order",
+    "options": ["order", "disease", "symptom", "condition"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to a written direction from a doctor for medication."
+  },
+  {
+    "id": 127,
+    "question": "adverse event",
+    "correctAnswer": "side effect",
+    "options": ["side effect", "benefit", "advantage", "improvement"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to an unwanted or harmful reaction to a medication."
+  },
+  {
+    "id": 128,
+    "question": "efficacy",
+    "correctAnswer": "effectiveness",
+    "options": ["effectiveness", "failure", "ineffectiveness", "weakness"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to the ability to produce a desired therapeutic result."
+  },
+  {
+    "id": 129,
+    "question": "dosage",
+    "correctAnswer": "dose",
+    "options": ["dose", "disease", "symptom", "condition"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to the amount of medication to be taken at one time."
+  },
+  {
+    "id": 130,
+    "question": "administration",
+    "correctAnswer": "delivery",
+    "options": ["delivery", "disease", "symptom", "diagnosis"],
+    "category": "pharmaceutical",
+    "explanation": "Both refer to the method of giving medication to a patient."
+  },
+  {
+    "id": 131,
+    "question": "trial",
+    "correctAnswer": "study",
+    "options": ["study", "treatment", "cure", "remedy"],
+    "category": "clinical-research",
+    "explanation": "Both refer to a research investigation to test treatments or interventions."
+  },
+  {
+    "id": 132,
+    "question": "participant",
+    "correctAnswer": "subject",
+    "options": ["subject", "researcher", "investigator", "scientist"],
+    "category": "clinical-research",
+    "explanation": "Both refer to a person who takes part in a research study."
+  },
+  {
+    "id": 133,
+    "question": "protocol",
+    "correctAnswer": "procedure",
+    "options": ["procedure", "result", "outcome", "conclusion"],
+    "category": "clinical-research",
+    "explanation": "Both refer to a detailed plan for conducting a research study."
+  },
+  {
+    "id": 134,
+    "question": "endpoint",
+    "correctAnswer": "outcome",
+    "options": ["outcome", "beginning", "start", "initiation"],
+    "category": "clinical-research",
+    "explanation": "Both refer to a measured result used to determine the effect of treatment."
+  },
+  {
+    "id": 135,
+    "question": "placebo",
+    "correctAnswer": "control",
+    "options": ["control", "treatment", "drug", "medication"],
+    "category": "clinical-research",
+    "explanation": "Both refer to an inactive substance used as a comparison in trials."
+  },
+  {
+    "id": 136,
+    "question": "randomize",
+    "correctAnswer": "allocate",
+    "options": ["allocate", "bias", "predetermine", "select"],
+    "category": "clinical-research",
+    "explanation": "Both refer to assigning participants to groups by chance."
+  },
+  {
+    "id": 137,
+    "question": "monitor",
+    "correctAnswer": "observe",
+    "options": ["observe", "ignore", "neglect", "overlook"],
+    "category": "clinical-research",
+    "explanation": "Both mean to watch and check progress over a period of time."
+  },
+  {
+    "id": 138,
+    "question": "validate",
+    "correctAnswer": "verify",
+    "options": ["verify", "invalidate", "disprove", "refute"],
+    "category": "clinical-research",
+    "explanation": "Both mean to check or prove the accuracy of something."
+  },
+  {
+    "id": 139,
+    "question": "analyze",
+    "correctAnswer": "examine",
+    "options": ["examine", "ignore", "overlook", "neglect"],
+    "category": "clinical-research",
+    "explanation": "Both mean to study data or information in detail."
+  },
+  {
+    "id": 140,
+    "question": "enroll",
+    "correctAnswer": "recruit",
+    "options": ["recruit", "exclude", "reject", "dismiss"],
+    "category": "clinical-research",
+    "explanation": "Both mean to register participants for a research study."
+  },
+  {
+    "id": 141,
+    "question": "analyze",
+    "correctAnswer": "examine",
+    "options": ["examine", "ignore", "neglect", "overlook"],
+    "category": "data-science",
+    "explanation": "Both mean to inspect data systematically to understand patterns."
+  },
+  {
+    "id": 142,
+    "question": "collect",
+    "correctAnswer": "gather",
+    "options": ["gather", "scatter", "disperse", "distribute"],
+    "category": "data-science",
+    "explanation": "Both mean to bring data or information together from various sources."
+  },
+  {
+    "id": 143,
+    "question": "process",
+    "correctAnswer": "handle",
+    "options": ["handle", "ignore", "neglect", "abandon"],
+    "category": "data-science",
+    "explanation": "Both mean to manipulate or transform data in a systematic way."
+  },
+  {
+    "id": 144,
+    "question": "visualize",
+    "correctAnswer": "display",
+    "options": ["display", "hide", "conceal", "obscure"],
+    "category": "data-science",
+    "explanation": "Both mean to represent data in graphical or pictorial form."
+  },
+  {
+    "id": 145,
+    "question": "interpret",
+    "correctAnswer": "explain",
+    "options": ["explain", "confuse", "obscure", "complicate"],
+    "category": "data-science",
+    "explanation": "Both mean to clarify the meaning of data or results."
+  },
+  {
+    "id": 146,
+    "question": "predict",
+    "correctAnswer": "forecast",
+    "options": ["forecast", "recall", "remember", "review"],
+    "category": "data-science",
+    "explanation": "Both mean to estimate future outcomes based on data."
+  },
+  {
+    "id": 147,
+    "question": "model",
+    "correctAnswer": "simulate",
+    "options": ["simulate", "destroy", "dismantle", "eliminate"],
+    "category": "data-science",
+    "explanation": "Both mean to create a representation of a system or process."
+  },
+  {
+    "id": 148,
+    "question": "optimize",
+    "correctAnswer": "improve",
+    "options": ["improve", "worsen", "deteriorate", "degrade"],
+    "category": "data-science",
+    "explanation": "Both mean to make something as effective or functional as possible."
+  },
+  {
+    "id": 149,
+    "question": "measure",
+    "correctAnswer": "quantify",
+    "options": ["quantify", "guess", "estimate", "approximate"],
+    "category": "data-science",
+    "explanation": "Both mean to determine the size, amount, or degree of something."
+  },
+  {
+    "id": 150,
+    "question": "correlate",
+    "correctAnswer": "associate",
+    "options": ["associate", "separate", "divide", "disconnect"],
+    "category": "data-science",
+    "explanation": "Both mean to establish a relationship between variables."
+  },
+  {
+    "id": 151,
+    "question": "train",
+    "correctAnswer": "teach",
+    "options": ["teach", "confuse", "mislead", "deceive"],
+    "category": "machine-learning",
+    "explanation": "Both mean to provide a model with data to learn patterns."
+  },
+  {
+    "id": 152,
+    "question": "classify",
+    "correctAnswer": "categorize",
+    "options": ["categorize", "mix", "confuse", "randomize"],
+    "category": "machine-learning",
+    "explanation": "Both mean to arrange items into groups based on shared characteristics."
+  },
+  {
+    "id": 153,
+    "question": "cluster",
+    "correctAnswer": "group",
+    "options": ["group", "scatter", "separate", "disperse"],
+    "category": "machine-learning",
+    "explanation": "Both mean to organize similar data points together."
+  },
+  {
+    "id": 154,
+    "question": "detect",
+    "correctAnswer": "identify",
+    "options": ["identify", "miss", "overlook", "ignore"],
+    "category": "machine-learning",
+    "explanation": "Both mean to discover or recognize the presence of something."
+  },
+  {
+    "id": 155,
+    "question": "recognize",
+    "correctAnswer": "identify",
+    "options": ["identify", "misidentify", "confuse", "mistake"],
+    "category": "machine-learning",
+    "explanation": "Both mean to acknowledge or distinguish something from analysis."
+  },
+  {
+    "id": 156,
+    "question": "generate",
+    "correctAnswer": "create",
+    "options": ["create", "destroy", "eliminate", "remove"],
+    "category": "machine-learning",
+    "explanation": "Both mean to produce new data or outputs from a model."
+  },
+  {
+    "id": 157,
+    "question": "optimize",
+    "correctAnswer": "enhance",
+    "options": ["enhance", "worsen", "degrade", "diminish"],
+    "category": "machine-learning",
+    "explanation": "Both mean to improve model performance or efficiency."
+  },
+  {
+    "id": 158,
+    "question": "validate",
+    "correctAnswer": "test",
+    "options": ["test", "assume", "guess", "presume"],
+    "category": "machine-learning",
+    "explanation": "Both mean to evaluate model accuracy on unseen data."
+  },
+  {
+    "id": 159,
+    "question": "deploy",
+    "correctAnswer": "implement",
+    "options": ["implement", "remove", "withdraw", "retract"],
+    "category": "machine-learning",
+    "explanation": "Both mean to put a trained model into production use."
+  },
+  {
+    "id": 160,
+    "question": "automate",
+    "correctAnswer": "mechanize",
+    "options": ["mechanize", "manual", "handcraft", "personalize"],
+    "category": "machine-learning",
+    "explanation": "Both mean to make a process operate automatically without human intervention."
+  },
+  {
+    "id": 161,
+    "question": "chat",
+    "correctAnswer": "converse",
+    "options": ["converse", "ignore", "silent", "shun"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to have an informal conversation with someone."
+  },
+  {
+    "id": 162,
+    "question": "meet",
+    "correctAnswer": "encounter",
+    "options": ["encounter", "avoid", "evade", "miss"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to come together with someone at a place or time."
+  },
+  {
+    "id": 163,
+    "question": "enjoy",
+    "correctAnswer": "appreciate",
+    "options": ["appreciate", "dislike", "hate", "detest"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to take pleasure or satisfaction in something."
+  },
+  {
+    "id": 164,
+    "question": "prefer",
+    "correctAnswer": "favor",
+    "options": ["favor", "reject", "dislike", "oppose"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to like one thing better than another."
+  },
+  {
+    "id": 165,
+    "question": "decide",
+    "correctAnswer": "choose",
+    "options": ["choose", "hesitate", "waver", "vacillate"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to make a choice or reach a conclusion."
+  },
+  {
+    "id": 166,
+    "question": "remember",
+    "correctAnswer": "recall",
+    "options": ["recall", "forget", "overlook", "neglect"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to bring back to mind something from the past."
+  },
+  {
+    "id": 167,
+    "question": "forget",
+    "correctAnswer": "overlook",
+    "options": ["overlook", "remember", "recall", "recollect"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to fail to remember or consider something."
+  },
+  {
+    "id": 168,
+    "question": "understand",
+    "correctAnswer": "comprehend",
+    "options": ["comprehend", "misunderstand", "confuse", "misinterpret"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to grasp the meaning or importance of something."
+  },
+  {
+    "id": 169,
+    "question": "believe",
+    "correctAnswer": "think",
+    "options": ["think", "doubt", "disbelieve", "question"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to accept something as true or hold an opinion."
+  },
+  {
+    "id": 170,
+    "question": "hope",
+    "correctAnswer": "wish",
+    "options": ["wish", "despair", "doubt", "fear"],
+    "category": "daily-conversation",
+    "explanation": "Both mean to want something to happen or be true."
+  },
+  {
+    "id": 171,
+    "question": "delicious",
+    "correctAnswer": "tasty",
+    "options": ["tasty", "bland", "tasteless", "awful"],
+    "category": "food-dining",
+    "explanation": "Both describe food with a very pleasant flavor."
+  },
+  {
+    "id": 172,
+    "question": "fresh",
+    "correctAnswer": "new",
+    "options": ["new", "stale", "old", "rotten"],
+    "category": "food-dining",
+    "explanation": "Both describe food recently made or obtained."
+  },
+  {
+    "id": 173,
+    "question": "cook",
+    "correctAnswer": "prepare",
+    "options": ["prepare", "destroy", "ruin", "waste"],
+    "category": "food-dining",
+    "explanation": "Both mean to make food ready for eating by heating."
+  },
+  {
+    "id": 174,
+    "question": "order",
+    "correctAnswer": "request",
+    "options": ["request", "refuse", "reject", "decline"],
+    "category": "food-dining",
+    "explanation": "Both mean to ask for food to be brought to you."
+  },
+  {
+    "id": 175,
+    "question": "serve",
+    "correctAnswer": "provide",
+    "options": ["provide", "withhold", "deny", "refuse"],
+    "category": "food-dining",
+    "explanation": "Both mean to give food or drink to someone."
+  },
+  {
+    "id": 176,
+    "question": "eat",
+    "correctAnswer": "consume",
+    "options": ["consume", "waste", "discard", "refuse"],
+    "category": "food-dining",
+    "explanation": "Both mean to take food into the body through the mouth."
+  },
+  {
+    "id": 177,
+    "question": "drink",
+    "correctAnswer": "beverage",
+    "options": ["beverage", "food", "solid", "meal"],
+    "category": "food-dining",
+    "explanation": "Both refer to liquids consumed for refreshment or nourishment."
+  },
+  {
+    "id": 178,
+    "question": "spicy",
+    "correctAnswer": "hot",
+    "options": ["hot", "bland", "mild", "plain"],
+    "category": "food-dining",
+    "explanation": "Both describe food flavored with strong spices that create heat."
+  },
+  {
+    "id": 179,
+    "question": "sweet",
+    "correctAnswer": "sugary",
+    "options": ["sugary", "bitter", "sour", "salty"],
+    "category": "food-dining",
+    "explanation": "Both describe food having the taste of sugar or honey."
+  },
+  {
+    "id": 180,
+    "question": "hungry",
+    "correctAnswer": "starving",
+    "options": ["starving", "full", "satisfied", "satiated"],
+    "category": "food-dining",
+    "explanation": "Both describe feeling a need or desire to eat."
+  },
+  {
+    "id": 181,
+    "question": "journey",
+    "correctAnswer": "trip",
+    "options": ["trip", "stay", "residence", "home"],
+    "category": "travel-transportation",
+    "explanation": "Both refer to traveling from one place to another."
+  },
+  {
+    "id": 182,
+    "question": "depart",
+    "correctAnswer": "leave",
+    "options": ["leave", "arrive", "stay", "remain"],
+    "category": "travel-transportation",
+    "explanation": "Both mean to go away from a place."
+  },
+  {
+    "id": 183,
+    "question": "arrive",
+    "correctAnswer": "reach",
+    "options": ["reach", "depart", "leave", "exit"],
+    "category": "travel-transportation",
+    "explanation": "Both mean to get to a destination."
+  },
+  {
+    "id": 184,
+    "question": "book",
+    "correctAnswer": "reserve",
+    "options": ["reserve", "cancel", "forfeit", "abandon"],
+    "category": "travel-transportation",
+    "explanation": "Both mean to arrange in advance to have something."
+  },
+  {
+    "id": 185,
+    "question": "cancel",
+    "correctAnswer": "revoke",
+    "options": ["revoke", "confirm", "approve", "maintain"],
+    "category": "travel-transportation",
+    "explanation": "Both mean to decide that something will not happen."
+  },
+  {
+    "id": 186,
+    "question": "delay",
+    "correctAnswer": "postpone",
+    "options": ["postpone", "accelerate", "advance", "expedite"],
+    "category": "travel-transportation",
+    "explanation": "Both mean to make something happen at a later time."
+  },
+  {
+    "id": 187,
+    "question": "destination",
+    "correctAnswer": "endpoint",
+    "options": ["endpoint", "origin", "start", "beginning"],
+    "category": "travel-transportation",
+    "explanation": "Both refer to the place where someone is going."
+  },
+  {
+    "id": 188,
+    "question": "luggage",
+    "correctAnswer": "baggage",
+    "options": ["baggage", "person", "passenger", "traveler"],
+    "category": "travel-transportation",
+    "explanation": "Both refer to bags and suitcases used for traveling."
+  },
+  {
+    "id": 189,
+    "question": "passenger",
+    "correctAnswer": "traveler",
+    "options": ["traveler", "driver", "pilot", "captain"],
+    "category": "travel-transportation",
+    "explanation": "Both refer to a person traveling in a vehicle."
+  },
+  {
+    "id": 190,
+    "question": "accommodation",
+    "correctAnswer": "lodging",
+    "options": ["lodging", "departure", "journey", "travel"],
+    "category": "travel-transportation",
+    "explanation": "Both refer to a place where travelers can stay."
+  },
+  {
+    "id": 191,
+    "question": "update",
+    "correctAnswer": "upgrade",
+    "options": ["upgrade", "downgrade", "worsen", "deteriorate"],
+    "category": "technology-digital",
+    "explanation": "Both mean to make something more modern or improve it."
+  },
+  {
+    "id": 192,
+    "question": "download",
+    "correctAnswer": "retrieve",
+    "options": ["retrieve", "upload", "send", "transmit"],
+    "category": "technology-digital",
+    "explanation": "Both mean to copy data from one system to another."
+  },
+  {
+    "id": 193,
+    "question": "upload",
+    "correctAnswer": "transfer",
+    "options": ["transfer", "download", "receive", "retrieve"],
+    "category": "technology-digital",
+    "explanation": "Both mean to send data from your device to another location."
+  },
+  {
+    "id": 194,
+    "question": "install",
+    "correctAnswer": "setup",
+    "options": ["setup", "uninstall", "remove", "delete"],
+    "category": "technology-digital",
+    "explanation": "Both mean to put software or equipment in place for use."
+  },
+  {
+    "id": 195,
+    "question": "delete",
+    "correctAnswer": "remove",
+    "options": ["remove", "save", "keep", "retain"],
+    "category": "technology-digital",
+    "explanation": "Both mean to erase or get rid of data."
+  },
+  {
+    "id": 196,
+    "question": "save",
+    "correctAnswer": "store",
+    "options": ["store", "delete", "remove", "discard"],
+    "category": "technology-digital",
+    "explanation": "Both mean to keep data for future use."
+  },
+  {
+    "id": 197,
+    "question": "search",
+    "correctAnswer": "find",
+    "options": ["find", "lose", "hide", "conceal"],
+    "category": "technology-digital",
+    "explanation": "Both mean to look for information or data."
+  },
+  {
+    "id": 198,
+    "question": "connect",
+    "correctAnswer": "link",
+    "options": ["link", "disconnect", "separate", "isolate"],
+    "category": "technology-digital",
+    "explanation": "Both mean to join or establish a relationship between systems."
+  },
+  {
+    "id": 199,
+    "question": "access",
+    "correctAnswer": "enter",
+    "options": ["enter", "block", "deny", "restrict"],
+    "category": "technology-digital",
+    "explanation": "Both mean to gain entry to or use of something."
+  },
+  {
+    "id": 200,
+    "question": "secure",
+    "correctAnswer": "protect",
+    "options": ["protect", "expose", "endanger", "threaten"],
+    "category": "technology-digital",
+    "explanation": "Both mean to make safe from danger or unauthorized access."
   }
+
 ]

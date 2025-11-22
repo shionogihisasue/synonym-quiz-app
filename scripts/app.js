@@ -124,6 +124,78 @@ async function loadQuestions() {
                 icon: '🔬',
                 questions: allQuestions.filter(q => q.category === 'physical')
             }
+                        ,
+            {
+                id: 11,
+                name: 'Business Communication',
+                description: 'Professional workplace vocabulary',
+                icon: '💼',
+                questions: allQuestions.filter(q => q.category === 'business-communication')
+            },
+            {
+                id: 12,
+                name: 'Meeting & Presentation',
+                description: 'Conference and presentation terms',
+                icon: '📊',
+                questions: allQuestions.filter(q => q.category === 'meeting-presentation')
+            },
+            {
+                id: 13,
+                name: 'Pharmaceutical Terms',
+                description: 'Pharma industry vocabulary',
+                icon: '💊',
+                questions: allQuestions.filter(q => q.category === 'pharmaceutical')
+            },
+            {
+                id: 14,
+                name: 'Clinical Research',
+                description: 'Clinical trial terminology',
+                icon: '🔬',
+                questions: allQuestions.filter(q => q.category === 'clinical-research')
+            },
+            {
+                id: 15,
+                name: 'Data Science Basics',
+                description: 'Fundamental data science terms',
+                icon: '📈',
+                questions: allQuestions.filter(q => q.category === 'data-science')
+            },
+            {
+                id: 16,
+                name: 'Machine Learning',
+                description: 'AI and ML vocabulary',
+                icon: '🤖',
+                questions: allQuestions.filter(q => q.category === 'machine-learning')
+            },
+            {
+                id: 17,
+                name: 'Daily Conversation',
+                description: 'Everyday communication',
+                icon: '💬',
+                questions: allQuestions.filter(q => q.category === 'daily-conversation')
+            },
+            {
+                id: 18,
+                name: 'Food & Dining',
+                description: 'Restaurant and food terms',
+                icon: '🍽️',
+                questions: allQuestions.filter(q => q.category === 'food-dining')
+            },
+            {
+                id: 19,
+                name: 'Travel & Transportation',
+                description: 'Journey and transit vocabulary',
+                icon: '✈️',
+                questions: allQuestions.filter(q => q.category === 'travel-transportation')
+            },
+            {
+                id: 20,
+                name: 'Technology & Digital',
+                description: 'Digital world terminology',
+                icon: '💻',
+                questions: allQuestions.filter(q => q.category === 'technology-digital')
+            }
+
         ];
         
         displayCategories();

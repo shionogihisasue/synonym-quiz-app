@@ -503,21 +503,26 @@ function showCategoryScreen() {
     if (categoryScreen) categoryScreen.classList.add('active');
 }
 
-/**
- * Quick Startでクイズ開始
- */
+// 修正前（エラーが出る）
 function quickStartQuiz() {
-    const selectedId = parseInt(categorySelect.value);
+    const selectedCategory = document.getElementById('quick-category-select').value;
+    // ...
+}
+
+// 修正後（要素チェック追加）
+function quickStartQuiz() {
+    const selectElement = document.getElementById('quick-category-select');
     
-    if (!selectedId) {
-        alert('Please select a category first.');
+    if (!selectElement) {
+        console.error('❌ quick-category-select element not found!');
+        alert('カテゴリー選択が見つかりません。ページを再読み込みしてください。');
         return;
     }
     
-    const selectedCategory = categories.find(cat => cat.id === selectedId);
+    const selectedCategory = selectElement.value;
     
     if (!selectedCategory) {
-        alert('Category not found.');
+        alert('カテゴリーを選択してください');
         return;
     }
     

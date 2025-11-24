@@ -1,7 +1,7 @@
 /**
- * Listening Practice Player
- * ========================
- * リスニング練習モードのプレイヤー機能を管理
+ * Listening Practice Player V2
+ * ============================
+ * 字幕（リアルタイム表示）機能付き
  */
 
 class ListeningPlayer {
@@ -11,14 +11,13 @@ class ListeningPlayer {
         this.isPlaying = false;
         this.isLooping = false;
         this.vocabularyData = null;
+        this.timestampsData = null;
+        this.currentSubtitleIndex = -1;
         
         this.initializeElements();
         this.loadVocabularyData();
     }
 
-    /**
-     * DOM要素の初期化
-     */
     initializeElements() {
         // Sections
         this.startSection = document.getElementById('start-section');
@@ -54,12 +53,12 @@ class ListeningPlayer {
         this.sessionInfo = document.getElementById('session-info');
         this.wordButtonsContainer = document.getElementById('word-buttons');
 
+        // 字幕表示エリア
+        this.subtitleDisplay = document.getElementById('subtitle-display');
+
         this.attachEventListeners();
     }
 
-    /**
-     * イベントリスナーの登録
-     */
     attachEventListeners() {
         // Navigation
         this.startListeningBtn.addEventListener('click', () => this.showListeningSection());
@@ -88,9 +87,6 @@ class ListeningPlayer {
         });
     }
 
-    /**
-     * vocabulary JSONデータの読み込み
-     */
     async loadVocabularyData() {
         try {
             const response = await fetch('data/listening_vocabulary.json');
@@ -106,9 +102,6 @@ class ListeningPlayer {
         }
     }
 
-    /**
-     * セッション選択ドロップダウンにオプションを追加
-     */
     populateSessionSelector() {
         if (!this.vocabularyData) return;
 
@@ -122,17 +115,11 @@ class ListeningPlayer {
         });
     }
 
-    /**
-     * リスニングセクションを表示
-     */
     showListeningSection() {
         this.startSection.classList.add('hidden');
         this.listeningSection.classList.remove('hidden');
     }
 
-    /**
-     * メニューに戻る
-     */
     backToMenu() {
         this.pause();
         this.listeningSection.classList.add('hidden');
@@ -141,14 +128,13 @@ class ListeningPlayer {
         // リセット
         this.audio.src = '';
         this.currentSession = null;
+        this.timestampsData = null;
         this.sessionTitle.textContent = 'No session loaded';
         this.sessionInfo.textContent = 'Select a session to begin';
         this.wordButtonsContainer.innerHTML = '';
+        this.clearSubtitle();
     }
 
-    /**
-     * 選択されたセッションを読み込み
-     */
     loadSelectedSession() {
         const sessionId = parseInt(this.sessionSelect.value);
         if (!sessionId) {
@@ -165,10 +151,7 @@ class ListeningPlayer {
         this.loadSession(session);
     }
 
-    /**
-     * セッションデータを読み込んでプレイヤーをセットアップ
-     */
-    loadSession(session) {
+    async loadSession(session) {
         this.currentSession = session;
 
         // 音声ファイルを読み込み
@@ -179,15 +162,32 @@ class ListeningPlayer {
         this.sessionTitle.textContent = session.title;
         this.sessionInfo.textContent = `${session.words.length} words | Category: ${session.categoryRange}`;
 
+        // タイムスタンプデータを読み込み
+        await this.loadTimestamps(session.id);
+
         // 単語ボタンを生成
         this.generateWordButtons(session.words);
 
         console.log('✅ Session loaded:', session.title);
     }
 
-    /**
-     * 単語ジャンプボタンを生成
-     */
+    async loadTimestamps(sessionId) {
+        try {
+            const timestampFile = `assets/audio/listening/session_${sessionId}_timestamps.json`;
+            const response = await fetch(timestampFile);
+            if (response.ok) {
+                this.timestampsData = await response.json();
+                console.log('✅ Timestamps loaded:', this.timestampsData.length, 'entries');
+            } else {
+                console.warn('⚠️ Timestamps file not found, subtitle feature disabled');
+                this.timestampsData = null;
+            }
+        } catch (error) {
+            console.warn('⚠️ Failed to load timestamps:', error);
+            this.timestampsData = null;
+        }
+    }
+
     generateWordButtons(words) {
         this.wordButtonsContainer.innerHTML = '';
 
@@ -197,19 +197,21 @@ class ListeningPlayer {
             button.textContent = word.word;
             button.title = `Jump to: ${word.word}`;
             
-            // 推定位置にジャンプ（単語ごとに約20-30秒と仮定）
             button.addEventListener('click', () => {
-                const estimatedPosition = index * 25; // 25秒/単語（調整可能）
-                this.jumpToPosition(estimatedPosition);
+                if (this.timestampsData && this.timestampsData[index]) {
+                    // タイムスタンプがある場合は正確な位置へ
+                    this.jumpToPosition(this.timestampsData[index].startTime);
+                } else {
+                    // タイムスタンプがない場合は推定位置へ
+                    const estimatedPosition = index * 25;
+                    this.jumpToPosition(estimatedPosition);
+                }
             });
 
             this.wordButtonsContainer.appendChild(button);
         });
     }
 
-    /**
-     * 音声読み込み完了時
-     */
     onAudioLoaded() {
         const duration = this.audio.duration;
         this.seekbar.max = duration;
@@ -219,9 +221,6 @@ class ListeningPlayer {
         console.log('✅ Audio loaded. Duration:', this.formatTime(duration));
     }
 
-    /**
-     * 再生
-     */
     play() {
         if (this.audio.src) {
             this.audio.play();
@@ -230,34 +229,22 @@ class ListeningPlayer {
         }
     }
 
-    /**
-     * 一時停止
-     */
     pause() {
         this.audio.pause();
     }
 
-    /**
-     * 再生開始時
-     */
     onPlay() {
         this.isPlaying = true;
         this.playBtn.disabled = true;
         this.pauseBtn.disabled = false;
     }
 
-    /**
-     * 一時停止時
-     */
     onPause() {
         this.isPlaying = false;
         this.playBtn.disabled = false;
         this.pauseBtn.disabled = true;
     }
 
-    /**
-     * 時間更新時
-     */
     onTimeUpdate() {
         const currentTime = this.audio.currentTime;
         const duration = this.audio.duration;
@@ -269,11 +256,100 @@ class ListeningPlayer {
         // プログレスバー更新
         const progress = (currentTime / duration) * 100;
         this.progressBar.style.width = `${progress}%`;
+
+        // 字幕更新
+        this.updateSubtitle(currentTime);
     }
 
     /**
-     * 音声終了時
+     * 字幕の更新（リアルタイム表示）
      */
+    updateSubtitle(currentTime) {
+        if (!this.timestampsData) return;
+
+        // 現在の時間に対応する字幕を探す
+        for (let i = 0; i < this.timestampsData.length; i++) {
+            const entry = this.timestampsData[i];
+            
+            if (currentTime >= entry.startTime && currentTime < entry.endTime) {
+                if (this.currentSubtitleIndex !== i) {
+                    this.currentSubtitleIndex = i;
+                    this.displaySubtitle(entry);
+                }
+                return;
+            }
+        }
+
+        // 該当する字幕がない場合はクリア
+        if (this.currentSubtitleIndex !== -1) {
+            this.clearSubtitle();
+            this.currentSubtitleIndex = -1;
+        }
+    }
+
+    /**
+     * 字幕を表示
+     */
+    displaySubtitle(entry) {
+        if (!this.subtitleDisplay) return;
+
+        // 現在再生中の内容を判定
+        const currentTime = this.audio.currentTime;
+        const elapsed = currentTime - entry.startTime;
+        const totalDuration = entry.endTime - entry.startTime;
+        const progress = elapsed / totalDuration;
+
+        let currentText = '';
+        let subtitle = '';
+
+        // 進捗に応じて表示内容を切り替え
+        if (progress < 0.15) {
+            // 単語を表示（最初の15%）
+            currentText = entry.word;
+            subtitle = `<div class="subtitle-word">${entry.word}</div>`;
+        } else if (progress < 0.25) {
+            // 同義語を表示（15-25%）
+            currentText = 'Synonyms: ' + entry.synonyms;
+            subtitle = `
+                <div class="subtitle-word">${entry.word}</div>
+                <div class="subtitle-synonyms">Synonyms: ${entry.synonyms}</div>
+            `;
+        } else if (progress < 0.45) {
+            // Daily例文（25-45%）
+            currentText = entry.daily;
+            subtitle = `
+                <div class="subtitle-label">Daily Conversation:</div>
+                <div class="subtitle-text">${entry.daily}</div>
+            `;
+        } else if (progress < 0.70) {
+            // Pharmaceutical例文（45-70%）
+            currentText = entry.pharmaceutical;
+            subtitle = `
+                <div class="subtitle-label">Pharmaceutical Context:</div>
+                <div class="subtitle-text">${entry.pharmaceutical}</div>
+            `;
+        } else {
+            // Data Science例文（70-100%）
+            currentText = entry.dataScience;
+            subtitle = `
+                <div class="subtitle-label">Data Science/IT Context:</div>
+                <div class="subtitle-text">${entry.dataScience}</div>
+            `;
+        }
+
+        this.subtitleDisplay.innerHTML = subtitle;
+        this.subtitleDisplay.classList.remove('hidden');
+    }
+
+    /**
+     * 字幕をクリア
+     */
+    clearSubtitle() {
+        if (this.subtitleDisplay) {
+            this.subtitleDisplay.innerHTML = '<div class="subtitle-placeholder">Listening...</div>';
+        }
+    }
+
     onAudioEnded() {
         if (this.isLooping) {
             this.audio.currentTime = 0;
@@ -284,16 +360,10 @@ class ListeningPlayer {
         }
     }
 
-    /**
-     * シーク（再生位置変更）
-     */
     seek(value) {
         this.audio.currentTime = parseFloat(value);
     }
 
-    /**
-     * 指定位置にジャンプ（秒）
-     */
     jumpToPosition(seconds) {
         if (this.audio.src) {
             this.audio.currentTime = Math.min(seconds, this.audio.duration);
@@ -303,9 +373,6 @@ class ListeningPlayer {
         }
     }
 
-    /**
-     * ループ再生のトグル
-     */
     toggleLoop() {
         this.isLooping = !this.isLooping;
         this.audio.loop = this.isLooping;
@@ -323,13 +390,9 @@ class ListeningPlayer {
         console.log('🔁 Loop:', this.isLooping ? 'ON' : 'OFF');
     }
 
-    /**
-     * 再生速度変更
-     */
     setPlaybackRate(rate) {
         this.audio.playbackRate = rate;
 
-        // アクティブボタンのスタイル更新
         this.speedButtons.forEach(btn => {
             if (parseFloat(btn.dataset.speed) === rate) {
                 btn.classList.add('active');
@@ -341,9 +404,6 @@ class ListeningPlayer {
         console.log('⚡ Playback rate:', rate + 'x');
     }
 
-    /**
-     * 時間フォーマット（秒 → mm:ss）
-     */
     formatTime(seconds) {
         if (isNaN(seconds)) return '0:00';
         
@@ -355,6 +415,6 @@ class ListeningPlayer {
 
 // ページ読み込み完了後にプレイヤーを初期化
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🎧 Initializing Listening Player...');
+    console.log('🎧 Initializing Listening Player V2 (with subtitles)...');
     window.listeningPlayer = new ListeningPlayer();
 });

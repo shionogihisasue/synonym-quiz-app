@@ -1,0 +1,202 @@
+[
+  {
+    "word": "Collaborate",
+    "synonyms": "cooperate, work together, partner, team up",
+    "daily": "Would you like to collaborate on the weekend project for our neighborhood?",
+    "pharmaceutical": "Our research team will collaborate with international partners to accelerate drug development timelines.",
+    "dataScience": "Data scientists collaborate using version control systems to manage shared code repositories.",
+    "startTime": 0,
+    "endTime": 308.0,
+    "duration": 308.0
+  },
+  {
+    "word": "Facilitate",
+    "synonyms": "enable, assist, help, expedite",
+    "daily": "The new public transportation system will facilitate commuting for thousands of workers.",
+    "pharmaceutical": "Advanced imaging techniques facilitate more accurate diagnosis of rare diseases.",
+    "dataScience": "Cloud computing platforms facilitate rapid deployment of machine learning models.",
+    "startTime": 308.0,
+    "endTime": 589.0,
+    "duration": 281.0
+  },
+  {
+    "word": "Implement",
+    "synonyms": "execute, carry out, put into effect, deploy",
+    "daily": "We decided to implement a new household budget to save money for vacation.",
+    "pharmaceutical": "The company will implement new quality control measures across all manufacturing facilities.",
+    "dataScience": "The engineering team will implement the recommendation algorithm in the production environment.",
+    "startTime": 589.0,
+    "endTime": 885.33,
+    "duration": 296.33
+  },
+  {
+    "word": "Optimize",
+    "synonyms": "improve, enhance, maximize, refine",
+    "daily": "I'm trying to optimize my morning routine to have more time for exercise.",
+    "pharmaceutical": "Researchers optimize drug formulations to improve bioavailability and reduce side effects.",
+    "dataScience": "Machine learning engineers optimize hyperparameters to achieve better model accuracy.",
+    "startTime": 885.33,
+    "endTime": 1164.67,
+    "duration": 279.33
+  },
+  {
+    "word": "Assess",
+    "synonyms": "evaluate, examine, analyze, appraise",
+    "daily": "Let me assess the damage to my car before calling the insurance company.",
+    "pharmaceutical": "Clinical investigators assess patient responses to determine drug efficacy and safety profiles.",
+    "dataScience": "Data analysts assess model performance using cross-validation and statistical metrics.",
+    "startTime": 1164.67,
+    "endTime": 1447.67,
+    "duration": 283.0
+  },
+  {
+    "word": "Comprehensive",
+    "synonyms": "thorough, complete, extensive, all-inclusive",
+    "daily": "The insurance policy provides comprehensive coverage for both medical and dental expenses.",
+    "pharmaceutical": "The comprehensive clinical trial protocol includes detailed procedures for patient recruitment and safety monitoring.",
+    "dataScience": "The comprehensive data pipeline handles everything from raw data ingestion to final model deployment.",
+    "startTime": 1447.67,
+    "endTime": 1795.33,
+    "duration": 347.67
+  },
+  {
+    "word": "Demonstrate",
+    "synonyms": "show, prove, illustrate, exhibit",
+    "daily": "Can you demonstrate how to use this new coffee machine?",
+    "pharmaceutical": "Phase III trials must demonstrate significant clinical benefits compared to existing treatments.",
+    "dataScience": "The proof-of-concept successfully demonstrates the feasibility of real-time fraud detection algorithms.",
+    "startTime": 1795.33,
+    "endTime": 2083.0,
+    "duration": 287.67
+  },
+  {
+    "word": "Establish",
+    "synonyms": "create, set up, found, institute",
+    "daily": "They decided to establish a weekly family dinner tradition.",
+    "pharmaceutical": "The company aims to establish new research facilities in emerging markets.",
+    "dataScience": "The team needs to establish clear data governance protocols before expanding the analytics platform.",
+    "startTime": 2083.0,
+    "endTime": 2347.67,
+    "duration": 264.67
+  },
+  {
+    "word": "Prioritize",
+    "synonyms": "rank, order, emphasize, focus on",
+    "daily": "I need to prioritize my weekend activities to make sure I finish the important tasks first.",
+    "pharmaceutical": "Regulatory agencies prioritize review of breakthrough therapies for life-threatening diseases.",
+    "dataScience": "Product managers prioritize feature development based on user feedback and business impact analysis.",
+    "startTime": 2347.67,
+    "endTime": 2665.33,
+    "duration": 317.67
+  },
+  {
+    "word": "Methodology",
+    "synonyms": "approach, method, system, framework",
+    "daily": "What's your methodology for learning new languages so quickly?",
+    "pharmaceutical": "The clinical research methodology must comply with Good Clinical Practice guidelines and regulatory requirements.",
+    "dataScience": "The agile development methodology enables rapid iteration and continuous improvement of software products.",
+    "startTime": 2665.33,
+    "endTime": 2981.0,
+    "duration": 315.67
+  },
+  {
+    "word": "Stakeholder",
+    "synonyms": "participant, party, interest group, constituent",
+    "daily": "All community stakeholders should have input on the new park development plans.",
+    "pharmaceutical": "Key stakeholders in drug development include patients, physicians, regulators, and healthcare payers.",
+    "dataScience": "Business stakeholders require clear documentation of machine learning model assumptions and limitations.",
+    "startTime": 2981.0,
+    "endTime": 3303.67,
+    "duration": 322.67
+  },
+  {
+    "word": "Initiative",
+    "synonyms": "project, program, effort, campaign",
+    "daily": "The neighborhood recycling initiative has significantly reduced our waste output.",
+    "pharmaceutical": "The patient access initiative aims to provide affordable medications to underserved populations globally.",
+    "dataScience": "The digital transformation initiative includes implementing advanced analytics across all business units.",
+    "startTime": 3303.67,
+    "endTime": 3628.0,
+    "duration": 324.33
+  },
+  {
+    "word": "Consistent",
+    "synonyms": "uniform, steady, regular, reliable",
+    "daily": "She's been consistent with her exercise routine for over six months now.",
+    "pharmaceutical": "Manufacturing processes must maintain consistent quality standards across different production batches and facilities.",
+    "dataScience": "Consistent data formatting and validation rules are essential for reliable machine learning model performance.",
+    "startTime": 3628.0,
+    "endTime": 3961.33,
+    "duration": 333.33
+  },
+  {
+    "word": "Strategic",
+    "synonyms": "planned, calculated, tactical, deliberate",
+    "daily": "Taking evening classes was a strategic decision to advance my career prospects.",
+    "pharmaceutical": "Strategic partnerships with biotechnology companies accelerate access to innovative therapeutic platforms.",
+    "dataScience": "Strategic investment in cloud infrastructure enables scalable data analytics capabilities for future growth.",
+    "startTime": 3961.33,
+    "endTime": 4289.0,
+    "duration": 327.67
+  },
+  {
+    "word": "Substantial",
+    "synonyms": "significant, considerable, large, important",
+    "daily": "The new job offer includes a substantial salary increase and better benefits.",
+    "pharmaceutical": "Clinical trials demonstrated substantial improvement in patient outcomes compared to standard care protocols.",
+    "dataScience": "The algorithm optimization resulted in substantial improvements in processing speed and resource utilization.",
+    "startTime": 4289.0,
+    "endTime": 4621.33,
+    "duration": 332.33
+  },
+  {
+    "word": "Regulatory",
+    "synonyms": "governing, controlling, supervisory, administrative",
+    "daily": "New regulatory requirements mean we need to update our building's fire safety systems.",
+    "pharmaceutical": "Regulatory approval from the FDA is required before any new drug can be marketed in the United States.",
+    "dataScience": "Data privacy regulatory compliance requires implementing robust security measures and user consent mechanisms.",
+    "startTime": 4621.33,
+    "endTime": 4958.33,
+    "duration": 337.0
+  },
+  {
+    "word": "Innovative",
+    "synonyms": "creative, novel, groundbreaking, pioneering",
+    "daily": "The restaurant's innovative menu combines traditional recipes with modern cooking techniques.",
+    "pharmaceutical": "Innovative gene therapy approaches offer new treatment options for previously incurable genetic disorders.",
+    "dataScience": "The innovative neural network architecture significantly outperforms traditional machine learning approaches.",
+    "startTime": 4958.33,
+    "endTime": 5302.67,
+    "duration": 344.33
+  },
+  {
+    "word": "Compliance",
+    "synonyms": "conformity, adherence, observance, obedience",
+    "daily": "Building compliance with local zoning laws is essential before starting any construction project.",
+    "pharmaceutical": "Good Manufacturing Practice compliance ensures consistent product quality and regulatory approval maintenance.",
+    "dataScience": "GDPR compliance requires implementing data protection measures and user privacy controls in all systems.",
+    "startTime": 5302.67,
+    "endTime": 5650.33,
+    "duration": 347.67
+  },
+  {
+    "word": "Validation",
+    "synonyms": "verification, confirmation, authentication, substantiation",
+    "daily": "Getting positive feedback from my professor provided validation that my research approach was correct.",
+    "pharmaceutical": "Analytical method validation demonstrates that testing procedures consistently produce accurate and reliable results.",
+    "dataScience": "Cross-validation techniques help assess machine learning model performance and prevent overfitting issues.",
+    "startTime": 5650.33,
+    "endTime": 6016.67,
+    "duration": 366.33
+  },
+  {
+    "word": "Framework",
+    "synonyms": "structure, system, foundation, scaffold",
+    "daily": "We need to establish a framework for household chores so everyone knows their responsibilities.",
+    "pharmaceutical": "The regulatory framework ensures systematic evaluation of drug safety and efficacy before market approval.",
+    "dataScience": "The machine learning framework provides standardized tools for model development, training, and deployment.",
+    "startTime": 6016.67,
+    "endTime": 6358.67,
+    "duration": 342.0
+  }
+]

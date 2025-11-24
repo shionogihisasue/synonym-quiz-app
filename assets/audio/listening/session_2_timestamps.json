@@ -1,0 +1,252 @@
+[
+  {
+    "word": "Biomarker",
+    "synonyms": "biological marker, indicator, signature, biological indicator",
+    "daily": "My doctor explained that cholesterol levels serve as a biomarker for heart disease risk.",
+    "pharmaceutical": "Researchers identified a novel biomarker that predicts patient response to targeted cancer therapies.",
+    "dataScience": "Machine learning algorithms analyze multiple biomarker patterns to predict treatment outcomes with higher accuracy.",
+    "startTime": 0,
+    "endTime": 345.33,
+    "duration": 345.33
+  },
+  {
+    "word": "Efficacy",
+    "synonyms": "effectiveness, potency, capability, success rate",
+    "daily": "The efficacy of this study method has helped me improve my test scores significantly.",
+    "pharmaceutical": "Phase III clinical trials demonstrated 85% efficacy in reducing disease progression compared to placebo treatment.",
+    "dataScience": "Predictive models evaluate treatment efficacy by analyzing large datasets of patient outcomes and response patterns.",
+    "startTime": 345.33,
+    "endTime": 696.33,
+    "duration": 351.0
+  },
+  {
+    "word": "Pharmacokinetics",
+    "synonyms": "drug kinetics, ADME, drug metabolism, pharmaceutical kinetics",
+    "daily": "The pharmacist explained that pharmacokinetics is why some medications need to be taken with food.",
+    "pharmaceutical": "Pharmacokinetics studies revealed that the new formulation provides sustained drug release over 24 hours.",
+    "dataScience": "Population pharmacokinetics modeling uses statistical software to analyze drug concentration data from diverse patient populations.",
+    "startTime": 696.33,
+    "endTime": 1078.67,
+    "duration": 382.33
+  },
+  {
+    "word": "Clinical Trial",
+    "synonyms": "clinical study, human study, medical research, therapeutic trial",
+    "daily": "My aunt decided to participate in a clinical trial for a new arthritis treatment.",
+    "pharmaceutical": "The multicenter clinical trial enrolled 2,000 patients across 15 countries to evaluate the new diabetes medication.",
+    "dataScience": "Electronic data capture systems streamline clinical trial data collection and enable real-time monitoring of patient safety.",
+    "startTime": 1078.67,
+    "endTime": 1446.0,
+    "duration": 367.33
+  },
+  {
+    "word": "Adverse Event",
+    "synonyms": "side effect, undesirable effect, negative reaction, unwanted outcome",
+    "daily": "I experienced an adverse event from the flu vaccine and had to contact my doctor.",
+    "pharmaceutical": "All adverse events during the clinical trial must be reported to regulatory authorities within 24 hours.",
+    "dataScience": "Natural language processing algorithms automatically extract adverse event information from clinical notes and patient reports.",
+    "startTime": 1446.0,
+    "endTime": 1805.67,
+    "duration": 359.67
+  },
+  {
+    "word": "Therapeutic",
+    "synonyms": "medicinal, healing, curative, treatment-related",
+    "daily": "Swimming has been very therapeutic for recovering from my back injury.",
+    "pharmaceutical": "The therapeutic window for this medication requires careful dose adjustment to maximize benefits while minimizing risks.",
+    "dataScience": "Machine learning models predict therapeutic response by analyzing genetic markers and patient clinical histories.",
+    "startTime": 1805.67,
+    "endTime": 2147.33,
+    "duration": 341.67
+  },
+  {
+    "word": "Dosage",
+    "synonyms": "dose, amount, quantity, administration level",
+    "daily": "Make sure to follow the correct dosage instructions on the medicine bottle.",
+    "pharmaceutical": "Dosage optimization studies determine the most effective and safe amount of medication for different patient populations.",
+    "dataScience": "Personalized dosage recommendations are generated using algorithms that consider patient characteristics and drug interaction data.",
+    "startTime": 2147.33,
+    "endTime": 2507.0,
+    "duration": 359.67
+  },
+  {
+    "word": "Placebo",
+    "synonyms": "inactive treatment, control treatment, sham treatment, dummy pill",
+    "daily": "Sometimes doctors prescribe a placebo when patients insist on medication for conditions that don't require it.",
+    "pharmaceutical": "The randomized, placebo-controlled trial design ensures unbiased evaluation of the investigational drug's true therapeutic effect.",
+    "dataScience": "Statistical analysis compares treatment outcomes between active drug and placebo groups to determine statistical significance.",
+    "startTime": 2507.0,
+    "endTime": 2913.67,
+    "duration": 406.67
+  },
+  {
+    "word": "Formulation",
+    "synonyms": "composition, preparation, mixture, pharmaceutical form",
+    "daily": "The new shampoo formulation is much gentler on sensitive skin than the previous version.",
+    "pharmaceutical": "The extended-release formulation allows patients to take the medication once daily instead of three times per day.",
+    "dataScience": "Computational models predict optimal formulation parameters based on drug properties and target release profiles.",
+    "startTime": 2913.67,
+    "endTime": 3269.67,
+    "duration": 356.0
+  },
+  {
+    "word": "Indication",
+    "synonyms": "approved use, medical condition, therapeutic use, treatment purpose",
+    "daily": "The doctor said there's no clear indication for surgery at this point in my recovery.",
+    "pharmaceutical": "The FDA approved the drug for a new indication in pediatric patients with rare genetic disorders.",
+    "dataScience": "Real-world evidence studies analyze drug effectiveness across multiple indications using electronic health record data.",
+    "startTime": 3269.67,
+    "endTime": 3615.0,
+    "duration": 345.33
+  },
+  {
+    "word": "Contraindication",
+    "synonyms": "prohibition, restriction, warning, exclusion criterion",
+    "daily": "My allergy to penicillin is a contraindication for taking certain antibiotics.",
+    "pharmaceutical": "Pregnancy is a contraindication for this medication due to potential teratogenic effects on fetal development.",
+    "dataScience": "Clinical decision support systems automatically flag contraindications when physicians prescribe medications to patients.",
+    "startTime": 3615.0,
+    "endTime": 3970.0,
+    "duration": 355.0
+  },
+  {
+    "word": "Pharmacovigilance",
+    "synonyms": "drug safety monitoring, post-market surveillance, safety monitoring, drug vigilance",
+    "daily": "Pharmacovigilance helps ensure that the medications we take remain safe even after years of use.",
+    "pharmaceutical": "The pharmacovigilance department continuously monitors safety signals from clinical trials and post-marketing surveillance data.",
+    "dataScience": "Artificial intelligence enhances pharmacovigilance by automatically detecting potential safety signals in large healthcare databases.",
+    "startTime": 3970.0,
+    "endTime": 4383.67,
+    "duration": 413.67
+  },
+  {
+    "word": "Bioavailability",
+    "synonyms": "absorption rate, systemic availability, drug availability, biological availability",
+    "daily": "Taking vitamin C with iron supplements increases the bioavailability of iron in your body.",
+    "pharmaceutical": "Bioavailability studies compare generic medications to brand-name drugs to ensure therapeutic equivalence.",
+    "dataScience": "Physiologically-based pharmacokinetic models predict bioavailability changes across different patient populations using computational simulations.",
+    "startTime": 4383.67,
+    "endTime": 4780.0,
+    "duration": 396.33
+  },
+  {
+    "word": "Metabolism",
+    "synonyms": "biotransformation, chemical breakdown, metabolic process, drug processing",
+    "daily": "Regular exercise helps boost your metabolism and maintain a healthy weight.",
+    "pharmaceutical": "Drug metabolism studies identify how genetic variations in liver enzymes affect individual patient responses to medications.",
+    "dataScience": "Systems biology models integrate metabolism data to predict drug-drug interactions and personalized dosing requirements.",
+    "startTime": 4780.0,
+    "endTime": 5145.33,
+    "duration": 365.33
+  },
+  {
+    "word": "Protocol",
+    "synonyms": "procedure, plan, guidelines, study design",
+    "daily": "The wedding planner followed a strict protocol to ensure everything went smoothly on the big day.",
+    "pharmaceutical": "The clinical trial protocol specifies inclusion criteria, primary endpoints, and statistical analysis plans for regulatory submission.",
+    "dataScience": "Data collection protocols ensure standardized and consistent capture of information across multiple research sites.",
+    "startTime": 5145.33,
+    "endTime": 5525.0,
+    "duration": 379.67
+  },
+  {
+    "word": "Endpoint",
+    "synonyms": "outcome measure, result metric, study objective, measurable goal",
+    "daily": "The endpoint of our fitness program is to run a 5K race without stopping.",
+    "pharmaceutical": "The primary endpoint of the cardiovascular trial is reduction in major adverse cardiac events over two years.",
+    "dataScience": "Machine learning algorithms predict clinical endpoint achievement based on early biomarker and patient characteristic data.",
+    "startTime": 5525.0,
+    "endTime": 5871.33,
+    "duration": 346.33
+  },
+  {
+    "word": "Randomization",
+    "synonyms": "random assignment, chance allocation, arbitrary selection, statistical distribution",
+    "daily": "The teacher used randomization to assign students to different project groups fairly.",
+    "pharmaceutical": "Stratified randomization ensures balanced allocation of patients across treatment arms based on key demographic characteristics.",
+    "dataScience": "Computerized randomization systems generate treatment assignments and maintain allocation concealment during clinical trials.",
+    "startTime": 5871.33,
+    "endTime": 6262.0,
+    "duration": 390.67
+  },
+  {
+    "word": "Blinding",
+    "synonyms": "masking, concealment, double-blind, single-blind",
+    "daily": "The taste test used blinding so participants couldn't tell which product they were trying.",
+    "pharmaceutical": "Double blinding ensures that neither patients nor investigators know treatment assignments, maintaining study integrity and objectivity.",
+    "dataScience": "Electronic data capture systems maintain blinding by using coded treatment assignments that are only revealed after database lock.",
+    "startTime": 6262.0,
+    "endTime": 6654.0,
+    "duration": 392.0
+  },
+  {
+    "word": "Bioequivalence",
+    "synonyms": "therapeutic equivalence, pharmaceutical equivalence, biological similarity, equivalent bioavailability",
+    "daily": "Generic medications must demonstrate bioequivalence to brand-name drugs before pharmacy substitution.",
+    "pharmaceutical": "Bioequivalence studies compare pharmacokinetic parameters between test and reference formulations to ensure therapeutic interchangeability.",
+    "dataScience": "Population pharmacokinetic modeling analyzes bioequivalence data to determine appropriate confidence intervals for regulatory approval.",
+    "startTime": 6654.0,
+    "endTime": 7089.0,
+    "duration": 435.0
+  },
+  {
+    "word": "Excipient",
+    "synonyms": "inactive ingredient, pharmaceutical aid, carrier, additive",
+    "daily": "People with lactose intolerance need to check if lactose is used as an excipient in their medications.",
+    "pharmaceutical": "Novel excipients in sustained-release formulations control drug release rates and improve patient compliance.",
+    "dataScience": "Machine learning models predict optimal excipient combinations based on drug properties and desired release characteristics.",
+    "startTime": 7089.0,
+    "endTime": 7464.33,
+    "duration": 375.33
+  },
+  {
+    "word": "Stability",
+    "synonyms": "shelf life, durability, chemical integrity, pharmaceutical stability",
+    "daily": "Check the expiration date to ensure medication stability before taking any pills.",
+    "pharmaceutical": "Accelerated stability studies predict long-term drug product shelf life under various environmental stress conditions.",
+    "dataScience": "Predictive analytics models forecast pharmaceutical stability based on formulation parameters and storage condition data.",
+    "startTime": 7464.33,
+    "endTime": 7828.0,
+    "duration": 363.67
+  },
+  {
+    "word": "Bioassay",
+    "synonyms": "biological assay, activity test, potency assay, functional assay",
+    "daily": "Environmental scientists use bioassays to test water quality and detect harmful pollutants.",
+    "pharmaceutical": "Cell-based bioassays measure the biological activity of monoclonal antibody therapeutics for quality control purposes.",
+    "dataScience": "Automated bioassay platforms generate large datasets that require statistical analysis and machine learning for interpretation.",
+    "startTime": 7828.0,
+    "endTime": 8205.33,
+    "duration": 377.33
+  },
+  {
+    "word": "Pharmacodynamics",
+    "synonyms": "drug action, mechanism of action, drug effects, therapeutic response",
+    "daily": "Understanding pharmacodynamics helps explain why some people need higher doses of pain medication.",
+    "pharmaceutical": "Pharmacodynamic studies evaluate dose-response relationships to determine optimal therapeutic dosing regimens.",
+    "dataScience": "Quantitative pharmacodynamic modeling integrates biomarker data to predict individual patient responses to targeted therapies.",
+    "startTime": 8205.33,
+    "endTime": 8590.0,
+    "duration": 384.67
+  },
+  {
+    "word": "Investigational",
+    "synonyms": "experimental, research-stage, under investigation, investigative",
+    "daily": "My oncologist mentioned an investigational treatment that might be available through a clinical trial.",
+    "pharmaceutical": "The investigational new drug application must include comprehensive preclinical safety and efficacy data.",
+    "dataScience": "Real-world data analytics supplement traditional clinical trials for investigational products by providing broader safety evidence.",
+    "startTime": 8590.0,
+    "endTime": 8976.33,
+    "duration": 386.33
+  },
+  {
+    "word": "Pharmaceutical",
+    "synonyms": "medicinal, drug-related, therapeutic, pharmaceutical product",
+    "daily": "The pharmaceutical industry plays a crucial role in developing treatments for rare diseases.",
+    "pharmaceutical": "Pharmaceutical development requires extensive research, regulatory approval, and quality manufacturing processes.",
+    "dataScience": "Pharmaceutical companies increasingly rely on artificial intelligence for drug discovery and development optimization.",
+    "startTime": 8976.33,
+    "endTime": 9345.33,
+    "duration": 369.0
+  }
+]

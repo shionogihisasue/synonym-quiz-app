@@ -1,0 +1,102 @@
+[
+  {
+    "word": "Cloud Computing",
+    "synonyms": "cloud services, remote computing, distributed computing",
+    "daily": "Cloud computing is like renting a car when you need it instead of buying one - you get access without ownership.",
+    "pharmaceutical": "Cloud computing enables secure collaboration on clinical data analysis across global research teams.",
+    "dataScience": "We migrated our machine learning workloads to cloud computing for better scalability and cost efficiency.",
+    "startTime": 0,
+    "endTime": 362.33,
+    "duration": 362.33
+  },
+  {
+    "word": "Kubernetes",
+    "synonyms": "K8s, container orchestration, cluster management",
+    "daily": "Kubernetes is like an intelligent traffic controller that manages where applications run and how they communicate.",
+    "pharmaceutical": "Kubernetes orchestrates our clinical data processing applications across multiple secure cloud environments.",
+    "dataScience": "We use Kubernetes to automatically scale our machine learning inference services based on demand.",
+    "startTime": 362.33,
+    "endTime": 719.33,
+    "duration": 357.0
+  },
+  {
+    "word": "Microservices",
+    "synonyms": "service architecture, distributed services, modular services",
+    "daily": "Microservices are like a restaurant with specialized stations - one for salads, one for grilling, each doing their job independently.",
+    "pharmaceutical": "Our clinical trial platform uses microservices for patient enrollment, data collection, and adverse event reporting.",
+    "dataScience": "The machine learning platform consists of separate microservices for data ingestion, training, and prediction.",
+    "startTime": 719.33,
+    "endTime": 1123.33,
+    "duration": 404.0
+  },
+  {
+    "word": "Scalability",
+    "synonyms": "expandability, growth capacity, elasticity",
+    "daily": "Good scalability is like a restaurant that can quickly add more tables and staff when it gets busy.",
+    "pharmaceutical": "The clinical database's scalability allows it to handle data from studies ranging from 100 to 10,000 patients.",
+    "dataScience": "Our model serving infrastructure provides horizontal scalability to handle millions of prediction requests.",
+    "startTime": 1123.33,
+    "endTime": 1476.33,
+    "duration": 353.0
+  },
+  {
+    "word": "Load Balancer",
+    "synonyms": "traffic distributor, request router, workload distributor",
+    "daily": "A load balancer is like a host at a restaurant who distributes customers evenly among available servers.",
+    "pharmaceutical": "Load balancers ensure clinical researchers can access patient data quickly even during peak usage periods.",
+    "dataScience": "The load balancer routes prediction requests across multiple model instances to maintain low latency.",
+    "startTime": 1476.33,
+    "endTime": 1831.33,
+    "duration": 355.0
+  },
+  {
+    "word": "Virtual Machine",
+    "synonyms": "VM, virtual server, virtualized environment",
+    "daily": "A virtual machine is like having multiple separate apartments in one building - each with its own space and utilities.",
+    "pharmaceutical": "Isolated virtual machines ensure clinical data analysis environments meet strict regulatory compliance requirements.",
+    "dataScience": "Each data scientist gets their own virtual machine configured with the necessary tools and libraries.",
+    "startTime": 1831.33,
+    "endTime": 2207.67,
+    "duration": 376.33
+  },
+  {
+    "word": "Infrastructure as Code",
+    "synonyms": "IaC, automated provisioning, configuration management",
+    "daily": "It's like having a recipe for setting up your workspace that anyone can follow to create the exact same setup.",
+    "pharmaceutical": "Infrastructure as Code ensures consistent and compliant environments for clinical data analysis across all regions.",
+    "dataScience": "Our team uses Infrastructure as Code to rapidly deploy identical machine learning environments for different projects.",
+    "startTime": 2207.67,
+    "endTime": 2602.33,
+    "duration": 394.67
+  },
+  {
+    "word": "DevOps",
+    "synonyms": "development operations, collaborative development, agile operations",
+    "daily": "DevOps is like having the kitchen staff and waiters work together closely to serve meals faster and better.",
+    "pharmaceutical": "DevOps practices accelerate the delivery of clinical analysis tools while maintaining regulatory compliance.",
+    "dataScience": "Our DevOps pipeline automatically tests, validates, and deploys machine learning models to production.",
+    "startTime": 2602.33,
+    "endTime": 2959.67,
+    "duration": 357.33
+  },
+  {
+    "word": "Virtual Machine",
+    "synonyms": "VM, virtual server, virtualized environment",
+    "daily": "A virtual machine is like having multiple separate apartments in one building - each with its own space and utilities.",
+    "pharmaceutical": "Isolated virtual machines ensure clinical data analysis environments meet strict regulatory compliance requirements.",
+    "dataScience": "Each data scientist gets their own virtual machine configured with the necessary tools and libraries.",
+    "startTime": 2959.67,
+    "endTime": 3336.0,
+    "duration": 376.33
+  },
+  {
+    "word": "DevOps",
+    "synonyms": "development operations, collaborative development, agile operations",
+    "daily": "DevOps is like having the kitchen staff and waiters work together closely to serve meals faster and better.",
+    "pharmaceutical": "DevOps practices accelerate the delivery of clinical analysis tools while maintaining regulatory compliance.",
+    "dataScience": "Our DevOps pipeline automatically tests, validates, and deploys machine learning models to production.",
+    "startTime": 3336.0,
+    "endTime": 3693.33,
+    "duration": 357.33
+  }
+]

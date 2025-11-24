@@ -1,0 +1,172 @@
+[
+  {
+    "word": "Algorithm",
+    "synonyms": "procedure, method, formula, computational process",
+    "daily": "The GPS uses an algorithm to find the fastest route to your destination.",
+    "pharmaceutical": "Machine learning algorithms identify potential drug targets by analyzing protein interaction networks.",
+    "dataScience": "The recommendation algorithm analyzes user behavior patterns to suggest relevant products and content.",
+    "startTime": 0,
+    "endTime": 313.33,
+    "duration": 313.33
+  },
+  {
+    "word": "Regression",
+    "synonyms": "statistical modeling, predictive analysis, correlation analysis, trend analysis",
+    "daily": "Linear regression helped us understand how study hours relate to exam scores.",
+    "pharmaceutical": "Logistic regression models predict patient treatment response based on demographic and clinical characteristics.",
+    "dataScience": "Multiple regression analysis identifies key factors influencing customer churn and retention rates.",
+    "startTime": 313.33,
+    "endTime": 649.67,
+    "duration": 336.33
+  },
+  {
+    "word": "Classification",
+    "synonyms": "categorization, grouping, sorting, labeling",
+    "daily": "Email classification helps automatically sort messages into spam and inbox folders.",
+    "pharmaceutical": "Image classification algorithms analyze medical scans to detect and classify different types of tumors.",
+    "dataScience": "Text classification models automatically categorize customer support tickets based on content and urgency.",
+    "startTime": 649.67,
+    "endTime": 982.0,
+    "duration": 332.33
+  },
+  {
+    "word": "Clustering",
+    "synonyms": "grouping, segmentation, partitioning, pattern recognition",
+    "daily": "Customer clustering helps businesses understand different shopper preferences and behaviors.",
+    "pharmaceutical": "Genetic clustering analysis identifies patient subgroups with similar drug metabolism profiles for personalized medicine.",
+    "dataScience": "K-means clustering segments website users based on browsing patterns and engagement metrics.",
+    "startTime": 982.0,
+    "endTime": 1328.0,
+    "duration": 346.0
+  },
+  {
+    "word": "Correlation",
+    "synonyms": "relationship, association, connection, statistical dependence",
+    "daily": "There's a strong correlation between daily exercise and improved sleep quality.",
+    "pharmaceutical": "Correlation analysis reveals relationships between biomarker levels and treatment response in clinical trials.",
+    "dataScience": "Feature correlation matrices help identify redundant variables before building predictive models.",
+    "startTime": 1328.0,
+    "endTime": 1657.33,
+    "duration": 329.33
+  },
+  {
+    "word": "Prediction",
+    "synonyms": "forecast, projection, estimation, anticipated outcome",
+    "daily": "Weather prediction helps us decide what clothes to wear and whether to carry an umbrella.",
+    "pharmaceutical": "Predictive models estimate clinical trial success probability based on preclinical data and compound characteristics.",
+    "dataScience": "Machine learning prediction models forecast customer lifetime value and purchasing behavior patterns.",
+    "startTime": 1657.33,
+    "endTime": 2004.0,
+    "duration": 346.67
+  },
+  {
+    "word": "Neural Network",
+    "synonyms": "artificial neural network, ANN, connectionist model",
+    "daily": "The voice recognition on my phone uses a neural network to understand what I'm saying.",
+    "pharmaceutical": "Our neural network model predicts drug efficacy based on patient genetic profiles and clinical history.",
+    "dataScience": "The deep neural network achieved 95% accuracy in classifying molecular compounds.",
+    "startTime": 2004.0,
+    "endTime": 2317.0,
+    "duration": 313.0
+  },
+  {
+    "word": "Hyperparameter",
+    "synonyms": "tuning parameter, configuration parameter, meta-parameter",
+    "daily": "Think of hyperparameters like settings on your camera that you adjust before taking photos.",
+    "pharmaceutical": "We optimized hyperparameters to improve our model's prediction of adverse drug reactions.",
+    "dataScience": "Grid search was used to find the optimal hyperparameters for the random forest model.",
+    "startTime": 2317.0,
+    "endTime": 2627.0,
+    "duration": 310.0
+  },
+  {
+    "word": "Overfitting",
+    "synonyms": "overtraining, memorization, poor generalization",
+    "daily": "It's like studying only past exam questions and failing when facing new problems.",
+    "pharmaceutical": "The clinical trial model showed overfitting, predicting well for the study population but poorly for general patients.",
+    "dataScience": "We used cross-validation to detect and prevent overfitting in our predictive model.",
+    "startTime": 2627.0,
+    "endTime": 2947.67,
+    "duration": 320.67
+  },
+  {
+    "word": "Gradient Descent",
+    "synonyms": "optimization algorithm, iterative optimization, steepest descent",
+    "daily": "It's like finding the fastest way down a hill by always taking the steepest path available.",
+    "pharmaceutical": "Gradient descent optimized our drug dosage prediction model by minimizing prediction errors.",
+    "dataScience": "The neural network training process uses gradient descent to update weights and reduce loss.",
+    "startTime": 2947.67,
+    "endTime": 3272.0,
+    "duration": 324.33
+  },
+  {
+    "word": "Cross-validation",
+    "synonyms": "model validation, holdout testing, resampling",
+    "daily": "It's like testing a recipe multiple times with different ingredients to ensure it always works.",
+    "pharmaceutical": "Cross-validation confirmed our biomarker model's reliability across diverse patient populations.",
+    "dataScience": "Five-fold cross-validation showed consistent performance across all data partitions.",
+    "startTime": 3272.0,
+    "endTime": 3590.0,
+    "duration": 318.0
+  },
+  {
+    "word": "Ensemble",
+    "synonyms": "ensemble method, model combination, aggregated model",
+    "daily": "Like asking several experts for advice and combining their opinions to make better decisions.",
+    "pharmaceutical": "The ensemble model combining multiple algorithms improved drug target prediction accuracy significantly.",
+    "dataScience": "Random forest is an ensemble method that combines hundreds of decision trees.",
+    "startTime": 3590.0,
+    "endTime": 3901.33,
+    "duration": 311.33
+  },
+  {
+    "word": "Feature Engineering",
+    "synonyms": "feature extraction, variable creation, data transformation",
+    "daily": "It's like highlighting the most important information in a document to help someone understand it better.",
+    "pharmaceutical": "Feature engineering transformed raw patient data into meaningful predictors for treatment outcomes.",
+    "dataScience": "Our feature engineering pipeline created 150 new variables from the original dataset.",
+    "startTime": 3901.33,
+    "endTime": 4240.67,
+    "duration": 339.33
+  },
+  {
+    "word": "Supervised Learning",
+    "synonyms": "guided learning, labeled learning, predictive modeling",
+    "daily": "Like learning to recognize faces by studying photos where people are already identified.",
+    "pharmaceutical": "Supervised learning models predict drug efficacy using historical clinical trial data with known outcomes.",
+    "dataScience": "The supervised learning algorithm was trained on 10,000 labeled examples.",
+    "startTime": 4240.67,
+    "endTime": 4556.67,
+    "duration": 316.0
+  },
+  {
+    "word": "Natural Language Processing",
+    "synonyms": "NLP, computational linguistics, text analytics",
+    "daily": "Voice assistants like Siri use natural language processing to understand and respond to spoken commands.",
+    "pharmaceutical": "NLP algorithms extract adverse events from clinical trial reports and medical literature automatically.",
+    "dataScience": "Our natural language processing pipeline processes thousands of research papers daily.",
+    "startTime": 4556.67,
+    "endTime": 4904.0,
+    "duration": 347.33
+  },
+  {
+    "word": "Tensor",
+    "synonyms": "multidimensional array, matrix generalization, data structure",
+    "daily": "Think of a tensor like a multi-layered spreadsheet where data can be organized in multiple dimensions.",
+    "pharmaceutical": "Patient data is stored in tensors to capture time-series measurements across multiple biomarkers.",
+    "dataScience": "The neural network processes input tensors with dimensions representing batch size, features, and time steps.",
+    "startTime": 4904.0,
+    "endTime": 5250.33,
+    "duration": 346.33
+  },
+  {
+    "word": "Dimensionality Reduction",
+    "synonyms": "feature reduction, data compression, simplification",
+    "daily": "Like creating a summary of a long book that captures all the key points in fewer pages.",
+    "pharmaceutical": "Dimensionality reduction simplified genomic data from 20,000 genes to 50 key biomarkers.",
+    "dataScience": "PCA reduced the 1000-dimensional feature space to 20 components explaining 95% of variance.",
+    "startTime": 5250.33,
+    "endTime": 5569.33,
+    "duration": 319.0
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "word": "Repository",
+    "synonyms": "repo, codebase, source control, storage",
+    "daily": "Think of a repository like a shared folder where team members store and organize all project files.",
+    "pharmaceutical": "The clinical data analysis repository contains standardized code for regulatory submissions across all studies.",
+    "dataScience": "Our machine learning repository includes model training scripts, evaluation metrics, and deployment configurations.",
+    "startTime": 0,
+    "endTime": 360.0,
+    "duration": 360.0
+  },
+  {
+    "word": "API",
+    "synonyms": "Application Programming Interface, interface, service endpoint",
+    "daily": "An API is like a waiter who takes your order to the kitchen and brings back your food - connecting you with the service.",
+    "pharmaceutical": "The clinical database API enables real-time integration between electronic health records and research platforms.",
+    "dataScience": "We built a REST API to serve machine learning predictions to the web application.",
+    "startTime": 360.0,
+    "endTime": 709.67,
+    "duration": 349.67
+  },
+  {
+    "word": "Pipeline",
+    "synonyms": "workflow, process chain, data flow",
+    "daily": "Like an assembly line in a factory where each worker adds something before passing it to the next person.",
+    "pharmaceutical": "The clinical data pipeline automatically cleans, validates, and transforms patient data for analysis.",
+    "dataScience": "Our machine learning pipeline includes data preprocessing, model training, evaluation, and deployment stages.",
+    "startTime": 709.67,
+    "endTime": 1056.0,
+    "duration": 346.33
+  },
+  {
+    "word": "Version Control",
+    "synonyms": "source control, revision control, Git management",
+    "daily": "Like keeping track of all the drafts of an important document so you can see what changed and go back if needed.",
+    "pharmaceutical": "Version control ensures regulatory compliance by maintaining complete audit trails of all analysis code changes.",
+    "dataScience": "Git version control allows our team to collaborate on model development without conflicts.",
+    "startTime": 1056.0,
+    "endTime": 1413.0,
+    "duration": 357.0
+  },
+  {
+    "word": "Deployment",
+    "synonyms": "release, production rollout, implementation",
+    "daily": "Deployment is like opening a restaurant after all the preparation - now customers can actually eat there.",
+    "pharmaceutical": "Model deployment enables clinicians to access real-time drug interaction predictions through the hospital system.",
+    "dataScience": "We use containerized deployment to ensure consistent model performance across different environments.",
+    "startTime": 1413.0,
+    "endTime": 1768.33,
+    "duration": 355.33
+  },
+  {
+    "word": "Debugging",
+    "synonyms": "troubleshooting, error fixing, problem solving",
+    "daily": "Debugging is like being a detective - you look for clues to figure out why something isn't working properly.",
+    "pharmaceutical": "Debugging the clinical trial simulation revealed incorrect dosing calculations in edge cases.",
+    "dataScience": "Step-by-step debugging helped identify why the model predictions were inconsistent.",
+    "startTime": 1768.33,
+    "endTime": 2088.67,
+    "duration": 320.33
+  },
+  {
+    "word": "Framework",
+    "synonyms": "platform, library, toolkit, foundation",
+    "daily": "A framework is like a house foundation - it provides the basic structure so you can focus on building the rooms.",
+    "pharmaceutical": "The clinical data analysis framework standardizes statistical methods across all therapeutic areas.",
+    "dataScience": "TensorFlow framework simplified the development and training of our deep learning models.",
+    "startTime": 2088.67,
+    "endTime": 2422.33,
+    "duration": 333.67
+  },
+  {
+    "word": "Refactoring",
+    "synonyms": "code restructuring, optimization, cleanup",
+    "daily": "Refactoring is like reorganizing your closet - everything still fits, but it's neater and easier to find things.",
+    "pharmaceutical": "Code refactoring improved the clinical analysis pipeline's performance by 40% without changing results.",
+    "dataScience": "Regular refactoring keeps our machine learning codebase clean and easier for new team members to understand.",
+    "startTime": 2422.33,
+    "endTime": 2782.0,
+    "duration": 359.67
+  },
+  {
+    "word": "Containerization",
+    "synonyms": "packaging, encapsulation, Docker deployment",
+    "daily": "Containerization is like packing everything you need for a trip in one suitcase that works anywhere you go.",
+    "pharmaceutical": "Containerization ensures clinical analysis tools run identically across development, testing, and production environments.",
+    "dataScience": "Docker containerization made our machine learning models portable across different cloud platforms.",
+    "startTime": 2782.0,
+    "endTime": 3152.33,
+    "duration": 370.33
+  },
+  {
+    "word": "Continuous Integration",
+    "synonyms": "CI, automated integration, build automation",
+    "daily": "It's like checking your work continuously instead of waiting until the end of a project to see if everything fits together.",
+    "pharmaceutical": "Continuous integration automatically validates clinical analysis code against regulatory requirements before release.",
+    "dataScience": "Our CI pipeline automatically tests model performance whenever new training data becomes available.",
+    "startTime": 3152.33,
+    "endTime": 3539.67,
+    "duration": 387.33
+  }
+]

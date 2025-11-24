@@ -1,0 +1,102 @@
+[
+  {
+    "word": "P-value",
+    "synonyms": "probability value, significance value, statistical measure",
+    "daily": "A low p-value is like having strong evidence that your observation wasn't just due to chance.",
+    "pharmaceutical": "The clinical trial showed a p-value of 0.003, confirming the drug's statistically significant efficacy.",
+    "dataScience": "Features with p-values below 0.05 were retained for the final predictive model.",
+    "startTime": 0,
+    "endTime": 313.33,
+    "duration": 313.33
+  },
+  {
+    "word": "Confidence Interval",
+    "synonyms": "uncertainty interval, margin of error, estimation range",
+    "daily": "Like saying 'I'm 95% confident the delivery will arrive between 2-4 PM' instead of giving an exact time.",
+    "pharmaceutical": "The 95% confidence interval for treatment efficacy ranged from 68% to 82%.",
+    "dataScience": "Bootstrap sampling was used to calculate confidence intervals for model performance metrics.",
+    "startTime": 313.33,
+    "endTime": 632.67,
+    "duration": 319.33
+  },
+  {
+    "word": "Hypothesis Testing",
+    "synonyms": "statistical testing, significance testing, inferential analysis",
+    "daily": "Like testing whether a new study method really improves grades or if the improvement was just luck.",
+    "pharmaceutical": "Hypothesis testing confirmed that the new formulation significantly reduces side effects compared to placebo.",
+    "dataScience": "A/B testing uses hypothesis testing to determine which website version performs better.",
+    "startTime": 632.67,
+    "endTime": 978.67,
+    "duration": 346.0
+  },
+  {
+    "word": "Variance",
+    "synonyms": "variability, dispersion, spread",
+    "daily": "High variance in daily temperatures means some days are much hotter or cooler than the average.",
+    "pharmaceutical": "Low variance in drug absorption rates indicates consistent bioavailability across patients.",
+    "dataScience": "Principal component analysis reduces dimensionality while preserving maximum variance in the data.",
+    "startTime": 978.67,
+    "endTime": 1293.0,
+    "duration": 314.33
+  },
+  {
+    "word": "Distribution",
+    "synonyms": "probability distribution, data pattern, frequency distribution",
+    "daily": "The distribution of heights in a population shows most people are average height with fewer very tall or short individuals.",
+    "pharmaceutical": "The normal distribution of biomarker levels helps establish reference ranges for healthy patients.",
+    "dataScience": "Understanding the underlying distribution is crucial for selecting appropriate statistical tests.",
+    "startTime": 1293.0,
+    "endTime": 1655.67,
+    "duration": 362.67
+  },
+  {
+    "word": "Outlier",
+    "synonyms": "anomaly, aberration, extreme value",
+    "daily": "If everyone in your friend group is around 5'8\" tall and one person is 6'5\", they're an outlier.",
+    "pharmaceutical": "Outliers in clinical data may represent rare adverse events or exceptional treatment responses.",
+    "dataScience": "Robust statistical methods were used to handle outliers without removing potentially valuable information.",
+    "startTime": 1655.67,
+    "endTime": 1983.0,
+    "duration": 327.33
+  },
+  {
+    "word": "Variance",
+    "synonyms": "variability, dispersion, spread",
+    "daily": "High variance in daily temperatures means some days are much hotter or cooler than the average.",
+    "pharmaceutical": "Low variance in drug absorption rates indicates consistent bioavailability across patients.",
+    "dataScience": "Principal component analysis reduces dimensionality while preserving maximum variance in the data.",
+    "startTime": 1983.0,
+    "endTime": 2297.33,
+    "duration": 314.33
+  },
+  {
+    "word": "Distribution",
+    "synonyms": "probability distribution, data pattern, frequency distribution",
+    "daily": "The distribution of heights in a population shows most people are average height with fewer very tall or short individuals.",
+    "pharmaceutical": "The normal distribution of biomarker levels helps establish reference ranges for healthy patients.",
+    "dataScience": "Understanding the underlying distribution is crucial for selecting appropriate statistical tests.",
+    "startTime": 2297.33,
+    "endTime": 2660.0,
+    "duration": 362.67
+  },
+  {
+    "word": "Outlier",
+    "synonyms": "anomaly, aberration, extreme value",
+    "daily": "If everyone in your friend group is around 5'8\" tall and one person is 6'5\", they're an outlier.",
+    "pharmaceutical": "Outliers in clinical data may represent rare adverse events or exceptional treatment responses.",
+    "dataScience": "Robust statistical methods were used to handle outliers without removing potentially valuable information.",
+    "startTime": 2660.0,
+    "endTime": 2987.33,
+    "duration": 327.33
+  },
+  {
+    "word": "Dimensionality Reduction",
+    "synonyms": "feature reduction, data compression, simplification",
+    "daily": "Like creating a summary of a long book that captures all the key points in fewer pages.",
+    "pharmaceutical": "Dimensionality reduction simplified genomic data from 20,000 genes to 50 key biomarkers.",
+    "dataScience": "PCA reduced the 1000-dimensional feature space to 20 components explaining 95% of variance.",
+    "startTime": 2987.33,
+    "endTime": 3306.33,
+    "duration": 319.0
+  }
+]

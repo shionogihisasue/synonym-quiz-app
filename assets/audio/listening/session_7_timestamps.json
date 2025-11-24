@@ -1,0 +1,102 @@
+[
+  {
+    "word": "SQL",
+    "synonyms": "Structured Query Language, database language, query language",
+    "daily": "SQL is like asking specific questions to a very organized librarian who can quickly find exactly what you need.",
+    "pharmaceutical": "Clinical researchers use SQL to extract patient subgroups and analyze treatment outcomes from electronic health records.",
+    "dataScience": "Complex SQL queries aggregate millions of transactions to create features for machine learning models.",
+    "startTime": 0,
+    "endTime": 368.0,
+    "duration": 368.0
+  },
+  {
+    "word": "ETL",
+    "synonyms": "Extract Transform Load, data integration, data pipeline",
+    "daily": "ETL is like collecting ingredients from different stores, preparing them in your kitchen, and organizing them in your pantry.",
+    "pharmaceutical": "The ETL process integrates clinical trial data from multiple sites into a standardized database for analysis.",
+    "dataScience": "Our nightly ETL jobs transform raw sensor data into clean datasets ready for machine learning algorithms.",
+    "startTime": 368.0,
+    "endTime": 740.33,
+    "duration": 372.33
+  },
+  {
+    "word": "Data Warehouse",
+    "synonyms": "data repository, analytical database, enterprise data store",
+    "daily": "A data warehouse is like a huge, well-organized library where information from many sources is stored for easy research.",
+    "pharmaceutical": "The clinical data warehouse combines patient records, lab results, and imaging data for comprehensive drug efficacy analysis.",
+    "dataScience": "Historical data in the warehouse enables time-series analysis and trend prediction across multiple business units.",
+    "startTime": 740.33,
+    "endTime": 1145.0,
+    "duration": 404.67
+  },
+  {
+    "word": "Big Data",
+    "synonyms": "large-scale data, massive datasets, high-volume data",
+    "daily": "Big data is like trying to find patterns in all the photos ever posted on social media - too much for traditional methods.",
+    "pharmaceutical": "Big data analytics processes genomic information from millions of patients to identify potential drug targets.",
+    "dataScience": "Our big data platform processes terabytes of sensor data daily to detect anomalies in real-time.",
+    "startTime": 1145.0,
+    "endTime": 1510.33,
+    "duration": 365.33
+  },
+  {
+    "word": "NoSQL",
+    "synonyms": "non-relational database, document database, flexible schema database",
+    "daily": "NoSQL is like a flexible filing system where you can store different types of documents without predefined categories.",
+    "pharmaceutical": "NoSQL databases store diverse clinical data formats including text notes, images, and time-series measurements.",
+    "dataScience": "We use NoSQL databases to store and query unstructured data like social media posts and web logs.",
+    "startTime": 1510.33,
+    "endTime": 1876.0,
+    "duration": 365.67
+  },
+  {
+    "word": "Data Lake",
+    "synonyms": "data repository, raw data storage, unstructured data store",
+    "daily": "A data lake is like a huge storage unit where you keep everything as-is, organizing it only when you need something specific.",
+    "pharmaceutical": "The clinical data lake stores raw patient data, imaging files, and genomic sequences for future research discoveries.",
+    "dataScience": "Our data lake ingests streaming data from IoT devices, preserving all information for exploratory analysis.",
+    "startTime": 1876.0,
+    "endTime": 2265.33,
+    "duration": 389.33
+  },
+  {
+    "word": "Data Mining",
+    "synonyms": "knowledge discovery, pattern recognition, data exploration",
+    "daily": "Data mining is like being a detective who looks for hidden clues and patterns in a large collection of evidence.",
+    "pharmaceutical": "Data mining techniques identified previously unknown drug interactions from electronic health record databases.",
+    "dataScience": "Unsupervised data mining revealed customer segments that weren't apparent through traditional analysis methods.",
+    "startTime": 2265.33,
+    "endTime": 2641.67,
+    "duration": 376.33
+  },
+  {
+    "word": "Real-time Processing",
+    "synonyms": "stream processing, live processing, instant processing",
+    "daily": "Real-time processing is like a live sports broadcast where you see events as they happen, not hours later.",
+    "pharmaceutical": "Real-time processing of patient monitoring data enables immediate alerts for adverse events during clinical trials.",
+    "dataScience": "Our fraud detection system uses real-time processing to flag suspicious transactions within milliseconds.",
+    "startTime": 2641.67,
+    "endTime": 3017.67,
+    "duration": 376.0
+  },
+  {
+    "word": "Batch Processing",
+    "synonyms": "bulk processing, scheduled processing, offline processing",
+    "daily": "Batch processing is like doing laundry - you collect dirty clothes and wash them all together at once.",
+    "pharmaceutical": "Monthly batch processing generates comprehensive safety reports from all clinical trials for regulatory submission.",
+    "dataScience": "We use batch processing to train machine learning models on historical data during off-peak hours.",
+    "startTime": 3017.67,
+    "endTime": 3379.67,
+    "duration": 362.0
+  },
+  {
+    "word": "Data Governance",
+    "synonyms": "data management, data stewardship, data oversight",
+    "daily": "Data governance is like house rules that ensure everyone knows how to properly handle and care for shared belongings.",
+    "pharmaceutical": "Strict data governance protocols ensure clinical trial data meets FDA requirements for integrity and traceability.",
+    "dataScience": "Our data governance framework defines who can access sensitive customer data and how it must be protected.",
+    "startTime": 3379.67,
+    "endTime": 3760.0,
+    "duration": 380.33
+  }
+]

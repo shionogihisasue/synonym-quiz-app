@@ -924,3 +924,178 @@ h3 {
         padding: 15px;
     }
 }
+
+
+/* ======================================
+   シンプル化されたUI用の追加CSS
+   main.cssに追記してください
+   ====================================== */
+
+/* モード選択カードの拡大版 */
+.mode-card.quiz-mode-large,
+.mode-card.listening-mode-large {
+    padding: 3rem 2.5rem;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mode-card-large .mode-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.mode-card-large h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.mode-card-large p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Quick Startのインライン表示 */
+.quick-start-inline {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.quick-start-inline label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.quick-start-inline .category-dropdown {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quick-start-inline .category-dropdown:hover {
+    border-color: #3498db;
+}
+
+.quick-start-inline .category-dropdown:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* 大きなボタン */
+.btn-large {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-width: 200px;
+    transition: all 0.3s ease;
+}
+
+.btn-large:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-large:active {
+    transform: translateY(0);
+}
+
+/* リスニングモードカードのボタン配置 */
+.listening-mode-large .btn-large {
+    margin-top: auto;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+    .mode-card.quiz-mode-large,
+    .mode-card.listening-mode-large {
+        padding: 2rem 1.5rem;
+        min-height: 280px;
+    }
+
+    .mode-card-large .mode-icon {
+        font-size: 3rem;
+    }
+
+    .mode-card-large h2 {
+        font-size: 1.5rem;
+    }
+
+    .mode-card-large p {
+        font-size: 1rem;
+    }
+
+    .btn-large {
+        padding: 0.9rem 2rem;
+        font-size: 1.1rem;
+        min-width: 180px;
+    }
+}
+
+/* 結果画面の戻るボタン */
+#back-to-menu-result {
+    margin-top: 1rem;
+}
+
+/* Quick Startエリアの視覚的強調 */
+.quiz-mode-large .quick-start-inline {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px dashed rgba(52, 152, 219, 0.3);
+}
+
+/* カテゴリードロップダウンのオプション */
+.quick-start-inline .category-dropdown option {
+    padding: 0.5rem;
+}
+
+/* アニメーション */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mode-card.quiz-mode-large,
+.mode-card.listening-mode-large {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.mode-card.quiz-mode-large {
+    animation-delay: 0.1s;
+}
+
+.mode-card.listening-mode-large {
+    animation-delay: 0.2s;
+}
+
+/* ホバー時のカード全体の強調 */
+.mode-card.quiz-mode-large:hover,
+.mode-card.listening-mode-large:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* カテゴリー選択時のハイライト */
+.quick-start-inline .category-dropdown option:checked {
+    background-color: #3498db;
+    color: white;
+}

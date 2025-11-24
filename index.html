@@ -14,34 +14,29 @@
             <p class="subtitle">Master Professional English Vocabulary</p>
             
             <div class="mode-selection">
+                <!-- Quiz Mode (Quick Start Only) -->
+                <div class="mode-card quiz-mode-large">
+                    <div class="mode-icon">📝</div>
+                    <h2>Synonym Quiz</h2>
+                    <p>Test your vocabulary with 500 synonym questions across 50 categories</p>
+                    
+                    <!-- Quick Start Controls -->
+                    <div class="quick-start-inline">
+                        <label for="quick-category-select">Select Category:</label>
+                        <select id="quick-category-select" class="category-dropdown">
+                            <option value="">Choose a category...</option>
+                            <!-- Categories will be populated by JavaScript -->
+                        </select>
+                        <button id="quick-start-btn" class="btn btn-primary btn-large">Start Quiz</button>
+                    </div>
+                </div>
+
                 <!-- Listening Practice Mode -->
-                <div class="mode-card listening-mode">
+                <div class="mode-card listening-mode-large">
                     <div class="mode-icon">🎧</div>
                     <h2>Listening Practice</h2>
                     <p>Long-form continuous listening with word repetition and example sentences</p>
-                    <button id="start-listening-btn" class="btn btn-primary">Start Listening</button>
-                </div>
-
-                <!-- Quiz Mode -->
-                <div class="mode-card quiz-mode">
-                    <div class="mode-icon">📝</div>
-                    <h2>Synonym Quiz</h2>
-                    <p>Test your vocabulary with 500 synonym questions across 40 categories</p>
-                    <!-- 修正: start-quiz-btn → startQuizBtn -->
-                    <button id="startQuizBtn" class="btn btn-primary">Start Quiz</button>
-                </div>
-            </div>
-
-            <!-- Quick Start (Quiz Mode) -->
-            <div class="quick-start-container">
-                <h3>📌 Quick Start - Jump to Category</h3>
-                <div class="quick-start-controls">
-                    <!-- 修正: category-select → quick-category-select -->
-                    <select id="quick-category-select" class="category-dropdown">
-                        <option value="">Select a category...</option>
-                        <!-- Categories will be populated by JavaScript -->
-                    </select>
-                    <button id="quick-start-btn" class="btn btn-secondary">Go to Category</button>
+                    <button id="start-listening-btn" class="btn btn-primary btn-large">Start Listening</button>
                 </div>
             </div>
         </div>
@@ -134,7 +129,7 @@
         </div>
     </div>
 
-    <!-- Quiz Section (Existing) -->
+    <!-- Quiz Section -->
     <div id="quiz-section" class="section hidden">
         <div class="quiz-container">
             <div class="quiz-header">
@@ -179,14 +174,14 @@
         </div>
     </div>
 
-    <!-- Result Section (Existing) -->
+    <!-- Result Section -->
     <div id="result-section" class="section hidden">
         <div class="result-container">
             <h1>🎊 Quiz Complete!</h1>
             <div class="result-stats">
                 <div class="stat">
                     <span class="stat-label">Total Questions:</span>
-                    <span class="stat-value" id="total-questions">500</span>
+                    <span class="stat-value" id="total-questions">10</span>
                 </div>
                 <div class="stat">
                     <span class="stat-label">Correct Answers:</span>
@@ -200,17 +195,7 @@
 
             <div class="result-actions">
                 <button id="restart-btn" class="btn btn-primary">Start New Quiz</button>
-                <button id="review-btn" class="btn btn-secondary">Review Mistakes</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Category Selection Screen (旧HTMLとの互換性のため追加) -->
-    <div id="categoryScreen" class="section hidden">
-        <div class="container">
-            <h1>Select a Category</h1>
-            <div id="category-container" class="category-grid">
-                <!-- Categories will be populated by JavaScript -->
+                <button id="back-to-menu-result" class="btn btn-secondary">← Back to Menu</button>
             </div>
         </div>
     </div>

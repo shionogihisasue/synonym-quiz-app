@@ -27,7 +27,8 @@
                     <div class="mode-icon">📝</div>
                     <h2>Synonym Quiz</h2>
                     <p>Test your vocabulary with 500 synonym questions across 40 categories</p>
-                    <button id="start-quiz-btn" class="btn btn-primary">Start Quiz</button>
+                    <!-- 修正: start-quiz-btn → startQuizBtn -->
+                    <button id="startQuizBtn" class="btn btn-primary">Start Quiz</button>
                 </div>
             </div>
 
@@ -35,7 +36,8 @@
             <div class="quick-start-container">
                 <h3>📌 Quick Start - Jump to Category</h3>
                 <div class="quick-start-controls">
-                    <select id="category-select" class="category-dropdown">
+                    <!-- 修正: category-select → quick-category-select -->
+                    <select id="quick-category-select" class="category-dropdown">
                         <option value="">Select a category...</option>
                         <!-- Categories will be populated by JavaScript -->
                     </select>
@@ -69,13 +71,8 @@
                     <h3 id="session-title">No session loaded</h3>
                     <p id="session-info">Select a session to begin</p>
                 </div>
-                <!-- 
-                ============================================
-                index.html の "Now Playing Info" セクションの直後に追加
-                ============================================
-                -->
 
-                <!-- 字幕表示エリア（Now Playingの下に追加） -->
+                <!-- 字幕表示エリア -->
                 <div class="subtitle-container">
                     <div id="subtitle-display" class="subtitle-display">
                         <div class="subtitle-placeholder">Select a session and play to see subtitles...</div>
@@ -204,6 +201,16 @@
             <div class="result-actions">
                 <button id="restart-btn" class="btn btn-primary">Start New Quiz</button>
                 <button id="review-btn" class="btn btn-secondary">Review Mistakes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Selection Screen (旧HTMLとの互換性のため追加) -->
+    <div id="categoryScreen" class="section hidden">
+        <div class="container">
+            <h1>Select a Category</h1>
+            <div id="category-container" class="category-grid">
+                <!-- Categories will be populated by JavaScript -->
             </div>
         </div>
     </div>

@@ -1,7 +1,8 @@
 /**
- * Synonym Quiz App - Full Integrated Version
- * ===========================================
+ * Synonym Quiz App - Final Fixed Version
+ * ========================================
  * 既存のカテゴリーシステム + 新しいHTML構造に対応
+ * Quick Start機能とSTART QUIZボタンの修正版
  */
 
 // Global variables
@@ -68,14 +69,14 @@ function initializeElements() {
     // ボタン
     selectCategoryBtn = document.getElementById('selectCategoryBtn');
     backToStartBtn = document.getElementById('backToStartBtn');
-    startQuizBtn = document.getElementById('start-quiz-btn');
+    startQuizBtn = document.getElementById('startQuizBtn');
     backToMenuBtn = document.getElementById('back-to-menu');
     nextBtn = document.getElementById('nextBtn') || document.getElementById('next-btn');
     continueBtn = document.getElementById('continue-btn');
     speakBtn = document.getElementById('speakBtn') || document.getElementById('speak-btn');
     
     // クイズ要素
-    categoryList = document.getElementById('categoryList');
+    categoryList = document.getElementById('categoryList') || document.getElementById('category-container');
     categoryTitle = document.getElementById('categoryTitle');
     questionText = document.getElementById('questionText') || document.getElementById('question-text');
     optionsContainer = document.getElementById('optionsContainer') || document.getElementById('options-container');
@@ -114,9 +115,14 @@ function initializeElements() {
     startOverBtn = document.getElementById('startOverBtn') || document.getElementById('restart-btn');
     
     // Quick Start
-    categorySelect = document.getElementById('categorySelect') || document.getElementById('category-select');
+    categorySelect = document.getElementById('quick-category-select');
     startQuickBtn = document.getElementById('startQuickBtn');
     quickStartBtn = document.getElementById('quick-start-btn');
+    
+    console.log('✅ DOM elements initialized');
+    console.log('  - startQuizBtn:', startQuizBtn ? '✓' : '✗');
+    console.log('  - quickStartBtn:', quickStartBtn ? '✓' : '✗');
+    console.log('  - categorySelect:', categorySelect ? '✓' : '✗');
 }
 
 /**
@@ -222,7 +228,6 @@ function defineCategories() {
             icon: '🔬',
             questions: allQuestions.filter(q => q.category === 'physical')
         },
-        // 11-50: 残りのカテゴリー（簡略化のため一部のみ表示）
         {
             id: 11,
             name: 'Business Communication',
@@ -257,97 +262,84 @@ function defineCategories() {
             description: 'Fundamental data science terms',
             icon: '📈',
             questions: allQuestions.filter(q => q.category === 'data-science')
-        },
-        // ... 残りのカテゴリーは既存コードから自動取得
+        }
     ];
     
-    // 残りのカテゴリーを自動生成（16-50）
-    const categoryNames = [
-        'Machine Learning', 'Daily Conversation', 'Food & Dining', 'Travel & Transportation',
-        'Technology & Digital', 'Advanced Business Strategy', 'Executive Leadership',
-        'Drug Development Process', 'Regulatory Affairs', 'Advanced Analytics',
-        'AI & Deep Learning', 'Formal Communication', 'Academic & Research',
-        'Finance & Economics', 'Legal & Compliance', 'Corporate Governance',
-        'Quality Assurance', 'Bioinformatics', 'Pharmacoeconomics',
-        'Statistical Analysis', 'Natural Language Processing', 'Negotiation & Diplomacy',
-        'Scientific Research', 'Risk Management', 'Intellectual Discourse',
-        'Project Management', 'Supply Chain & Logistics', 'Medical Terminology',
-        'Laboratory Procedures', 'Database & SQL', 'Cloud Computing',
-        'Social Interactions', 'Weather & Nature', 'Ethics & Morality',
-        'Innovation & Creativity'
+    // 残りのカテゴリーを自動生成
+    const categoryMappings = [
+        { category: 'machine-learning', name: 'Machine Learning', icon: '🤖' },
+        { category: 'daily-conversation', name: 'Daily Conversation', icon: '💬' },
+        { category: 'food-dining', name: 'Food & Dining', icon: '🍽️' },
+        { category: 'travel-transportation', name: 'Travel & Transportation', icon: '✈️' },
+        { category: 'technology-digital', name: 'Technology & Digital', icon: '💻' },
+        { category: 'advanced-business', name: 'Advanced Business Strategy', icon: '🎯' },
+        { category: 'executive-leadership', name: 'Executive Leadership', icon: '👔' },
+        { category: 'drug-development', name: 'Drug Development Process', icon: '🧬' },
+        { category: 'regulatory-affairs', name: 'Regulatory Affairs', icon: '📋' },
+        { category: 'advanced-analytics', name: 'Advanced Analytics', icon: '📊' },
+        { category: 'ai-deep-learning', name: 'AI & Deep Learning', icon: '🧠' },
+        { category: 'formal-communication', name: 'Formal Communication', icon: '📝' },
+        { category: 'academic-research', name: 'Academic & Research', icon: '🎓' },
+        { category: 'finance-economics', name: 'Finance & Economics', icon: '💰' },
+        { category: 'legal-compliance', name: 'Legal & Compliance', icon: '⚖️' },
+        { category: 'corporate-governance', name: 'Corporate Governance', icon: '🏢' },
+        { category: 'quality-assurance', name: 'Quality Assurance', icon: '✅' },
+        { category: 'bioinformatics', name: 'Bioinformatics', icon: '🧬' },
+        { category: 'pharmacoeconomics', name: 'Pharmacoeconomics', icon: '💊' },
+        { category: 'statistical-analysis', name: 'Statistical Analysis', icon: '📉' },
+        { category: 'nlp', name: 'Natural Language Processing', icon: '🗣️' },
+        { category: 'negotiation-diplomacy', name: 'Negotiation & Diplomacy', icon: '🤝' },
+        { category: 'scientific-research', name: 'Scientific Research', icon: '🔬' },
+        { category: 'risk-management', name: 'Risk Management', icon: '⚠️' },
+        { category: 'intellectual-discourse', name: 'Intellectual Discourse', icon: '💭' },
+        { category: 'project-management', name: 'Project Management', icon: '📋' },
+        { category: 'supply-chain', name: 'Supply Chain & Logistics', icon: '🚚' },
+        { category: 'medical-terminology', name: 'Medical Terminology', icon: '🏥' },
+        { category: 'laboratory-procedures', name: 'Laboratory Procedures', icon: '🧪' },
+        { category: 'database-sql', name: 'Database & SQL', icon: '🗄️' },
+        { category: 'cloud-computing', name: 'Cloud Computing', icon: '☁️' },
+        { category: 'social-interactions', name: 'Social Interactions', icon: '👥' },
+        { category: 'weather-nature', name: 'Weather & Nature', icon: '🌤️' },
+        { category: 'ethics-morality', name: 'Ethics & Morality', icon: '⚖️' },
+        { category: 'innovation-creativity', name: 'Innovation & Creativity', icon: '💡' }
     ];
-    
-    // 既に定義したカテゴリー数
-    const startId = categories.length + 1;
-    
-    // カテゴリーマッピング（category名 → アイコン）
-    const categoryIcons = {
-        'machine-learning': '🤖',
-        'daily-conversation': '💬',
-        'food-dining': '🍽️',
-        'travel-transportation': '✈️',
-        'technology-digital': '💻',
-        'advanced-business': '🎯',
-        'executive-leadership': '👔',
-        'drug-development': '🧬',
-        'regulatory-affairs': '📋',
-        'advanced-analytics': '📊',
-        'ai-deep-learning': '🧠',
-        'formal-communication': '📝',
-        'academic-research': '🎓',
-        'finance-economics': '💰',
-        'legal-compliance': '⚖️',
-        'corporate-governance': '🏢',
-        'quality-assurance': '✅',
-        'bioinformatics': '🧬',
-        'pharmacoeconomics': '💊',
-        'statistical-analysis': '📉',
-        'nlp': '🗣️',
-        'negotiation-diplomacy': '🤝',
-        'scientific-research': '🔬',
-        'risk-management': '⚠️',
-        'intellectual-discourse': '💭',
-        'project-management': '📋',
-        'supply-chain': '🚚',
-        'medical-terminology': '🏥',
-        'laboratory-procedures': '🧪',
-        'database-sql': '🗄️',
-        'cloud-computing': '☁️',
-        'social-interactions': '👥',
-        'weather-nature': '🌤️',
-        'ethics-morality': '⚖️',
-        'innovation-creativity': '💡'
-    };
     
     // 全ユニークカテゴリーを取得
     const uniqueCategories = [...new Set(allQuestions.map(q => q.category))];
     
     // まだ定義されていないカテゴリーを追加
-    uniqueCategories.forEach((catName, index) => {
+    uniqueCategories.forEach((catName) => {
         const existingCat = categories.find(c => 
             c.questions.some(q => q.category === catName)
         );
         
         if (!existingCat) {
+            const mapping = categoryMappings.find(m => m.category === catName);
             const id = categories.length + 1;
+            
             categories.push({
                 id: id,
-                name: catName.split('-').map(word => 
+                name: mapping ? mapping.name : catName.split('-').map(word => 
                     word.charAt(0).toUpperCase() + word.slice(1)
                 ).join(' '),
                 description: `${catName} vocabulary`,
-                icon: categoryIcons[catName] || '📚',
+                icon: mapping ? mapping.icon : '📚',
                 questions: allQuestions.filter(q => q.category === catName)
             });
         }
     });
+    
+    console.log('✅ Defined', categories.length, 'categories');
 }
 
 /**
  * カテゴリー選択ドロップダウンのポピュレート
  */
 function populateCategoryDropdown() {
-    if (!categorySelect) return;
+    if (!categorySelect) {
+        console.warn('⚠️ categorySelect element not found');
+        return;
+    }
     
     categorySelect.innerHTML = '<option value="">Select a category...</option>';
     
@@ -357,13 +349,18 @@ function populateCategoryDropdown() {
         option.textContent = `${cat.id}. ${cat.icon} ${cat.name} (${cat.questions.length})`;
         categorySelect.appendChild(option);
     });
+    
+    console.log('✅ Category dropdown populated with', categories.length, 'categories');
 }
 
 /**
- * カテゴリー表示（旧HTML用）
+ * カテゴリー表示（カード形式）
  */
 function displayCategories() {
-    if (!categoryList) return;
+    if (!categoryList) {
+        console.warn('⚠️ categoryList element not found');
+        return;
+    }
     
     categoryList.innerHTML = '';
     
@@ -385,6 +382,8 @@ function displayCategories() {
         card.addEventListener('click', () => startCategory(cat));
         categoryList.appendChild(card);
     });
+    
+    console.log('✅ Category cards displayed');
 }
 
 /**
@@ -393,7 +392,10 @@ function displayCategories() {
 function attachEventListeners() {
     // Start Quiz button（新HTML）
     if (startQuizBtn) {
+        console.log('✅ Attaching startQuizBtn listener');
         startQuizBtn.addEventListener('click', startQuizFromNewUI);
+    } else {
+        console.warn('⚠️ startQuizBtn not found');
     }
     
     // Back to Menu button（新HTML）
@@ -403,7 +405,10 @@ function attachEventListeners() {
     
     // Quick Start button（新HTML）
     if (quickStartBtn) {
+        console.log('✅ Attaching quickStartBtn listener');
         quickStartBtn.addEventListener('click', quickStartQuiz);
+    } else {
+        console.warn('⚠️ quickStartBtn not found');
     }
     
     // 旧HTML用ボタン
@@ -429,7 +434,11 @@ function attachEventListeners() {
     
     // Speak button
     if (speakBtn) {
-        speakBtn.addEventListener('click', () => speak(questionText.textContent));
+        speakBtn.addEventListener('click', () => {
+            if (questionText) {
+                speak(questionText.textContent);
+            }
+        });
     }
     
     // Continue button (checkpoint)
@@ -464,6 +473,8 @@ function attachEventListeners() {
     if (backToCategories) {
         backToCategories.addEventListener('click', backToCategorySelection);
     }
+    
+    console.log('✅ All event listeners attached');
 }
 
 /**
@@ -477,14 +488,20 @@ function startQuizFromNewUI() {
         return;
     }
     
-    // 最初のカテゴリーから開始
-    if (categories.length > 0) {
-        startCategory(categories[0]);
-    }
-    
-    // セクション切り替え
+    // カテゴリー画面を表示
     if (startSection) startSection.classList.add('hidden');
-    if (quizSection) quizSection.classList.remove('hidden');
+    
+    // カテゴリー選択画面があれば表示
+    if (categoryScreen) {
+        categoryScreen.classList.add('active');
+        displayCategories();
+    } else {
+        // カテゴリー選択画面がない場合は最初のカテゴリーから開始
+        if (categories.length > 0) {
+            startCategory(categories[0]);
+            if (quizSection) quizSection.classList.remove('hidden');
+        }
+    }
 }
 
 /**
@@ -492,6 +509,7 @@ function startQuizFromNewUI() {
  */
 function backToMenuFromQuiz() {
     if (quizSection) quizSection.classList.add('hidden');
+    if (categoryScreen) categoryScreen.classList.remove('active');
     if (startSection) startSection.classList.remove('hidden');
 }
 
@@ -503,14 +521,13 @@ function showCategoryScreen() {
     if (categoryScreen) categoryScreen.classList.add('active');
 }
 
-// 修正前（エラーが出る）
+/**
+ * Quick Startでクイズ開始（修正版）
+ */
 function quickStartQuiz() {
-    const selectedCategory = document.getElementById('quick-category-select').value;
-    // ...
-}
-
-// 修正後（要素チェック追加）
-function quickStartQuiz() {
+    console.log('📌 Quick Start clicked');
+    
+    // 要素を取得
     const selectElement = document.getElementById('quick-category-select');
     
     if (!selectElement) {
@@ -519,15 +536,27 @@ function quickStartQuiz() {
         return;
     }
     
-    const selectedCategory = selectElement.value;
+    const selectedId = parseInt(selectElement.value);
     
-    if (!selectedCategory) {
+    if (!selectedId || isNaN(selectedId)) {
         alert('カテゴリーを選択してください');
         return;
     }
     
-    console.log('📌 Quick Start: Starting category', selectedId);
+    console.log('📌 Quick Start: Selected category ID:', selectedId);
     
+    // カテゴリーを取得
+    const selectedCategory = categories.find(cat => cat.id === selectedId);
+    
+    if (!selectedCategory) {
+        console.error('❌ Category not found:', selectedId);
+        alert('選択したカテゴリーが見つかりません');
+        return;
+    }
+    
+    console.log('📌 Quick Start: Starting category', selectedCategory.name);
+    
+    // カテゴリー開始
     startCategory(selectedCategory);
     
     // セクション切り替え（新HTML）
@@ -567,6 +596,11 @@ function startCategory(category) {
         totalQuestionsSpan.textContent = currentCategory.questions.length;
     }
     
+    // 画面を表示
+    if (categoryScreen) categoryScreen.classList.remove('active');
+    if (quizScreen) quizScreen.classList.add('active');
+    if (quizSection) quizSection.classList.remove('hidden');
+    
     // 最初の問題を表示
     displayQuestion();
 }
@@ -588,6 +622,7 @@ function shuffleArray(array) {
  */
 function displayQuestion() {
     if (!currentCategory || currentQuestionIndex >= currentCategory.questions.length) {
+        console.warn('⚠️ No question to display');
         return;
     }
     
@@ -809,6 +844,7 @@ function showCheckpoint() {
  * チェックポイント後に続行
  */
 function continueAfterCheckpoint() {
+    const checkpointMessage = document.getElementById('checkpoint-message');
     if (checkpointMessage) {
         checkpointMessage.classList.add('hidden');
     }

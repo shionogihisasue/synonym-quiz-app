@@ -784,3 +784,98 @@ startQuickBtn.addEventListener('click', startQuickQuiz);
 
 // Initialize
 loadQuestions();
+
+
+
+/**
+ * ============================================
+ * 既存の app.js の最後に以下のコードを追加してください
+ * ============================================
+ */
+
+// スタート画面とクイズセクションの制御を追加
+document.addEventListener('DOMContentLoaded', function() {
+    // 既存のコードはそのまま残す
+
+    // === 新規追加: モード選択ボタン ===
+    const startQuizBtn = document.getElementById('start-quiz-btn');
+    const startSection = document.getElementById('start-section');
+    const quizSection = document.getElementById('quiz-section');
+
+    // クイズモード開始ボタン
+    if (startQuizBtn) {
+        startQuizBtn.addEventListener('click', function() {
+            startSection.classList.add('hidden');
+            quizSection.classList.remove('hidden');
+            
+            // 既存のクイズ初期化関数を呼び出し（もしあれば）
+            if (typeof startQuiz === 'function') {
+                startQuiz();
+            } else if (typeof loadQuestion === 'function') {
+                loadQuestion(0); // 最初の問題をロード
+            }
+        });
+    }
+
+    // Back to Menuボタン（既存のクイズから戻る）
+    const backToMenuQuiz = document.getElementById('back-to-menu');
+    if (backToMenuQuiz) {
+        backToMenuQuiz.addEventListener('click', function() {
+            quizSection.classList.add('hidden');
+            startSection.classList.remove('hidden');
+            
+            // クイズをリセット（もしリセット関数があれば）
+            if (typeof resetQuiz === 'function') {
+                resetQuiz();
+            }
+        });
+    }
+
+    // === Quick Start機能（既存のコード用） ===
+    // カテゴリー選択のポピュレート（既存のquestions.jsonベース）
+    const categorySelect = document.getElementById('category-select');
+    const quickStartBtn = document.getElementById('quick-start-btn');
+
+    // もし questions配列がグローバルにある場合
+    if (typeof questions !== 'undefined' && categorySelect) {
+        populateCategoryDropdown();
+    }
+
+    function populateCategoryDropdown() {
+        const categories = [...new Set(questions.map(q => q.category))];
+        
+        categories.forEach((category, index) => {
+            const option = document.createElement('option');
+            option.value = index + 1;
+            option.textContent = `Category ${index + 1}: ${category}`;
+            categorySelect.appendChild(option);
+        });
+    }
+
+    if (quickStartBtn) {
+        quickStartBtn.addEventListener('click', function() {
+            const selectedCategory = categorySelect.value;
+            if (!selectedCategory) {
+                alert('Please select a category first.');
+                return;
+            }
+
+            // カテゴリーに対応する問題番号を計算（1カテゴリー=10問と仮定）
+            const startQuestionIndex = (parseInt(selectedCategory) - 1) * 10;
+
+            // スタート画面を非表示、クイズセクションを表示
+            startSection.classList.add('hidden');
+            quizSection.classList.remove('hidden');
+
+            // その問題番号から開始（既存の関数を使用）
+            if (typeof loadQuestion === 'function') {
+                currentQuestionIndex = startQuestionIndex;
+                loadQuestion(currentQuestionIndex);
+            } else if (typeof jumpToQuestion === 'function') {
+                jumpToQuestion(startQuestionIndex);
+            }
+
+            console.log('📌 Quick Start: Jumping to question', startQuestionIndex + 1);
+        });
+    }
+});

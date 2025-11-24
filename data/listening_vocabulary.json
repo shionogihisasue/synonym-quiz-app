@@ -1,0 +1,1410 @@
+{
+  "metadata": {
+    "title": "Professional Vocabulary Listening Practice",
+    "description": "Comprehensive vocabulary list with examples for daily conversation, pharmaceutical context, and data science/IT context",
+    "totalWords": 102,
+    "categories": [
+      "Basic Business & Collaboration (1-20)",
+      "Pharmaceutical Industry Terms (21-45)",
+      "Data Science & Analytics Terms (46-51)",
+      "Machine Learning & AI (52-62)",
+      "Statistics & Analytics (63-72)",
+      "Programming & Software Development (73-82)",
+      "IT Infrastructure & Cloud Computing (83-92)",
+      "Data Management & Databases (93-102)"
+    ],
+    "voice": "en-GB-SoniaNeural",
+    "readingPattern": "Word x3, Daily x3, Pharmaceutical x3, Data Science x3"
+  },
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Session 1: Basic Business & Collaboration (Words 1-20)",
+      "categoryRange": "1-20",
+      "estimatedDuration": "12-15 minutes",
+      "audioFile": "assets/audio/listening/session_1.mp3",
+      "words": [
+        {
+          "id": 1,
+          "word": "Collaborate",
+          "phonetic": "/kəˈlæbəreɪt/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["cooperate", "work together", "partner", "team up"],
+          "definition": "To work jointly with others or together, especially in an intellectual endeavor. It involves sharing ideas, resources, and responsibilities to achieve common goals.",
+          "examples": {
+            "daily": "Would you like to collaborate on the weekend project for our neighborhood?",
+            "pharmaceutical": "Our research team will collaborate with international partners to accelerate drug development timelines.",
+            "dataScience": "Data scientists collaborate using version control systems to manage shared code repositories."
+          }
+        },
+        {
+          "id": 2,
+          "word": "Facilitate",
+          "phonetic": "/fəˈsɪlɪteɪt/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["enable", "assist", "help", "expedite"],
+          "definition": "To make an action or process easier or help bring about an outcome. It involves removing barriers and providing support to achieve objectives more efficiently.",
+          "examples": {
+            "daily": "The new public transportation system will facilitate commuting for thousands of workers.",
+            "pharmaceutical": "Advanced imaging techniques facilitate more accurate diagnosis of rare diseases.",
+            "dataScience": "Cloud computing platforms facilitate rapid deployment of machine learning models."
+          }
+        },
+        {
+          "id": 3,
+          "word": "Implement",
+          "phonetic": "/ˈɪmplɪment/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["execute", "carry out", "put into effect", "deploy"],
+          "definition": "To put a decision or plan into effect; to execute or carry out a strategy, system, or procedure. It involves taking concrete actions to realize planned objectives.",
+          "examples": {
+            "daily": "We decided to implement a new household budget to save money for vacation.",
+            "pharmaceutical": "The company will implement new quality control measures across all manufacturing facilities.",
+            "dataScience": "The engineering team will implement the recommendation algorithm in the production environment."
+          }
+        },
+        {
+          "id": 4,
+          "word": "Optimize",
+          "phonetic": "/ˈɒptɪmaɪz/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["improve", "enhance", "maximize", "refine"],
+          "definition": "To make the best or most effective use of something; to improve efficiency, performance, or effectiveness by making necessary adjustments or modifications.",
+          "examples": {
+            "daily": "I'm trying to optimize my morning routine to have more time for exercise.",
+            "pharmaceutical": "Researchers optimize drug formulations to improve bioavailability and reduce side effects.",
+            "dataScience": "Machine learning engineers optimize hyperparameters to achieve better model accuracy."
+          }
+        },
+        {
+          "id": 5,
+          "word": "Assess",
+          "phonetic": "/əˈses/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["evaluate", "examine", "analyze", "appraise"],
+          "definition": "To evaluate or estimate the nature, ability, or quality of something. It involves careful consideration and judgment based on available evidence or criteria.",
+          "examples": {
+            "daily": "Let me assess the damage to my car before calling the insurance company.",
+            "pharmaceutical": "Clinical investigators assess patient responses to determine drug efficacy and safety profiles.",
+            "dataScience": "Data analysts assess model performance using cross-validation and statistical metrics."
+          }
+        },
+        {
+          "id": 6,
+          "word": "Comprehensive",
+          "phonetic": "/ˌkɒmprɪˈhensɪv/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["thorough", "complete", "extensive", "all-inclusive"],
+          "definition": "Including or dealing with all or nearly all elements or aspects of something. It describes something that is thorough and covers all relevant details or components.",
+          "examples": {
+            "daily": "The insurance policy provides comprehensive coverage for both medical and dental expenses.",
+            "pharmaceutical": "The comprehensive clinical trial protocol includes detailed procedures for patient recruitment and safety monitoring.",
+            "dataScience": "The comprehensive data pipeline handles everything from raw data ingestion to final model deployment."
+          }
+        },
+        {
+          "id": 7,
+          "word": "Demonstrate",
+          "phonetic": "/ˈdemənstreɪt/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["show", "prove", "illustrate", "exhibit"],
+          "definition": "To clearly show the existence or truth of something by giving proof or evidence. It can also mean to show how something works or is done through practical examples.",
+          "examples": {
+            "daily": "Can you demonstrate how to use this new coffee machine?",
+            "pharmaceutical": "Phase III trials must demonstrate significant clinical benefits compared to existing treatments.",
+            "dataScience": "The proof-of-concept successfully demonstrates the feasibility of real-time fraud detection algorithms."
+          }
+        },
+        {
+          "id": 8,
+          "word": "Establish",
+          "phonetic": "/ɪˈstæblɪʃ/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["create", "set up", "found", "institute"],
+          "definition": "To set up on a firm or permanent basis; to create and organize something that is intended to last. It can also mean to prove or demonstrate the truth or validity of something.",
+          "examples": {
+            "daily": "They decided to establish a weekly family dinner tradition.",
+            "pharmaceutical": "The company aims to establish new research facilities in emerging markets.",
+            "dataScience": "The team needs to establish clear data governance protocols before expanding the analytics platform."
+          }
+        },
+        {
+          "id": 9,
+          "word": "Prioritize",
+          "phonetic": "/praɪˈɒrɪtaɪz/",
+          "partOfSpeech": "Verb",
+          "synonyms": ["rank", "order", "emphasize", "focus on"],
+          "definition": "To designate or treat something as more important than other things; to arrange tasks, goals, or items in order of importance or urgency.",
+          "examples": {
+            "daily": "I need to prioritize my weekend activities to make sure I finish the important tasks first.",
+            "pharmaceutical": "Regulatory agencies prioritize review of breakthrough therapies for life-threatening diseases.",
+            "dataScience": "Product managers prioritize feature development based on user feedback and business impact analysis."
+          }
+        },
+        {
+          "id": 10,
+          "word": "Methodology",
+          "phonetic": "/ˌmeθəˈdɒlədʒi/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["approach", "method", "system", "framework"],
+          "definition": "A system of methods used in a particular area of study or activity. It refers to the theoretical analysis of the methods appropriate to a field of study or the body of methods and principles particular to a branch of knowledge.",
+          "examples": {
+            "daily": "What's your methodology for learning new languages so quickly?",
+            "pharmaceutical": "The clinical research methodology must comply with Good Clinical Practice guidelines and regulatory requirements.",
+            "dataScience": "The agile development methodology enables rapid iteration and continuous improvement of software products."
+          }
+        },
+        {
+          "id": 11,
+          "word": "Stakeholder",
+          "phonetic": "/ˈsteɪkhoʊldər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["participant", "party", "interest group", "constituent"],
+          "definition": "A person, group, or organization that has an interest or concern in something, especially a business or project. Stakeholders are typically affected by or can influence the outcome of decisions or actions.",
+          "examples": {
+            "daily": "All community stakeholders should have input on the new park development plans.",
+            "pharmaceutical": "Key stakeholders in drug development include patients, physicians, regulators, and healthcare payers.",
+            "dataScience": "Business stakeholders require clear documentation of machine learning model assumptions and limitations."
+          }
+        },
+        {
+          "id": 12,
+          "word": "Initiative",
+          "phonetic": "/ɪˈnɪʃətɪv/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["project", "program", "effort", "campaign"],
+          "definition": "An act or strategy intended to resolve a difficulty or improve a situation; a fresh approach to something. It often refers to a new program or project designed to address specific challenges or opportunities.",
+          "examples": {
+            "daily": "The neighborhood recycling initiative has significantly reduced our waste output.",
+            "pharmaceutical": "The patient access initiative aims to provide affordable medications to underserved populations globally.",
+            "dataScience": "The digital transformation initiative includes implementing advanced analytics across all business units."
+          }
+        },
+        {
+          "id": 13,
+          "word": "Consistent",
+          "phonetic": "/kənˈsɪstənt/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["uniform", "steady", "regular", "reliable"],
+          "definition": "Acting or done in the same way over time, especially so as to be fair or accurate. It describes something that does not change in behavior, attitude, or quality.",
+          "examples": {
+            "daily": "She's been consistent with her exercise routine for over six months now.",
+            "pharmaceutical": "Manufacturing processes must maintain consistent quality standards across different production batches and facilities.",
+            "dataScience": "Consistent data formatting and validation rules are essential for reliable machine learning model performance."
+          }
+        },
+        {
+          "id": 14,
+          "word": "Strategic",
+          "phonetic": "/strəˈtiːdʒɪk/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["planned", "calculated", "tactical", "deliberate"],
+          "definition": "Relating to the identification of long-term or overall aims and interests and the means of achieving them. It describes actions or decisions that are carefully planned to serve a particular purpose or advantage.",
+          "examples": {
+            "daily": "Taking evening classes was a strategic decision to advance my career prospects.",
+            "pharmaceutical": "Strategic partnerships with biotechnology companies accelerate access to innovative therapeutic platforms.",
+            "dataScience": "Strategic investment in cloud infrastructure enables scalable data analytics capabilities for future growth."
+          }
+        },
+        {
+          "id": 15,
+          "word": "Substantial",
+          "phonetic": "/səbˈstænʃəl/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["significant", "considerable", "large", "important"],
+          "definition": "Of considerable importance, size, or worth; having a solid basis in reality or fact. It describes something that is large enough to be noticeable or have a meaningful impact.",
+          "examples": {
+            "daily": "The new job offer includes a substantial salary increase and better benefits.",
+            "pharmaceutical": "Clinical trials demonstrated substantial improvement in patient outcomes compared to standard care protocols.",
+            "dataScience": "The algorithm optimization resulted in substantial improvements in processing speed and resource utilization."
+          }
+        },
+        {
+          "id": 16,
+          "word": "Regulatory",
+          "phonetic": "/ˈregjələtɔːri/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["governing", "controlling", "supervisory", "administrative"],
+          "definition": "Having the power to control or influence through official rules, laws, or guidelines. It relates to the enforcement of rules and standards by authorized bodies or agencies.",
+          "examples": {
+            "daily": "New regulatory requirements mean we need to update our building's fire safety systems.",
+            "pharmaceutical": "Regulatory approval from the FDA is required before any new drug can be marketed in the United States.",
+            "dataScience": "Data privacy regulatory compliance requires implementing robust security measures and user consent mechanisms."
+          }
+        },
+        {
+          "id": 17,
+          "word": "Innovative",
+          "phonetic": "/ˈɪnəveɪtɪv/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["creative", "novel", "groundbreaking", "pioneering"],
+          "definition": "Featuring new methods, ideas, or products; characterized by originality and creativity. It describes approaches or solutions that introduce something new or significantly improved.",
+          "examples": {
+            "daily": "The restaurant's innovative menu combines traditional recipes with modern cooking techniques.",
+            "pharmaceutical": "Innovative gene therapy approaches offer new treatment options for previously incurable genetic disorders.",
+            "dataScience": "The innovative neural network architecture significantly outperforms traditional machine learning approaches."
+          }
+        },
+        {
+          "id": 18,
+          "word": "Compliance",
+          "phonetic": "/kəmˈplaɪəns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["conformity", "adherence", "observance", "obedience"],
+          "definition": "The action of conforming to or meeting rules, standards, or laws. It involves ensuring that activities, processes, or products meet required specifications and regulatory requirements.",
+          "examples": {
+            "daily": "Building compliance with local zoning laws is essential before starting any construction project.",
+            "pharmaceutical": "Good Manufacturing Practice compliance ensures consistent product quality and regulatory approval maintenance.",
+            "dataScience": "GDPR compliance requires implementing data protection measures and user privacy controls in all systems."
+          }
+        },
+        {
+          "id": 19,
+          "word": "Validation",
+          "phonetic": "/ˌvælɪˈdeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["verification", "confirmation", "authentication", "substantiation"],
+          "definition": "The action of checking or proving the validity or accuracy of something. It involves systematic testing and documentation to ensure that systems, processes, or results meet predetermined criteria.",
+          "examples": {
+            "daily": "Getting positive feedback from my professor provided validation that my research approach was correct.",
+            "pharmaceutical": "Analytical method validation demonstrates that testing procedures consistently produce accurate and reliable results.",
+            "dataScience": "Cross-validation techniques help assess machine learning model performance and prevent overfitting issues."
+          }
+        },
+        {
+          "id": 20,
+          "word": "Framework",
+          "phonetic": "/ˈfreɪmwɜːrk/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["structure", "system", "foundation", "scaffold"],
+          "definition": "A basic structure underlying a system, concept, or text; a set of rules, ideas, or beliefs used to plan or make decisions. It provides a foundation upon which something can be built or developed.",
+          "examples": {
+            "daily": "We need to establish a framework for household chores so everyone knows their responsibilities.",
+            "pharmaceutical": "The regulatory framework ensures systematic evaluation of drug safety and efficacy before market approval.",
+            "dataScience": "The machine learning framework provides standardized tools for model development, training, and deployment."
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Session 2: Pharmaceutical Industry Terms (Words 21-45)",
+      "categoryRange": "21-45",
+      "estimatedDuration": "15-18 minutes",
+      "audioFile": "assets/audio/listening/session_2.mp3",
+      "words": [
+        {
+          "id": 21,
+          "word": "Biomarker",
+          "phonetic": "/ˈbaɪoʊmɑːrkər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["biological marker", "indicator", "signature", "biological indicator"],
+          "definition": "A measurable biological characteristic that indicates normal biological processes, pathogenic processes, or pharmacological responses to therapeutic interventions. Biomarkers can be molecules, genes, or characteristics that can be objectively measured and evaluated.",
+          "examples": {
+            "daily": "My doctor explained that cholesterol levels serve as a biomarker for heart disease risk.",
+            "pharmaceutical": "Researchers identified a novel biomarker that predicts patient response to targeted cancer therapies.",
+            "dataScience": "Machine learning algorithms analyze multiple biomarker patterns to predict treatment outcomes with higher accuracy."
+          }
+        },
+        {
+          "id": 22,
+          "word": "Efficacy",
+          "phonetic": "/ˈefɪkəsi/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["effectiveness", "potency", "capability", "success rate"],
+          "definition": "The ability to produce a desired or intended result, particularly in medical contexts referring to how well a treatment works under ideal and controlled circumstances. It measures the maximum effect achievable under optimal conditions.",
+          "examples": {
+            "daily": "The efficacy of this study method has helped me improve my test scores significantly.",
+            "pharmaceutical": "Phase III clinical trials demonstrated 85% efficacy in reducing disease progression compared to placebo treatment.",
+            "dataScience": "Predictive models evaluate treatment efficacy by analyzing large datasets of patient outcomes and response patterns."
+          }
+        },
+        {
+          "id": 23,
+          "word": "Pharmacokinetics",
+          "phonetic": "/ˌfɑːrməkoʊkɪˈnetɪks/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["drug kinetics", "ADME", "drug metabolism", "pharmaceutical kinetics"],
+          "definition": "The branch of pharmacology concerned with the movement of drugs within the body, including absorption, distribution, metabolism, and excretion (ADME). It studies how the body affects a specific drug after administration.",
+          "examples": {
+            "daily": "The pharmacist explained that pharmacokinetics is why some medications need to be taken with food.",
+            "pharmaceutical": "Pharmacokinetics studies revealed that the new formulation provides sustained drug release over 24 hours.",
+            "dataScience": "Population pharmacokinetics modeling uses statistical software to analyze drug concentration data from diverse patient populations."
+          }
+        },
+        {
+          "id": 24,
+          "word": "Clinical Trial",
+          "phonetic": "/ˈklɪnɪkəl traɪəl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["clinical study", "human study", "medical research", "therapeutic trial"],
+          "definition": "A research study conducted with human volunteers to evaluate the safety and effectiveness of new medical treatments, interventions, or devices. Clinical trials follow strict protocols and are conducted in phases to ensure scientific rigor and participant safety.",
+          "examples": {
+            "daily": "My aunt decided to participate in a clinical trial for a new arthritis treatment.",
+            "pharmaceutical": "The multicenter clinical trial enrolled 2,000 patients across 15 countries to evaluate the new diabetes medication.",
+            "dataScience": "Electronic data capture systems streamline clinical trial data collection and enable real-time monitoring of patient safety."
+          }
+        },
+        {
+          "id": 25,
+          "word": "Adverse Event",
+          "phonetic": "/ædˈvɜːrs ɪˈvent/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["side effect", "undesirable effect", "negative reaction", "unwanted outcome"],
+          "definition": "An unfavorable medical occurrence in a patient or clinical investigation subject administered a pharmaceutical product. Adverse events may or may not be caused by the treatment and require careful documentation and analysis.",
+          "examples": {
+            "daily": "I experienced an adverse event from the flu vaccine and had to contact my doctor.",
+            "pharmaceutical": "All adverse events during the clinical trial must be reported to regulatory authorities within 24 hours.",
+            "dataScience": "Natural language processing algorithms automatically extract adverse event information from clinical notes and patient reports."
+          }
+        },
+        {
+          "id": 26,
+          "word": "Therapeutic",
+          "phonetic": "/ˌθerəˈpjuːtɪk/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["medicinal", "healing", "curative", "treatment-related"],
+          "definition": "Relating to the healing of disease or the treatment of medical conditions. It describes interventions, substances, or procedures designed to treat, cure, or alleviate symptoms of illness or injury.",
+          "examples": {
+            "daily": "Swimming has been very therapeutic for recovering from my back injury.",
+            "pharmaceutical": "The therapeutic window for this medication requires careful dose adjustment to maximize benefits while minimizing risks.",
+            "dataScience": "Machine learning models predict therapeutic response by analyzing genetic markers and patient clinical histories."
+          }
+        },
+        {
+          "id": 27,
+          "word": "Dosage",
+          "phonetic": "/ˈdoʊsɪdʒ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["dose", "amount", "quantity", "administration level"],
+          "definition": "The size and frequency of doses of medicine or treatment prescribed for a patient. It includes specifications for how much of a drug should be taken, how often, and for what duration.",
+          "examples": {
+            "daily": "Make sure to follow the correct dosage instructions on the medicine bottle.",
+            "pharmaceutical": "Dosage optimization studies determine the most effective and safe amount of medication for different patient populations.",
+            "dataScience": "Personalized dosage recommendations are generated using algorithms that consider patient characteristics and drug interaction data."
+          }
+        },
+        {
+          "id": 28,
+          "word": "Placebo",
+          "phonetic": "/pləˈsiːboʊ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["inactive treatment", "control treatment", "sham treatment", "dummy pill"],
+          "definition": "A harmless pill, medicine, or procedure prescribed more for the psychological benefit to the patient than for any physiological effect. In clinical trials, placebos are used as controls to test the effectiveness of new treatments.",
+          "examples": {
+            "daily": "Sometimes doctors prescribe a placebo when patients insist on medication for conditions that don't require it.",
+            "pharmaceutical": "The randomized, placebo-controlled trial design ensures unbiased evaluation of the investigational drug's true therapeutic effect.",
+            "dataScience": "Statistical analysis compares treatment outcomes between active drug and placebo groups to determine statistical significance."
+          }
+        },
+        {
+          "id": 29,
+          "word": "Formulation",
+          "phonetic": "/ˌfɔːrmjəˈleɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["composition", "preparation", "mixture", "pharmaceutical form"],
+          "definition": "The process of combining different chemical substances to create a pharmaceutical product, or the final product itself. It involves selecting appropriate ingredients, their proportions, and manufacturing methods to ensure stability, efficacy, and safety.",
+          "examples": {
+            "daily": "The new shampoo formulation is much gentler on sensitive skin than the previous version.",
+            "pharmaceutical": "The extended-release formulation allows patients to take the medication once daily instead of three times per day.",
+            "dataScience": "Computational models predict optimal formulation parameters based on drug properties and target release profiles."
+          }
+        },
+        {
+          "id": 30,
+          "word": "Indication",
+          "phonetic": "/ˌɪndɪˈkeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["approved use", "medical condition", "therapeutic use", "treatment purpose"],
+          "definition": "A valid reason for using a particular test, medication, procedure, or surgery; the medical condition or disease for which a treatment is prescribed or recommended. It represents the official approved use of a medical intervention.",
+          "examples": {
+            "daily": "The doctor said there's no clear indication for surgery at this point in my recovery.",
+            "pharmaceutical": "The FDA approved the drug for a new indication in pediatric patients with rare genetic disorders.",
+            "dataScience": "Real-world evidence studies analyze drug effectiveness across multiple indications using electronic health record data."
+          }
+        },
+        {
+          "id": 31,
+          "word": "Contraindication",
+          "phonetic": "/ˌkɒntrəˌɪndɪˈkeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["prohibition", "restriction", "warning", "exclusion criterion"],
+          "definition": "A condition or factor that serves as a reason to withhold a certain medical treatment due to the harm that it would cause the patient. It represents circumstances where a particular treatment should not be used because the risks outweigh the benefits.",
+          "examples": {
+            "daily": "My allergy to penicillin is a contraindication for taking certain antibiotics.",
+            "pharmaceutical": "Pregnancy is a contraindication for this medication due to potential teratogenic effects on fetal development.",
+            "dataScience": "Clinical decision support systems automatically flag contraindications when physicians prescribe medications to patients."
+          }
+        },
+        {
+          "id": 32,
+          "word": "Pharmacovigilance",
+          "phonetic": "/ˌfɑːrməkoʊˈvɪdʒɪləns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["drug safety monitoring", "post-market surveillance", "safety monitoring", "drug vigilance"],
+          "definition": "The science and activities relating to the detection, assessment, understanding, and prevention of adverse effects or any other drug-related problems. It encompasses ongoing monitoring of medication safety throughout the product lifecycle.",
+          "examples": {
+            "daily": "Pharmacovigilance helps ensure that the medications we take remain safe even after years of use.",
+            "pharmaceutical": "The pharmacovigilance department continuously monitors safety signals from clinical trials and post-marketing surveillance data.",
+            "dataScience": "Artificial intelligence enhances pharmacovigilance by automatically detecting potential safety signals in large healthcare databases."
+          }
+        },
+        {
+          "id": 33,
+          "word": "Bioavailability",
+          "phonetic": "/ˌbaɪoʊəˌveɪləˈbɪlɪti/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["absorption rate", "systemic availability", "drug availability", "biological availability"],
+          "definition": "The degree and rate at which a substance (such as a drug) is absorbed into a living system or is made available at the site of physiological activity. It determines how much of an administered dose reaches the systemic circulation unchanged.",
+          "examples": {
+            "daily": "Taking vitamin C with iron supplements increases the bioavailability of iron in your body.",
+            "pharmaceutical": "Bioavailability studies compare generic medications to brand-name drugs to ensure therapeutic equivalence.",
+            "dataScience": "Physiologically-based pharmacokinetic models predict bioavailability changes across different patient populations using computational simulations."
+          }
+        },
+        {
+          "id": 34,
+          "word": "Metabolism",
+          "phonetic": "/məˈtæbəˌlɪzəm/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["biotransformation", "chemical breakdown", "metabolic process", "drug processing"],
+          "definition": "The chemical processes that occur within a living organism to maintain life, including the transformation of drugs and other substances by enzymatic reactions. In pharmaceutical contexts, it refers to how the body chemically alters medications.",
+          "examples": {
+            "daily": "Regular exercise helps boost your metabolism and maintain a healthy weight.",
+            "pharmaceutical": "Drug metabolism studies identify how genetic variations in liver enzymes affect individual patient responses to medications.",
+            "dataScience": "Systems biology models integrate metabolism data to predict drug-drug interactions and personalized dosing requirements."
+          }
+        },
+        {
+          "id": 35,
+          "word": "Protocol",
+          "phonetic": "/ˈproʊtəkɔːl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["procedure", "plan", "guidelines", "study design"],
+          "definition": "A detailed plan that describes how a clinical trial or research study will be conducted. It includes information about the study's purpose, design, methodology, statistical considerations, and organization.",
+          "examples": {
+            "daily": "The wedding planner followed a strict protocol to ensure everything went smoothly on the big day.",
+            "pharmaceutical": "The clinical trial protocol specifies inclusion criteria, primary endpoints, and statistical analysis plans for regulatory submission.",
+            "dataScience": "Data collection protocols ensure standardized and consistent capture of information across multiple research sites."
+          }
+        },
+        {
+          "id": 36,
+          "word": "Endpoint",
+          "phonetic": "/ˈendpɔɪnt/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["outcome measure", "result metric", "study objective", "measurable goal"],
+          "definition": "A clearly defined outcome that can be measured to determine whether the intervention being studied is beneficial. Endpoints are predetermined goals used to evaluate the effectiveness and safety of treatments in clinical trials.",
+          "examples": {
+            "daily": "The endpoint of our fitness program is to run a 5K race without stopping.",
+            "pharmaceutical": "The primary endpoint of the cardiovascular trial is reduction in major adverse cardiac events over two years.",
+            "dataScience": "Machine learning algorithms predict clinical endpoint achievement based on early biomarker and patient characteristic data."
+          }
+        },
+        {
+          "id": 37,
+          "word": "Randomization",
+          "phonetic": "/ˌrændəmaɪˈzeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["random assignment", "chance allocation", "arbitrary selection", "statistical distribution"],
+          "definition": "The process by which study participants are assigned to treatment or control groups by chance rather than by choice. This method helps eliminate bias and ensures that treatment groups are comparable.",
+          "examples": {
+            "daily": "The teacher used randomization to assign students to different project groups fairly.",
+            "pharmaceutical": "Stratified randomization ensures balanced allocation of patients across treatment arms based on key demographic characteristics.",
+            "dataScience": "Computerized randomization systems generate treatment assignments and maintain allocation concealment during clinical trials."
+          }
+        },
+        {
+          "id": 38,
+          "word": "Blinding",
+          "phonetic": "/ˈblaɪndɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["masking", "concealment", "double-blind", "single-blind"],
+          "definition": "A procedure in clinical trials where information about the treatment assignment is withheld from participants, investigators, or both to prevent bias in treatment administration and outcome assessment.",
+          "examples": {
+            "daily": "The taste test used blinding so participants couldn't tell which product they were trying.",
+            "pharmaceutical": "Double blinding ensures that neither patients nor investigators know treatment assignments, maintaining study integrity and objectivity.",
+            "dataScience": "Electronic data capture systems maintain blinding by using coded treatment assignments that are only revealed after database lock."
+          }
+        },
+        {
+          "id": 39,
+          "word": "Bioequivalence",
+          "phonetic": "/ˌbaɪoʊɪˈkwɪvələns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["therapeutic equivalence", "pharmaceutical equivalence", "biological similarity", "equivalent bioavailability"],
+          "definition": "The absence of a significant difference in the rate and extent to which the active ingredient in pharmaceutical equivalents becomes available at the site of drug action when administered under similar conditions.",
+          "examples": {
+            "daily": "Generic medications must demonstrate bioequivalence to brand-name drugs before pharmacy substitution.",
+            "pharmaceutical": "Bioequivalence studies compare pharmacokinetic parameters between test and reference formulations to ensure therapeutic interchangeability.",
+            "dataScience": "Population pharmacokinetic modeling analyzes bioequivalence data to determine appropriate confidence intervals for regulatory approval."
+          }
+        },
+        {
+          "id": 40,
+          "word": "Excipient",
+          "phonetic": "/ɪkˈsɪpiənt/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["inactive ingredient", "pharmaceutical aid", "carrier", "additive"],
+          "definition": "A pharmacologically inactive substance used as a carrier for the active ingredients of a medication. Excipients serve various functions including binding, filling, disintegrating, or enhancing stability and bioavailability.",
+          "examples": {
+            "daily": "People with lactose intolerance need to check if lactose is used as an excipient in their medications.",
+            "pharmaceutical": "Novel excipients in sustained-release formulations control drug release rates and improve patient compliance.",
+            "dataScience": "Machine learning models predict optimal excipient combinations based on drug properties and desired release characteristics."
+          }
+        },
+        {
+          "id": 41,
+          "word": "Stability",
+          "phonetic": "/stəˈbɪlɪti/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["shelf life", "durability", "chemical integrity", "pharmaceutical stability"],
+          "definition": "The extent to which a drug product retains its chemical, physical, microbiological, and biopharmaceutical properties within specified limits throughout its shelf life. Stability determines how long a medication remains safe and effective under specified storage conditions.",
+          "examples": {
+            "daily": "Check the expiration date to ensure medication stability before taking any pills.",
+            "pharmaceutical": "Accelerated stability studies predict long-term drug product shelf life under various environmental stress conditions.",
+            "dataScience": "Predictive analytics models forecast pharmaceutical stability based on formulation parameters and storage condition data."
+          }
+        },
+        {
+          "id": 42,
+          "word": "Bioassay",
+          "phonetic": "/ˈbaɪoʊæseɪ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["biological assay", "activity test", "potency assay", "functional assay"],
+          "definition": "A procedure for determining the concentration, purity, or biological activity of a substance by measuring its effect on living cells, tissues, or organisms compared to a standard preparation.",
+          "examples": {
+            "daily": "Environmental scientists use bioassays to test water quality and detect harmful pollutants.",
+            "pharmaceutical": "Cell-based bioassays measure the biological activity of monoclonal antibody therapeutics for quality control purposes.",
+            "dataScience": "Automated bioassay platforms generate large datasets that require statistical analysis and machine learning for interpretation."
+          }
+        },
+        {
+          "id": 43,
+          "word": "Pharmacodynamics",
+          "phonetic": "/ˌfɑːrməkoʊdaɪˈnæmɪks/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["drug action", "mechanism of action", "drug effects", "therapeutic response"],
+          "definition": "The branch of pharmacology that studies how drugs affect the body, including the mechanisms of drug action, the relationship between drug concentration and effect, and the time course of the pharmacological response.",
+          "examples": {
+            "daily": "Understanding pharmacodynamics helps explain why some people need higher doses of pain medication.",
+            "pharmaceutical": "Pharmacodynamic studies evaluate dose-response relationships to determine optimal therapeutic dosing regimens.",
+            "dataScience": "Quantitative pharmacodynamic modeling integrates biomarker data to predict individual patient responses to targeted therapies."
+          }
+        },
+        {
+          "id": 44,
+          "word": "Investigational",
+          "phonetic": "/ɪnˌvestɪˈɡeɪʃənəl/",
+          "partOfSpeech": "Adjective",
+          "synonyms": ["experimental", "research-stage", "under investigation", "investigative"],
+          "definition": "Relating to or denoting a drug, device, or treatment that is being tested in clinical trials but has not yet received regulatory approval for general medical use. It describes products in the research and development phase.",
+          "examples": {
+            "daily": "My oncologist mentioned an investigational treatment that might be available through a clinical trial.",
+            "pharmaceutical": "The investigational new drug application must include comprehensive preclinical safety and efficacy data.",
+            "dataScience": "Real-world data analytics supplement traditional clinical trials for investigational products by providing broader safety evidence."
+          }
+        },
+        {
+          "id": 45,
+          "word": "Pharmaceutical",
+          "phonetic": "/ˌfɑːrməˈsuːtɪkəl/",
+          "partOfSpeech": "Adjective/Noun",
+          "synonyms": ["medicinal", "drug-related", "therapeutic", "pharmaceutical product"],
+          "definition": "Relating to the production and sale of drugs and medicines, or a medicinal drug. As a noun, it refers to a compound manufactured for use as a medicinal product.",
+          "examples": {
+            "daily": "The pharmaceutical industry plays a crucial role in developing treatments for rare diseases.",
+            "pharmaceutical": "Pharmaceutical development requires extensive research, regulatory approval, and quality manufacturing processes.",
+            "dataScience": "Pharmaceutical companies increasingly rely on artificial intelligence for drug discovery and development optimization."
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Session 3: Data Science & ML Basics (Words 46-62)",
+      "categoryRange": "46-62",
+      "estimatedDuration": "10-12 minutes",
+      "audioFile": "assets/audio/listening/session_3.mp3",
+      "words": [
+        {
+          "id": 46,
+          "word": "Algorithm",
+          "phonetic": "/ˈælɡərɪðəm/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["procedure", "method", "formula", "computational process"],
+          "definition": "A step-by-step procedure or set of rules designed to solve a problem or complete a task, especially by a computer. In data science, algorithms are used to analyze data, identify patterns, and make predictions.",
+          "examples": {
+            "daily": "The GPS uses an algorithm to find the fastest route to your destination.",
+            "pharmaceutical": "Machine learning algorithms identify potential drug targets by analyzing protein interaction networks.",
+            "dataScience": "The recommendation algorithm analyzes user behavior patterns to suggest relevant products and content."
+          }
+        },
+        {
+          "id": 47,
+          "word": "Regression",
+          "phonetic": "/rɪˈɡreʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["statistical modeling", "predictive analysis", "correlation analysis", "trend analysis"],
+          "definition": "A statistical method used to examine the relationship between a dependent variable and one or more independent variables. It helps predict outcomes and understand how variables influence each other.",
+          "examples": {
+            "daily": "Linear regression helped us understand how study hours relate to exam scores.",
+            "pharmaceutical": "Logistic regression models predict patient treatment response based on demographic and clinical characteristics.",
+            "dataScience": "Multiple regression analysis identifies key factors influencing customer churn and retention rates."
+          }
+        },
+        {
+          "id": 48,
+          "word": "Classification",
+          "phonetic": "/ˌklæsɪfɪˈkeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["categorization", "grouping", "sorting", "labeling"],
+          "definition": "A machine learning task that involves predicting the category or class of new instances based on training data. It assigns discrete labels to input data based on learned patterns.",
+          "examples": {
+            "daily": "Email classification helps automatically sort messages into spam and inbox folders.",
+            "pharmaceutical": "Image classification algorithms analyze medical scans to detect and classify different types of tumors.",
+            "dataScience": "Text classification models automatically categorize customer support tickets based on content and urgency."
+          }
+        },
+        {
+          "id": 49,
+          "word": "Clustering",
+          "phonetic": "/ˈklʌstərɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["grouping", "segmentation", "partitioning", "pattern recognition"],
+          "definition": "An unsupervised learning technique that groups similar data points together into clusters without prior knowledge of the correct groupings. It discovers hidden patterns and structures in data.",
+          "examples": {
+            "daily": "Customer clustering helps businesses understand different shopper preferences and behaviors.",
+            "pharmaceutical": "Genetic clustering analysis identifies patient subgroups with similar drug metabolism profiles for personalized medicine.",
+            "dataScience": "K-means clustering segments website users based on browsing patterns and engagement metrics."
+          }
+        },
+        {
+          "id": 50,
+          "word": "Correlation",
+          "phonetic": "/ˌkɔːrəˈleɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["relationship", "association", "connection", "statistical dependence"],
+          "definition": "A statistical measure that expresses the extent to which two variables change together. It indicates the strength and direction of a linear relationship between variables, ranging from -1 to +1.",
+          "examples": {
+            "daily": "There's a strong correlation between daily exercise and improved sleep quality.",
+            "pharmaceutical": "Correlation analysis reveals relationships between biomarker levels and treatment response in clinical trials.",
+            "dataScience": "Feature correlation matrices help identify redundant variables before building predictive models."
+          }
+        },
+        {
+          "id": 51,
+          "word": "Prediction",
+          "phonetic": "/prɪˈdɪkʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["forecast", "projection", "estimation", "anticipated outcome"],
+          "definition": "A statement about what will happen in the future based on current knowledge, data, or statistical models. In data science, predictions are generated using trained machine learning models on new data.",
+          "examples": {
+            "daily": "Weather prediction helps us decide what clothes to wear and whether to carry an umbrella.",
+            "pharmaceutical": "Predictive models estimate clinical trial success probability based on preclinical data and compound characteristics.",
+            "dataScience": "Machine learning prediction models forecast customer lifetime value and purchasing behavior patterns."
+          }
+        },
+        {
+          "id": 52,
+          "word": "Neural Network",
+          "phonetic": "/ˈnʊrəl ˈnetwɜrk/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["artificial neural network", "ANN", "connectionist model"],
+          "definition": "A computing system inspired by biological neural networks, consisting of interconnected nodes that process information through weighted connections.",
+          "examples": {
+            "daily": "The voice recognition on my phone uses a neural network to understand what I'm saying.",
+            "pharmaceutical": "Our neural network model predicts drug efficacy based on patient genetic profiles and clinical history.",
+            "dataScience": "The deep neural network achieved 95% accuracy in classifying molecular compounds."
+          }
+        },
+        {
+          "id": 53,
+          "word": "Hyperparameter",
+          "phonetic": "/ˈhaɪpərpəˌræmɪtər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["tuning parameter", "configuration parameter", "meta-parameter"],
+          "definition": "A configuration variable that is set before training begins and controls the learning process of a machine learning algorithm.",
+          "examples": {
+            "daily": "Think of hyperparameters like settings on your camera that you adjust before taking photos.",
+            "pharmaceutical": "We optimized hyperparameters to improve our model's prediction of adverse drug reactions.",
+            "dataScience": "Grid search was used to find the optimal hyperparameters for the random forest model."
+          }
+        },
+        {
+          "id": 54,
+          "word": "Overfitting",
+          "phonetic": "/ˈoʊvərˌfɪtɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["overtraining", "memorization", "poor generalization"],
+          "definition": "A modeling error where a machine learning model performs well on training data but poorly on new, unseen data due to excessive complexity.",
+          "examples": {
+            "daily": "It's like studying only past exam questions and failing when facing new problems.",
+            "pharmaceutical": "The clinical trial model showed overfitting, predicting well for the study population but poorly for general patients.",
+            "dataScience": "We used cross-validation to detect and prevent overfitting in our predictive model."
+          }
+        },
+        {
+          "id": 55,
+          "word": "Gradient Descent",
+          "phonetic": "/ˈɡreɪdiənt dɪˈsent/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["optimization algorithm", "iterative optimization", "steepest descent"],
+          "definition": "An optimization algorithm that iteratively adjusts model parameters to minimize the error or cost function by moving in the direction of steepest descent.",
+          "examples": {
+            "daily": "It's like finding the fastest way down a hill by always taking the steepest path available.",
+            "pharmaceutical": "Gradient descent optimized our drug dosage prediction model by minimizing prediction errors.",
+            "dataScience": "The neural network training process uses gradient descent to update weights and reduce loss."
+          }
+        },
+        {
+          "id": 56,
+          "word": "Cross-validation",
+          "phonetic": "/krɔs væləˈdeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["model validation", "holdout testing", "resampling"],
+          "definition": "A statistical method for evaluating machine learning models by partitioning data into subsets, training on some subsets, and testing on others.",
+          "examples": {
+            "daily": "It's like testing a recipe multiple times with different ingredients to ensure it always works.",
+            "pharmaceutical": "Cross-validation confirmed our biomarker model's reliability across diverse patient populations.",
+            "dataScience": "Five-fold cross-validation showed consistent performance across all data partitions."
+          }
+        },
+        {
+          "id": 57,
+          "word": "Ensemble",
+          "phonetic": "/ɑnˈsɑmbəl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["ensemble method", "model combination", "aggregated model"],
+          "definition": "A machine learning technique that combines multiple models to create a stronger predictor than any individual model alone.",
+          "examples": {
+            "daily": "Like asking several experts for advice and combining their opinions to make better decisions.",
+            "pharmaceutical": "The ensemble model combining multiple algorithms improved drug target prediction accuracy significantly.",
+            "dataScience": "Random forest is an ensemble method that combines hundreds of decision trees."
+          }
+        },
+        {
+          "id": 58,
+          "word": "Feature Engineering",
+          "phonetic": "/ˈfitʃər ˌendʒəˈnɪrɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["feature extraction", "variable creation", "data transformation"],
+          "definition": "The process of selecting, modifying, or creating input variables (features) to improve machine learning model performance.",
+          "examples": {
+            "daily": "It's like highlighting the most important information in a document to help someone understand it better.",
+            "pharmaceutical": "Feature engineering transformed raw patient data into meaningful predictors for treatment outcomes.",
+            "dataScience": "Our feature engineering pipeline created 150 new variables from the original dataset."
+          }
+        },
+        {
+          "id": 59,
+          "word": "Supervised Learning",
+          "phonetic": "/ˈsupərvaɪzd ˈlɜrnɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["guided learning", "labeled learning", "predictive modeling"],
+          "definition": "A machine learning approach where algorithms learn from labeled training data to make predictions or classifications on new, unseen data.",
+          "examples": {
+            "daily": "Like learning to recognize faces by studying photos where people are already identified.",
+            "pharmaceutical": "Supervised learning models predict drug efficacy using historical clinical trial data with known outcomes.",
+            "dataScience": "The supervised learning algorithm was trained on 10,000 labeled examples."
+          }
+        },
+        {
+          "id": 60,
+          "word": "Natural Language Processing",
+          "phonetic": "/ˈnætʃərəl ˈlæŋɡwɪdʒ ˈproʊsesɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["NLP", "computational linguistics", "text analytics"],
+          "definition": "A field of artificial intelligence that focuses on the interaction between computers and human language, enabling machines to understand, interpret, and generate human text.",
+          "examples": {
+            "daily": "Voice assistants like Siri use natural language processing to understand and respond to spoken commands.",
+            "pharmaceutical": "NLP algorithms extract adverse events from clinical trial reports and medical literature automatically.",
+            "dataScience": "Our natural language processing pipeline processes thousands of research papers daily."
+          }
+        },
+        {
+          "id": 61,
+          "word": "Tensor",
+          "phonetic": "/ˈtensər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["multidimensional array", "matrix generalization", "data structure"],
+          "definition": "A mathematical object that generalizes scalars, vectors, and matrices to higher dimensions, commonly used in deep learning frameworks.",
+          "examples": {
+            "daily": "Think of a tensor like a multi-layered spreadsheet where data can be organized in multiple dimensions.",
+            "pharmaceutical": "Patient data is stored in tensors to capture time-series measurements across multiple biomarkers.",
+            "dataScience": "The neural network processes input tensors with dimensions representing batch size, features, and time steps."
+          }
+        },
+        {
+          "id": 62,
+          "word": "Dimensionality Reduction",
+          "phonetic": "/daɪˌmenʃəˈnælɪti rɪˈdʌkʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["feature reduction", "data compression", "simplification"],
+          "definition": "The process of reducing the number of input variables or features in a dataset while preserving important information and patterns.",
+          "examples": {
+            "daily": "Like creating a summary of a long book that captures all the key points in fewer pages.",
+            "pharmaceutical": "Dimensionality reduction simplified genomic data from 20,000 genes to 50 key biomarkers.",
+            "dataScience": "PCA reduced the 1000-dimensional feature space to 20 components explaining 95% of variance."
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Session 4: Statistics & Analytics (Words 63-72)",
+      "categoryRange": "63-72",
+      "estimatedDuration": "6-8 minutes",
+      "audioFile": "assets/audio/listening/session_4.mp3",
+      "words": [
+        {
+          "id": 63,
+          "word": "P-value",
+          "phonetic": "/pi ˈvælju/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["probability value", "significance value", "statistical measure"],
+          "definition": "The probability of obtaining test results at least as extreme as observed, assuming the null hypothesis is true; used to determine statistical significance.",
+          "examples": {
+            "daily": "A low p-value is like having strong evidence that your observation wasn't just due to chance.",
+            "pharmaceutical": "The clinical trial showed a p-value of 0.003, confirming the drug's statistically significant efficacy.",
+            "dataScience": "Features with p-values below 0.05 were retained for the final predictive model."
+          }
+        },
+        {
+          "id": 64,
+          "word": "Confidence Interval",
+          "phonetic": "/ˈkɑnfədəns ˈɪntərvəl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["uncertainty interval", "margin of error", "estimation range"],
+          "definition": "A range of values that likely contains the true population parameter with a specified level of confidence, typically 95%.",
+          "examples": {
+            "daily": "Like saying 'I'm 95% confident the delivery will arrive between 2-4 PM' instead of giving an exact time.",
+            "pharmaceutical": "The 95% confidence interval for treatment efficacy ranged from 68% to 82%.",
+            "dataScience": "Bootstrap sampling was used to calculate confidence intervals for model performance metrics."
+          }
+        },
+        {
+          "id": 65,
+          "word": "Hypothesis Testing",
+          "phonetic": "/haɪˈpɑθəsəs ˈtestɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["statistical testing", "significance testing", "inferential analysis"],
+          "definition": "A statistical method for making inferences about population parameters based on sample data by testing assumptions or claims.",
+          "examples": {
+            "daily": "Like testing whether a new study method really improves grades or if the improvement was just luck.",
+            "pharmaceutical": "Hypothesis testing confirmed that the new formulation significantly reduces side effects compared to placebo.",
+            "dataScience": "A/B testing uses hypothesis testing to determine which website version performs better."
+          }
+        },
+        {
+          "id": 66,
+          "word": "Variance",
+          "phonetic": "/ˈvɛriəns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["variability", "dispersion", "spread"],
+          "definition": "A statistical measure that quantifies how much individual data points deviate from the mean, indicating the degree of spread in a dataset.",
+          "examples": {
+            "daily": "High variance in daily temperatures means some days are much hotter or cooler than the average.",
+            "pharmaceutical": "Low variance in drug absorption rates indicates consistent bioavailability across patients.",
+            "dataScience": "Principal component analysis reduces dimensionality while preserving maximum variance in the data."
+          }
+        },
+        {
+          "id": 67,
+          "word": "Distribution",
+          "phonetic": "/ˌdɪstrəˈbjuʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["probability distribution", "data pattern", "frequency distribution"],
+          "definition": "A mathematical function that describes the likelihood of different possible values occurring in a dataset or random variable.",
+          "examples": {
+            "daily": "The distribution of heights in a population shows most people are average height with fewer very tall or short individuals.",
+            "pharmaceutical": "The normal distribution of biomarker levels helps establish reference ranges for healthy patients.",
+            "dataScience": "Understanding the underlying distribution is crucial for selecting appropriate statistical tests."
+          }
+        },
+        {
+          "id": 68,
+          "word": "Outlier",
+          "phonetic": "/ˈaʊtˌlaɪər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["anomaly", "aberration", "extreme value"],
+          "definition": "A data point that differs significantly from other observations, potentially indicating measurement error, rare events, or important discoveries.",
+          "examples": {
+            "daily": "If everyone in your friend group is around 5'8\" tall and one person is 6'5\", they're an outlier.",
+            "pharmaceutical": "Outliers in clinical data may represent rare adverse events or exceptional treatment responses.",
+            "dataScience": "Robust statistical methods were used to handle outliers without removing potentially valuable information."
+          }
+        },
+        {
+          "id": 69,
+          "word": "Variance",
+          "phonetic": "/ˈvɛriəns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["variability", "dispersion", "spread"],
+          "definition": "A statistical measure that quantifies how much individual data points deviate from the mean, indicating the degree of spread in a dataset.",
+          "examples": {
+            "daily": "High variance in daily temperatures means some days are much hotter or cooler than the average.",
+            "pharmaceutical": "Low variance in drug absorption rates indicates consistent bioavailability across patients.",
+            "dataScience": "Principal component analysis reduces dimensionality while preserving maximum variance in the data."
+          }
+        },
+        {
+          "id": 70,
+          "word": "Distribution",
+          "phonetic": "/ˌdɪstrəˈbjuʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["probability distribution", "data pattern", "frequency distribution"],
+          "definition": "A mathematical function that describes the likelihood of different possible values occurring in a dataset or random variable.",
+          "examples": {
+            "daily": "The distribution of heights in a population shows most people are average height with fewer very tall or short individuals.",
+            "pharmaceutical": "The normal distribution of biomarker levels helps establish reference ranges for healthy patients.",
+            "dataScience": "Understanding the underlying distribution is crucial for selecting appropriate statistical tests."
+          }
+        },
+        {
+          "id": 71,
+          "word": "Outlier",
+          "phonetic": "/ˈaʊtˌlaɪər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["anomaly", "aberration", "extreme value"],
+          "definition": "A data point that differs significantly from other observations, potentially indicating measurement error, rare events, or important discoveries.",
+          "examples": {
+            "daily": "If everyone in your friend group is around 5'8\" tall and one person is 6'5\", they're an outlier.",
+            "pharmaceutical": "Outliers in clinical data may represent rare adverse events or exceptional treatment responses.",
+            "dataScience": "Robust statistical methods were used to handle outliers without removing potentially valuable information."
+          }
+        },
+        {
+          "id": 72,
+          "word": "Dimensionality Reduction",
+          "phonetic": "/daɪˌmenʃəˈnælɪti rɪˈdʌkʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["feature reduction", "data compression", "simplification"],
+          "definition": "The process of reducing the number of input variables or features in a dataset while preserving important information and patterns.",
+          "examples": {
+            "daily": "Like creating a summary of a long book that captures all the key points in fewer pages.",
+            "pharmaceutical": "Dimensionality reduction simplified genomic data from 20,000 genes to 50 key biomarkers.",
+            "dataScience": "PCA reduced the 1000-dimensional feature space to 20 components explaining 95% of variance."
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Session 5: Programming & Software Development (Words 73-82)",
+      "categoryRange": "73-82",
+      "estimatedDuration": "6-8 minutes",
+      "audioFile": "assets/audio/listening/session_5.mp3",
+      "words": [
+        {
+          "id": 73,
+          "word": "Repository",
+          "phonetic": "/rɪˈpɑzəˌtɔri/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["repo", "codebase", "source control", "storage"],
+          "definition": "A central location where code, documentation, and other project files are stored and managed, typically using version control systems.",
+          "examples": {
+            "daily": "Think of a repository like a shared folder where team members store and organize all project files.",
+            "pharmaceutical": "The clinical data analysis repository contains standardized code for regulatory submissions across all studies.",
+            "dataScience": "Our machine learning repository includes model training scripts, evaluation metrics, and deployment configurations."
+          }
+        },
+        {
+          "id": 74,
+          "word": "API",
+          "phonetic": "/ˌeɪpiˈaɪ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["Application Programming Interface", "interface", "service endpoint"],
+          "definition": "A set of protocols, routines, and tools that allows different software applications to communicate and share data with each other.",
+          "examples": {
+            "daily": "An API is like a waiter who takes your order to the kitchen and brings back your food - connecting you with the service.",
+            "pharmaceutical": "The clinical database API enables real-time integration between electronic health records and research platforms.",
+            "dataScience": "We built a REST API to serve machine learning predictions to the web application."
+          }
+        },
+        {
+          "id": 75,
+          "word": "Pipeline",
+          "phonetic": "/ˈpaɪpˌlaɪn/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["workflow", "process chain", "data flow"],
+          "definition": "A series of automated processes or stages that data or code passes through, from input to final output, often used in data processing and deployment.",
+          "examples": {
+            "daily": "Like an assembly line in a factory where each worker adds something before passing it to the next person.",
+            "pharmaceutical": "The clinical data pipeline automatically cleans, validates, and transforms patient data for analysis.",
+            "dataScience": "Our machine learning pipeline includes data preprocessing, model training, evaluation, and deployment stages."
+          }
+        },
+        {
+          "id": 76,
+          "word": "Version Control",
+          "phonetic": "/ˈvɜrʒən kənˈtroʊl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["source control", "revision control", "Git management"],
+          "definition": "A system that tracks and manages changes to files over time, allowing multiple contributors to collaborate and maintain a history of modifications.",
+          "examples": {
+            "daily": "Like keeping track of all the drafts of an important document so you can see what changed and go back if needed.",
+            "pharmaceutical": "Version control ensures regulatory compliance by maintaining complete audit trails of all analysis code changes.",
+            "dataScience": "Git version control allows our team to collaborate on model development without conflicts."
+          }
+        },
+        {
+          "id": 77,
+          "word": "Deployment",
+          "phonetic": "/dɪˈplɔɪmənt/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["release", "production rollout", "implementation"],
+          "definition": "The process of making software applications or models available for use in a production environment where end-users can access them.",
+          "examples": {
+            "daily": "Deployment is like opening a restaurant after all the preparation - now customers can actually eat there.",
+            "pharmaceutical": "Model deployment enables clinicians to access real-time drug interaction predictions through the hospital system.",
+            "dataScience": "We use containerized deployment to ensure consistent model performance across different environments."
+          }
+        },
+        {
+          "id": 78,
+          "word": "Debugging",
+          "phonetic": "/diˈbʌɡɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["troubleshooting", "error fixing", "problem solving"],
+          "definition": "The process of finding, analyzing, and removing errors or bugs from computer programs or systems to ensure they work correctly.",
+          "examples": {
+            "daily": "Debugging is like being a detective - you look for clues to figure out why something isn't working properly.",
+            "pharmaceutical": "Debugging the clinical trial simulation revealed incorrect dosing calculations in edge cases.",
+            "dataScience": "Step-by-step debugging helped identify why the model predictions were inconsistent."
+          }
+        },
+        {
+          "id": 79,
+          "word": "Framework",
+          "phonetic": "/ˈfreɪmˌwɜrk/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["platform", "library", "toolkit", "foundation"],
+          "definition": "A pre-built software foundation that provides common functionality and structure, allowing developers to build applications more efficiently.",
+          "examples": {
+            "daily": "A framework is like a house foundation - it provides the basic structure so you can focus on building the rooms.",
+            "pharmaceutical": "The clinical data analysis framework standardizes statistical methods across all therapeutic areas.",
+            "dataScience": "TensorFlow framework simplified the development and training of our deep learning models."
+          }
+        },
+        {
+          "id": 80,
+          "word": "Refactoring",
+          "phonetic": "/riˈfæktərɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["code restructuring", "optimization", "cleanup"],
+          "definition": "The process of restructuring existing code without changing its external behavior to improve readability, maintainability, and performance.",
+          "examples": {
+            "daily": "Refactoring is like reorganizing your closet - everything still fits, but it's neater and easier to find things.",
+            "pharmaceutical": "Code refactoring improved the clinical analysis pipeline's performance by 40% without changing results.",
+            "dataScience": "Regular refactoring keeps our machine learning codebase clean and easier for new team members to understand."
+          }
+        },
+        {
+          "id": 81,
+          "word": "Containerization",
+          "phonetic": "/kənˌteɪnərəˈzeɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["packaging", "encapsulation", "Docker deployment"],
+          "definition": "A method of packaging applications with all their dependencies into lightweight, portable containers that can run consistently across different environments.",
+          "examples": {
+            "daily": "Containerization is like packing everything you need for a trip in one suitcase that works anywhere you go.",
+            "pharmaceutical": "Containerization ensures clinical analysis tools run identically across development, testing, and production environments.",
+            "dataScience": "Docker containerization made our machine learning models portable across different cloud platforms."
+          }
+        },
+        {
+          "id": 82,
+          "word": "Continuous Integration",
+          "phonetic": "/kənˈtɪnjuəs ˌɪntəˈɡreɪʃən/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["CI", "automated integration", "build automation"],
+          "definition": "A development practice where team members integrate their code changes frequently, with each integration automatically verified by building and testing.",
+          "examples": {
+            "daily": "It's like checking your work continuously instead of waiting until the end of a project to see if everything fits together.",
+            "pharmaceutical": "Continuous integration automatically validates clinical analysis code against regulatory requirements before release.",
+            "dataScience": "Our CI pipeline automatically tests model performance whenever new training data becomes available."
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Session 6: IT Infrastructure & Cloud Computing (Words 83-92)",
+      "categoryRange": "83-92",
+      "estimatedDuration": "6-8 minutes",
+      "audioFile": "assets/audio/listening/session_6.mp3",
+      "words": [
+        {
+          "id": 83,
+          "word": "Cloud Computing",
+          "phonetic": "/klaʊd kəmˈpjutɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["cloud services", "remote computing", "distributed computing"],
+          "definition": "The delivery of computing services including servers, storage, databases, and software over the internet, providing scalable and on-demand access to resources.",
+          "examples": {
+            "daily": "Cloud computing is like renting a car when you need it instead of buying one - you get access without ownership.",
+            "pharmaceutical": "Cloud computing enables secure collaboration on clinical data analysis across global research teams.",
+            "dataScience": "We migrated our machine learning workloads to cloud computing for better scalability and cost efficiency."
+          }
+        },
+        {
+          "id": 84,
+          "word": "Kubernetes",
+          "phonetic": "/ˌkubərˈnetiz/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["K8s", "container orchestration", "cluster management"],
+          "definition": "An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications across clusters.",
+          "examples": {
+            "daily": "Kubernetes is like an intelligent traffic controller that manages where applications run and how they communicate.",
+            "pharmaceutical": "Kubernetes orchestrates our clinical data processing applications across multiple secure cloud environments.",
+            "dataScience": "We use Kubernetes to automatically scale our machine learning inference services based on demand."
+          }
+        },
+        {
+          "id": 85,
+          "word": "Microservices",
+          "phonetic": "/ˈmaɪkroʊˌsɜrvəsəz/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["service architecture", "distributed services", "modular services"],
+          "definition": "An architectural approach where applications are built as a collection of small, independent services that communicate through well-defined APIs.",
+          "examples": {
+            "daily": "Microservices are like a restaurant with specialized stations - one for salads, one for grilling, each doing their job independently.",
+            "pharmaceutical": "Our clinical trial platform uses microservices for patient enrollment, data collection, and adverse event reporting.",
+            "dataScience": "The machine learning platform consists of separate microservices for data ingestion, training, and prediction."
+          }
+        },
+        {
+          "id": 86,
+          "word": "Scalability",
+          "phonetic": "/ˌskeɪləˈbɪlɪti/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["expandability", "growth capacity", "elasticity"],
+          "definition": "The ability of a system to handle increased workload or user demand by adding resources or optimizing existing ones without performance degradation.",
+          "examples": {
+            "daily": "Good scalability is like a restaurant that can quickly add more tables and staff when it gets busy.",
+            "pharmaceutical": "The clinical database's scalability allows it to handle data from studies ranging from 100 to 10,000 patients.",
+            "dataScience": "Our model serving infrastructure provides horizontal scalability to handle millions of prediction requests."
+          }
+        },
+        {
+          "id": 87,
+          "word": "Load Balancer",
+          "phonetic": "/loʊd ˈbælənsər/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["traffic distributor", "request router", "workload distributor"],
+          "definition": "A system component that distributes incoming network requests or computational workload across multiple servers to optimize resource utilization and prevent overload.",
+          "examples": {
+            "daily": "A load balancer is like a host at a restaurant who distributes customers evenly among available servers.",
+            "pharmaceutical": "Load balancers ensure clinical researchers can access patient data quickly even during peak usage periods.",
+            "dataScience": "The load balancer routes prediction requests across multiple model instances to maintain low latency."
+          }
+        },
+        {
+          "id": 88,
+          "word": "Virtual Machine",
+          "phonetic": "/ˈvɜrtʃuəl məˈʃin/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["VM", "virtual server", "virtualized environment"],
+          "definition": "A software-based emulation of a physical computer that runs an operating system and applications independently on shared hardware resources.",
+          "examples": {
+            "daily": "A virtual machine is like having multiple separate apartments in one building - each with its own space and utilities.",
+            "pharmaceutical": "Isolated virtual machines ensure clinical data analysis environments meet strict regulatory compliance requirements.",
+            "dataScience": "Each data scientist gets their own virtual machine configured with the necessary tools and libraries."
+          }
+        },
+        {
+          "id": 89,
+          "word": "Infrastructure as Code",
+          "phonetic": "/ˈɪnfrəˌstrʌktʃər æz koʊd/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["IaC", "automated provisioning", "configuration management"],
+          "definition": "The practice of managing and provisioning computing infrastructure through machine-readable configuration files rather than manual hardware configuration.",
+          "examples": {
+            "daily": "It's like having a recipe for setting up your workspace that anyone can follow to create the exact same setup.",
+            "pharmaceutical": "Infrastructure as Code ensures consistent and compliant environments for clinical data analysis across all regions.",
+            "dataScience": "Our team uses Infrastructure as Code to rapidly deploy identical machine learning environments for different projects."
+          }
+        },
+        {
+          "id": 90,
+          "word": "DevOps",
+          "phonetic": "/ˈdevɑps/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["development operations", "collaborative development", "agile operations"],
+          "definition": "A cultural and technical approach that combines software development and IT operations to improve collaboration, automation, and delivery speed.",
+          "examples": {
+            "daily": "DevOps is like having the kitchen staff and waiters work together closely to serve meals faster and better.",
+            "pharmaceutical": "DevOps practices accelerate the delivery of clinical analysis tools while maintaining regulatory compliance.",
+            "dataScience": "Our DevOps pipeline automatically tests, validates, and deploys machine learning models to production."
+          }
+        },
+        {
+          "id": 91,
+          "word": "Virtual Machine",
+          "phonetic": "/ˈvɜrtʃuəl məˈʃin/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["VM", "virtual server", "virtualized environment"],
+          "definition": "A software-based emulation of a physical computer that runs an operating system and applications independently on shared hardware resources.",
+          "examples": {
+            "daily": "A virtual machine is like having multiple separate apartments in one building - each with its own space and utilities.",
+            "pharmaceutical": "Isolated virtual machines ensure clinical data analysis environments meet strict regulatory compliance requirements.",
+            "dataScience": "Each data scientist gets their own virtual machine configured with the necessary tools and libraries."
+          }
+        },
+        {
+          "id": 92,
+          "word": "DevOps",
+          "phonetic": "/ˈdevɑps/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["development operations", "collaborative development", "agile operations"],
+          "definition": "A cultural and technical approach that combines software development and IT operations to improve collaboration, automation, and delivery speed.",
+          "examples": {
+            "daily": "DevOps is like having the kitchen staff and waiters work together closely to serve meals faster and better.",
+            "pharmaceutical": "DevOps practices accelerate the delivery of clinical analysis tools while maintaining regulatory compliance.",
+            "dataScience": "Our DevOps pipeline automatically tests, validates, and deploys machine learning models to production."
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Session 7: Data Management & Databases (Words 93-102)",
+      "categoryRange": "93-102",
+      "estimatedDuration": "6-8 minutes",
+      "audioFile": "assets/audio/listening/session_7.mp3",
+      "words": [
+        {
+          "id": 93,
+          "word": "SQL",
+          "phonetic": "/ˈiskjuɛl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["Structured Query Language", "database language", "query language"],
+          "definition": "A programming language designed for managing and querying data stored in relational database management systems.",
+          "examples": {
+            "daily": "SQL is like asking specific questions to a very organized librarian who can quickly find exactly what you need.",
+            "pharmaceutical": "Clinical researchers use SQL to extract patient subgroups and analyze treatment outcomes from electronic health records.",
+            "dataScience": "Complex SQL queries aggregate millions of transactions to create features for machine learning models."
+          }
+        },
+        {
+          "id": 94,
+          "word": "ETL",
+          "phonetic": "/itiˈɛl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["Extract Transform Load", "data integration", "data pipeline"],
+          "definition": "A process that extracts data from various sources, transforms it into a suitable format, and loads it into a target database or data warehouse.",
+          "examples": {
+            "daily": "ETL is like collecting ingredients from different stores, preparing them in your kitchen, and organizing them in your pantry.",
+            "pharmaceutical": "The ETL process integrates clinical trial data from multiple sites into a standardized database for analysis.",
+            "dataScience": "Our nightly ETL jobs transform raw sensor data into clean datasets ready for machine learning algorithms."
+          }
+        },
+        {
+          "id": 95,
+          "word": "Data Warehouse",
+          "phonetic": "/ˈdeɪtə ˈwɛrˌhaʊs/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["data repository", "analytical database", "enterprise data store"],
+          "definition": "A large, centralized repository that stores integrated data from multiple sources, optimized for analysis and reporting rather than transaction processing.",
+          "examples": {
+            "daily": "A data warehouse is like a huge, well-organized library where information from many sources is stored for easy research.",
+            "pharmaceutical": "The clinical data warehouse combines patient records, lab results, and imaging data for comprehensive drug efficacy analysis.",
+            "dataScience": "Historical data in the warehouse enables time-series analysis and trend prediction across multiple business units."
+          }
+        },
+        {
+          "id": 96,
+          "word": "Big Data",
+          "phonetic": "/bɪɡ ˈdeɪtə/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["large-scale data", "massive datasets", "high-volume data"],
+          "definition": "Extremely large and complex datasets that require specialized tools and techniques for storage, processing, and analysis due to their volume, velocity, and variety.",
+          "examples": {
+            "daily": "Big data is like trying to find patterns in all the photos ever posted on social media - too much for traditional methods.",
+            "pharmaceutical": "Big data analytics processes genomic information from millions of patients to identify potential drug targets.",
+            "dataScience": "Our big data platform processes terabytes of sensor data daily to detect anomalies in real-time."
+          }
+        },
+        {
+          "id": 97,
+          "word": "NoSQL",
+          "phonetic": "/noʊˈiskjuɛl/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["non-relational database", "document database", "flexible schema database"],
+          "definition": "A category of database management systems that don't require fixed table schemas and are designed to handle large volumes of unstructured or semi-structured data.",
+          "examples": {
+            "daily": "NoSQL is like a flexible filing system where you can store different types of documents without predefined categories.",
+            "pharmaceutical": "NoSQL databases store diverse clinical data formats including text notes, images, and time-series measurements.",
+            "dataScience": "We use NoSQL databases to store and query unstructured data like social media posts and web logs."
+          }
+        },
+        {
+          "id": 98,
+          "word": "Data Lake",
+          "phonetic": "/ˈdeɪtə leɪk/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["data repository", "raw data storage", "unstructured data store"],
+          "definition": "A storage repository that holds raw data in its native format until needed, accommodating structured, semi-structured, and unstructured data at any scale.",
+          "examples": {
+            "daily": "A data lake is like a huge storage unit where you keep everything as-is, organizing it only when you need something specific.",
+            "pharmaceutical": "The clinical data lake stores raw patient data, imaging files, and genomic sequences for future research discoveries.",
+            "dataScience": "Our data lake ingests streaming data from IoT devices, preserving all information for exploratory analysis."
+          }
+        },
+        {
+          "id": 99,
+          "word": "Data Mining",
+          "phonetic": "/ˈdeɪtə ˈmaɪnɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["knowledge discovery", "pattern recognition", "data exploration"],
+          "definition": "The process of discovering patterns, correlations, and insights from large datasets using statistical, mathematical, and computational techniques.",
+          "examples": {
+            "daily": "Data mining is like being a detective who looks for hidden clues and patterns in a large collection of evidence.",
+            "pharmaceutical": "Data mining techniques identified previously unknown drug interactions from electronic health record databases.",
+            "dataScience": "Unsupervised data mining revealed customer segments that weren't apparent through traditional analysis methods."
+          }
+        },
+        {
+          "id": 100,
+          "word": "Real-time Processing",
+          "phonetic": "/ˈriəl taɪm ˈproʊsesɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["stream processing", "live processing", "instant processing"],
+          "definition": "The immediate processing of data as it arrives, providing results with minimal delay between input and output.",
+          "examples": {
+            "daily": "Real-time processing is like a live sports broadcast where you see events as they happen, not hours later.",
+            "pharmaceutical": "Real-time processing of patient monitoring data enables immediate alerts for adverse events during clinical trials.",
+            "dataScience": "Our fraud detection system uses real-time processing to flag suspicious transactions within milliseconds."
+          }
+        },
+        {
+          "id": 101,
+          "word": "Batch Processing",
+          "phonetic": "/bætʃ ˈproʊsesɪŋ/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["bulk processing", "scheduled processing", "offline processing"],
+          "definition": "A method of processing data in large groups or batches at scheduled intervals, typically used for high-volume, non-time-sensitive operations.",
+          "examples": {
+            "daily": "Batch processing is like doing laundry - you collect dirty clothes and wash them all together at once.",
+            "pharmaceutical": "Monthly batch processing generates comprehensive safety reports from all clinical trials for regulatory submission.",
+            "dataScience": "We use batch processing to train machine learning models on historical data during off-peak hours."
+          }
+        },
+        {
+          "id": 102,
+          "word": "Data Governance",
+          "phonetic": "/ˈdeɪtə ˈɡʌvərnəns/",
+          "partOfSpeech": "Noun",
+          "synonyms": ["data management", "data stewardship", "data oversight"],
+          "definition": "The overall management framework that ensures data quality, security, privacy, and compliance through established policies, procedures, and responsibilities.",
+          "examples": {
+            "daily": "Data governance is like house rules that ensure everyone knows how to properly handle and care for shared belongings.",
+            "pharmaceutical": "Strict data governance protocols ensure clinical trial data meets FDA requirements for integrity and traceability.",
+            "dataScience": "Our data governance framework defines who can access sensitive customer data and how it must be protected."
+          }
+        }
+      ]
+    }
+  ]
+}

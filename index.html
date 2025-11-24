@@ -3,143 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synonym Quiz App</title>
+    <title>PharmADS English Learning App</title>
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Start Screen -->
-        <div id="startScreen" class="screen active">
-            <h1>📚 Synonym Quiz</h1>
-            <p class="subtitle">Master English synonyms through practice</p>
-            <div class="stats">
-                <div class="stat-item">
-                    <span class="stat-number">50</span>
-                    <span class="stat-label">Categories</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">500</span>
-                    <span class="stat-label">Questions</span>
-                </div>
-            </div>
+    <!-- Start Screen -->
+    <div id="start-section" class="section">
+        <div class="container">
+            <h1>📚 PharmADS English Learning</h1>
+            <p class="subtitle">Master Professional English Vocabulary</p>
             
-            <!-- 新規追加: カテゴリー直接選択 -->
-            <div class="quick-start">
-                <label for="categorySelect" class="quick-start-label">Quick Start - Select Category:</label>
-                <select id="categorySelect" class="category-select">
-                    <option value="">-- Choose a category --</option>
-                </select>
-                <button id="startQuickBtn" class="btn btn-primary" disabled>Start Selected Category</button>
-            </div>
-            
-            <div class="divider">OR</div>
-            
-            <button id="selectCategoryBtn" class="btn btn-secondary">Browse All Categories</button>
-        </div>
-
-
-        <!-- Category Selection Screen -->
-        <div id="categoryScreen" class="screen">
-            <h2>Select a Category</h2>
-            <p class="subtitle">Choose a category to practice (10 questions each)</p>
-            <div id="categoryList" class="category-list">
-                <!-- Categories will be inserted here -->
-            </div>
-            <button id="backToStartBtn" class="btn btn-secondary">Back</button>
-        </div>
-
-        <!-- Quiz Screen -->
-        <!-- Quiz Screen -->
-        <div id="quizScreen" class="screen">
-            <div class="quiz-header">
-                <h3 id="categoryTitle" class="category-title"></h3>
-                <div class="progress-bar">
-                    <div id="progressFill" class="progress-fill"></div>
+            <div class="mode-selection">
+                <!-- Listening Practice Mode -->
+                <div class="mode-card listening-mode">
+                    <div class="mode-icon">🎧</div>
+                    <h2>Listening Practice</h2>
+                    <p>Long-form continuous listening with word repetition and example sentences</p>
+                    <button id="start-listening-btn" class="btn btn-primary">Start Listening</button>
                 </div>
-                <div class="progress-text">
-                    <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span>
+
+                <!-- Quiz Mode -->
+                <div class="mode-card quiz-mode">
+                    <div class="mode-icon">📝</div>
+                    <h2>Synonym Quiz</h2>
+                    <p>Test your vocabulary with 500 synonym questions across 40 categories</p>
+                    <button id="start-quiz-btn" class="btn btn-primary">Start Quiz</button>
                 </div>
             </div>
 
-            <div class="question-card">
-                <!-- 🔧 speakBtnを削除（右上のボタンを削除） -->
-                <h2 id="questionText" class="question-text">Loading...</h2>
-                <p class="instruction">Select the synonym:</p>
-            </div>
-
-            <div id="optionsContainer" class="options-container">
-                <!-- Options will be inserted here -->
-            </div>
-
-            <!-- 🆕 音声ボタンを選択肢の下に移動 -->
-            <div class="audio-controls">
-                <button id="speakBtn" class="speak-btn-bottom" title="Listen to the word">
-                    🔊 Listen Again
-                </button>
-            </div>
-
-            <div id="feedback" class="feedback hidden">
-                <p id="feedbackText"></p>
-                <p id="explanation" class="explanation"></p>
-            </div>
-
-            <button id="nextBtn" class="btn btn-secondary hidden">Next Question</button>
-        </div>
-
-
-        <!-- Checkpoint Result Screen (after 10 questions) -->
-        <div id="checkpointScreen" class="screen">
-            <h1>📊 Category Complete!</h1>
-            <div class="checkpoint-info">
-                <h3 id="completedCategory" class="completed-category"></h3>
-            </div>
-            <div class="result-stats">
-                <div class="result-item">
-                    <span class="result-label">Score</span>
-                    <span id="checkpointScore" class="result-value">0/10</span>
+            <!-- Quick Start (Quiz Mode) -->
+            <div class="quick-start-container">
+                <h3>📌 Quick Start - Jump to Category</h3>
+                <div class="quick-start-controls">
+                    <select id="category-select" class="category-dropdown">
+                        <option value="">Select a category...</option>
+                        <!-- Categories will be populated by JavaScript -->
+                    </select>
+                    <button id="quick-start-btn" class="btn btn-secondary">Go to Category</button>
                 </div>
-                <div class="result-item">
-                    <span class="result-label">Accuracy</span>
-                    <span id="checkpointAccuracy" class="result-value">0%</span>
-                </div>
-            </div>
-
-            <div id="checkpointWrongAnswers" class="wrong-answers hidden">
-                <h3>Review Incorrect Answers:</h3>
-                <div id="checkpointWrongList"></div>
-            </div>
-
-            <div class="result-actions">
-                <button id="retryCategory" class="btn btn-primary">Retry This Category</button>
-                <button id="nextCategory" class="btn btn-secondary">Next Category</button>
-                <button id="backToCategories" class="btn btn-secondary">Back to Categories</button>
-            </div>
-        </div>
-
-        <!-- Final Result Screen -->
-        <div id="resultScreen" class="screen">
-            <h1>🎉 All Categories Complete!</h1>
-            <div class="result-stats">
-                <div class="result-item">
-                    <span class="result-label">Total Score</span>
-                    <span id="finalScore" class="result-value">0/100</span>
-                </div>
-                <div class="result-item">
-                    <span class="result-label">Overall Accuracy</span>
-                    <span id="accuracy" class="result-value">0%</span>
-                </div>
-                <div class="result-item">
-                    <span class="result-label">Categories Completed</span>
-                    <span id="completedCount" class="result-value">0/10</span>
-                </div>
-            </div>
-
-            <div class="result-actions">
-                <button id="startOverBtn" class="btn btn-primary">Start Over</button>
             </div>
         </div>
     </div>
 
+    <!-- Listening Practice Section -->
+    <div id="listening-section" class="section hidden">
+        <div class="listening-container">
+            <h2>🎧 Listening Practice</h2>
+            <p class="description">Listen to vocabulary with repeated words and example sentences</p>
+
+            <!-- Session Selection -->
+            <div class="session-selector">
+                <label for="session-select">Choose Session:</label>
+                <select id="session-select" class="session-dropdown">
+                    <!-- Sessions will be populated by JavaScript -->
+                </select>
+                <button id="load-session-btn" class="btn btn-secondary">Load Session</button>
+            </div>
+
+            <!-- Audio Player -->
+            <div class="audio-player" id="audio-player">
+                <audio id="listening-audio" preload="metadata"></audio>
+                
+                <!-- Now Playing Info -->
+                <div class="now-playing">
+                    <h3 id="session-title">No session loaded</h3>
+                    <p id="session-info">Select a session to begin</p>
+                </div>
+
+                <!-- Seekbar -->
+                <div class="seekbar-container">
+                    <span id="current-time" class="time-display">0:00</span>
+                    <input type="range" id="seekbar" class="seekbar" min="0" max="100" value="0" step="0.1">
+                    <span id="total-time" class="time-display">0:00</span>
+                </div>
+
+                <!-- Progress Bar -->
+                <div class="progress-bar-bg">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+
+                <!-- Player Controls -->
+                <div class="player-controls">
+                    <button id="play-btn" class="control-btn" title="Play">
+                        <span class="icon">▶️</span>
+                        <span class="label">Play</span>
+                    </button>
+                    <button id="pause-btn" class="control-btn" title="Pause" disabled>
+                        <span class="icon">⏸️</span>
+                        <span class="label">Pause</span>
+                    </button>
+                    <button id="loop-btn" class="control-btn" title="Loop: OFF">
+                        <span class="icon">🔁</span>
+                        <span class="label">Loop: OFF</span>
+                    </button>
+                </div>
+
+                <!-- Speed Control -->
+                <div class="speed-control">
+                    <label>Playback Speed:</label>
+                    <div class="speed-buttons">
+                        <button class="speed-btn" data-speed="0.5">0.5x</button>
+                        <button class="speed-btn" data-speed="0.75">0.75x</button>
+                        <button class="speed-btn active" data-speed="1">1x</button>
+                        <button class="speed-btn" data-speed="1.25">1.25x</button>
+                        <button class="speed-btn" data-speed="1.5">1.5x</button>
+                        <button class="speed-btn" data-speed="2">2x</button>
+                    </div>
+                </div>
+
+                <!-- Word List with Jump Buttons -->
+                <div class="word-list">
+                    <h3>📝 Words in this session:</h3>
+                    <p class="word-list-hint">Click on a word to jump to that position (Note: Timestamps are estimates)</p>
+                    <div id="word-buttons" class="word-buttons-grid">
+                        <!-- Word buttons will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <button id="back-to-menu-listening" class="btn btn-back">← Back to Menu</button>
+        </div>
+    </div>
+
+    <!-- Quiz Section (Existing) -->
+    <div id="quiz-section" class="section hidden">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span id="question-number">Question 1/500</span>
+                    <span id="category-display">Category: Basic</span>
+                </div>
+                <div class="score-info">
+                    <span id="score">Score: 0</span>
+                    <span id="accuracy">Accuracy: 0%</span>
+                </div>
+            </div>
+
+            <div class="checkpoint-message hidden" id="checkpoint-message">
+                <h2>🎉 Checkpoint Reached!</h2>
+                <p>You've completed <span id="checkpoint-count">10</span> questions!</p>
+                <p>Current Score: <span id="checkpoint-score">0</span></p>
+                <button id="continue-btn" class="btn btn-primary">Continue</button>
+            </div>
+
+            <div id="question-container" class="question-container">
+                <h2 id="question-text" class="question">Loading...</h2>
+                
+                <div id="options-container" class="options">
+                    <!-- Options will be inserted here by JavaScript -->
+                </div>
+
+                <div class="audio-control">
+                    <button id="speak-btn" class="speak-btn-bottom" title="Listen to the word">
+                        🔊 Listen Again
+                    </button>
+                </div>
+
+                <div id="explanation-container" class="explanation hidden">
+                    <p id="explanation-text"></p>
+                </div>
+
+                <button id="next-btn" class="btn btn-primary hidden">Next Question</button>
+            </div>
+
+            <button id="back-to-menu" class="btn btn-back">← Back to Menu</button>
+        </div>
+    </div>
+
+    <!-- Result Section (Existing) -->
+    <div id="result-section" class="section hidden">
+        <div class="result-container">
+            <h1>🎊 Quiz Complete!</h1>
+            <div class="result-stats">
+                <div class="stat">
+                    <span class="stat-label">Total Questions:</span>
+                    <span class="stat-value" id="total-questions">500</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Correct Answers:</span>
+                    <span class="stat-value" id="correct-answers">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Final Score:</span>
+                    <span class="stat-value" id="final-score">0%</span>
+                </div>
+            </div>
+
+            <div class="result-actions">
+                <button id="restart-btn" class="btn btn-primary">Start New Quiz</button>
+                <button id="review-btn" class="btn btn-secondary">Review Mistakes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script src="scripts/app.js"></script>
+    <script src="scripts/listening-player.js"></script>
 </body>
 </html>
